@@ -1,0 +1,27 @@
+[21:13:59] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:13:59] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[21:14:00] [ServerMain/INFO]: No existing world data, creating new world
+[21:14:01] [ServerMain/INFO]: Loaded 7 recipes
+[21:14:02] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[21:14:02] [Server thread/INFO]: Loading properties
+[21:14:02] [Server thread/INFO]: This server is running CraftBukkit version 4074-Spigot-e9ec548-51bbab2 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT)
+[21:14:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:14:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:14:03] [Server thread/INFO]: Debug logging is disabled
+[21:14:03] [Server thread/INFO]: Default game type: SURVIVAL
+[21:14:03] [Server thread/INFO]: Generating keypair
+[21:14:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:14:03] [Server thread/INFO]: Using epoll channel type
+[21:14:03] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[21:14:03] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: 地址已在使用
+[21:14:03] [Server thread/WARN]: Perhaps a server is already running on that port?
+[21:14:03] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.IllegalStateException: Failed to initialize server
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1001) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[21:14:03] [Server thread/ERROR]: This crash report has been saved to: /opt/mcsmanager/daemon/data/InstanceData/82126567964440af87ed7298461f8f66/./crash-reports/crash-2025-01-21_21.14.03-server.txt
+[21:14:03] [Server thread/INFO]: Stopping server
+[21:14:03] [Server thread/INFO]: Saving players
+[21:14:03] [Server thread/INFO]: Saving worlds
+[21:14:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
