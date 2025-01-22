@@ -1,0 +1,558 @@
+[09:47:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:47:39] [ServerMain/INFO]: Loaded 7 recipes
+[09:47:40] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[09:47:40] [Server thread/INFO]: Loading properties
+[09:47:40] [Server thread/INFO]: This server is running CraftBukkit version 4074-Spigot-e9ec548-51bbab2 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT)
+[09:47:41] [Server thread/WARN]: Couldn't load server icon
+java.lang.IllegalArgumentException: BufferedImage must be 64 pixels wide (512)
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:191) ~[guava-32.1.2-jre.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadServerIcon0(CraftServer.java:2245) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadServerIcon0(CraftServer.java:2235) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadIcon(CraftServer.java:992) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.<init>(CraftServer.java:380) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.server.players.PlayerList.<init>(PlayerList.java:162) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:17) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:183) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1000) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[09:47:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:47:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:47:41] [Server thread/INFO]: Debug logging is disabled
+[09:47:41] [Server thread/INFO]: Default game type: SURVIVAL
+[09:47:41] [Server thread/INFO]: Generating keypair
+[09:47:41] [Server thread/INFO]: Starting Minecraft server on *:25566
+[09:47:41] [Server thread/INFO]: Using epoll channel type
+[09:47:41] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.5.1
+[09:47:41] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
+[09:47:42] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[09:47:42] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.20.4[32;1m.[0;39m[m
+[09:47:43] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mPlease update your Java runtime to at least Java 21 (your version is 17).[0;39m
+[09:47:43] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mAt some point in the future, SkinsRestorer will no longer be compatible with this version of Java.[0;39m
+[09:47:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:47:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:47:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:47:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:47:43] [Server thread/INFO]: Preparing level "world"
+[09:47:43] [Server thread/INFO]: -------- World Settings For [world] --------
+[09:47:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Potato Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[09:47:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[09:47:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[09:47:43] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:47:43] [Server thread/INFO]: Mob Spawn Range: 6
+[09:47:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[09:47:43] [Server thread/INFO]: Max TNT Explosions: 100
+[09:47:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:47:43] [Server thread/INFO]: View Distance: 10
+[09:47:43] [Server thread/INFO]: Simulation Distance: 10
+[09:47:43] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:47:43] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:47:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:47:43] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[09:47:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:47:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:47:43] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[09:47:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Potato Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[09:47:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[09:47:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[09:47:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[09:47:43] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:47:43] [Server thread/INFO]: Mob Spawn Range: 6
+[09:47:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[09:47:43] [Server thread/INFO]: Max TNT Explosions: 100
+[09:47:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:47:43] [Server thread/INFO]: View Distance: 10
+[09:47:43] [Server thread/INFO]: Simulation Distance: 10
+[09:47:43] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:47:43] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:47:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:47:43] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[09:47:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:47:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:47:46] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[09:47:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:47:46] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:47:46] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:47:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:47:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:47:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:47:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[09:47:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[09:47:46] [Server thread/INFO]: Potato Growth Modifier: 100%
+[09:47:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:47:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:47:46] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:47:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:47:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[09:47:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[09:47:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[09:47:46] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[09:47:46] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[09:47:46] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[09:47:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[09:47:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[09:47:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[09:47:46] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:47:46] [Server thread/INFO]: Mob Spawn Range: 6
+[09:47:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[09:47:46] [Server thread/INFO]: Max TNT Explosions: 100
+[09:47:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:47:46] [Server thread/INFO]: View Distance: 10
+[09:47:46] [Server thread/INFO]: Simulation Distance: 10
+[09:47:46] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:47:46] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:47:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:47:46] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[09:47:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:47:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:47:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:47:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[09:47:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:47:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:47:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:47:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[09:47:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:47:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:47:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[09:47:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[09:47:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[09:47:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[09:47:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[09:47:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[09:47:53] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[09:47:53] [Worker-Main-1/INFO]: Preparing spawn area: 82%
+[09:47:54] [Server thread/INFO]: Time elapsed: 7174 ms
+[09:47:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[09:47:57] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:47:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:47:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:47:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:47:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:47:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:47:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:47:57] [Worker-Main-2/INFO]: Preparing spawn area: 15%
+[09:47:58] [Worker-Main-3/INFO]: Preparing spawn area: 69%
+[09:47:58] [Server thread/INFO]: Time elapsed: 4348 ms
+[09:47:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[09:48:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[09:48:00] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:48:00] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:48:00] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:48:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[09:48:01] [Worker-Main-1/INFO]: Preparing spawn area: 1%
+[09:48:01] [Worker-Main-3/INFO]: Preparing spawn area: 40%
+[09:48:02] [Worker-Main-1/INFO]: Preparing spawn area: 87%
+[09:48:02] [Server thread/INFO]: Time elapsed: 3594 ms
+[09:48:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:48:02] [Server thread/INFO]: Done (18.657s)! For help, type "help"
+[09:48:02] [Server thread/ERROR]: Couldn't load server icon
+java.lang.IllegalStateException: Must be 64 pixels wide
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:512) ~[guava-32.1.2-jre.jar:?]
+	at net.minecraft.server.MinecraftServer.lambda$15(MinecraftServer.java:1207) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at java.util.Optional.flatMap(Optional.java:289) ~[?:?]
+	at net.minecraft.server.MinecraftServer.bm(MinecraftServer.java:1203) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1005) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[09:48:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[09:48:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[09:48:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
+[09:48:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
+[09:48:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
+[09:48:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[09:48:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[09:48:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.5.1[0;39m[m
+[09:48:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1md5d8613[0;39m[m
+[09:48:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
+[09:48:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[09:48:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m[m
+[09:48:02] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m[m
+[09:48:34] [User Authenticator #1/INFO]: UUID of player ysydZiYouRen is cbb5bd76-2bc6-391d-9b29-857501acaa1d
+[09:48:35] [Server thread/INFO]: ysydZiYouRen joined the game
+[09:48:35] [Server thread/INFO]: ysydZiYouRen[/127.0.0.1:57910] logged in with entity id 252 at ([world]133.57097453823434, 86.0, 25.69999998807907)
+[09:49:15] [Server thread/INFO]: [Not Secure] [Server] 有皮肤吗
+[09:49:18] [Async Chat Thread - #0/INFO]: [Not Secure] <ysydZiYouRen> you
+[09:49:22] [Server thread/INFO]: [Not Secure] [Server] ok
+[09:53:44] [User Authenticator #2/INFO]: UUID of player touxl is 809b1e92-9f93-36ea-97a8-612db960112f
+[09:53:45] [Server thread/INFO]: touxl joined the game
+[09:53:45] [Server thread/INFO]: touxl[/127.0.0.1:47792] logged in with entity id 1610 at ([world]99.6018580447932, 69.0, 140.69205286855205)
+[09:54:06] [Async Chat Thread - #2/INFO]: [Not Secure] <ysydZiYouRen> nmsl
+[09:54:16] [Async Chat Thread - #1/INFO]: [Not Secure] <touxl> nmsl
+[10:00:42] [Async Chat Thread - #4/INFO]: [Not Secure] <ysydZiYouRen> nizaina
+[10:01:01] [Async Chat Thread - #3/INFO]: [Not Secure] <touxl> 出生点旁雪山
+[10:01:12] [Async Chat Thread - #4/INFO]: [Not Secure] <ysydZiYouRen> haode
+[10:02:41] [Server thread/INFO]: ysydZiYouRen has made the advancement [Best Friends Forever]
+[10:03:20] [Async Chat Thread - #6/INFO]: [Not Secure] <ysydZiYouRen> zzzzzzzzz
+[10:03:24] [Async Chat Thread - #5/INFO]: [Not Secure] <ysydZiYouRen> zzzzzzzzzzzzzz
+[10:03:25] [Async Chat Thread - #6/INFO]: [Not Secure] <ysydZiYouRen> zzzzzzzzzzzzzz
+[10:03:26] [Async Chat Thread - #6/INFO]: [Not Secure] <ysydZiYouRen> zzzzzzzzzz
+[10:03:27] [Async Chat Thread - #5/INFO]: [Not Secure] <ysydZiYouRen> zzzzzzz
+[10:03:27] [Server thread/INFO]: touxl has made the advancement [Sweet Dreams]
+[10:03:28] [Async Chat Thread - #6/INFO]: [Not Secure] <ysydZiYouRen> zzzzzzzzzzz
+[10:03:40] [Async Chat Thread - #5/INFO]: [Not Secure] <touxl> nmsl
+[10:03:55] [Async Chat Thread - #6/INFO]: [Not Secure] <ysydZiYouRen> nmsl
+[10:06:31] [Server thread/INFO]: ysydZiYouRen has made the advancement [The Parrots and the Bats]
+[10:08:33] [Async Chat Thread - #8/INFO]: [Not Secure] <ysydZiYouRen> ghb guolai
+[10:08:46] [Async Chat Thread - #7/INFO]: [Not Secure] <touxl> 哪里
+[10:09:10] [Async Chat Thread - #8/INFO]: [Not Secure] <ysydZiYouRen> 715 60 1142
+[10:09:17] [Async Chat Thread - #7/INFO]: [Not Secure] <touxl> 这么远
+[10:09:22] [Server thread/INFO]: touxl tried to swim in lava
+[10:09:23] [Async Chat Thread - #8/INFO]: [Not Secure] <ysydZiYouRen> cunzhuang
+[10:10:30] [Async Chat Thread - #10/INFO]: [Not Secure] <touxl> 我手机一开f3帧率只有个位数
+[10:10:36] [Async Chat Thread - #9/INFO]: [Not Secure] <touxl> 其他时候都正常
+[10:10:40] [Async Chat Thread - #10/INFO]: [Not Secure] <ysydZiYouRen> 牛逼
+[10:10:42] [Async Chat Thread - #9/INFO]: [Not Secure] <ysydZiYouRen> 我不会
+[10:11:05] [Async Chat Thread - #10/INFO]: [Not Secure] <touxl> 我p50也不会，不知道小米怎么回事
+[10:11:22] [Async Chat Thread - #9/INFO]: [Not Secure] <ysydZiYouRen> 你拿mix玩的
+[10:11:27] [Async Chat Thread - #10/INFO]: [Not Secure] <touxl> dui
+[10:11:33] [Async Chat Thread - #9/INFO]: [Not Secure] <ysydZiYouRen> niubi
+[10:14:35] [Async Chat Thread - #12/INFO]: [Not Secure] <ysydZiYouRen> zzzzzzzzzzzz
+[10:14:39] [Server thread/INFO]: touxl lost connection: Disconnected
+[10:14:39] [Server thread/INFO]: touxl left the game
+[10:30:13] [User Authenticator #3/INFO]: UUID of player touxl is 809b1e92-9f93-36ea-97a8-612db960112f
+[10:30:14] [Server thread/INFO]: touxl joined the game
+[10:30:14] [Server thread/INFO]: touxl[/127.0.0.1:51880] logged in with entity id 14935 at ([world]638.7692608354339, 62.0, 376.9511949913035)
+[10:31:51] [Async Chat Thread - #14/INFO]: [Not Secure] <ysydZiYouRen> kuailai
+[10:32:01] [Async Chat Thread - #13/INFO]: [Not Secure] <touxl> ok
+[10:33:39] [Server thread/INFO]: ysydZiYouRen has made the advancement [A Seedy Place]
+[10:34:39] [Async Chat Thread - #16/INFO]: [Not Secure] <touxl> 在报一下坐标
+[10:34:46] [Async Chat Thread - #15/INFO]: [Not Secure] <ysydZiYouRen> 715 60 1142
+[10:35:03] [Server thread/INFO]: touxl has made the advancement [Ice Bucket Challenge]
+[10:35:49] [Async Chat Thread - #18/INFO]: [Not Secure] <touxl> dwole
+[10:36:17] [Async Chat Thread - #17/INFO]: [Not Secure] <ysydZiYouRen> zzzzzzzzzzz
+[10:36:58] [Async Chat Thread - #18/INFO]: [Not Secure] <ysydZiYouRen> nishiren
+[10:37:06] [Async Chat Thread - #17/INFO]: [Not Secure] <touxl> tmd
+[10:37:31] [Async Chat Thread - #18/INFO]: [Not Secure] <touxl> 手机键位太紧了
+[10:37:59] [Async Chat Thread - #17/INFO]: [Not Secure] <ysydZiYouRen> haode
+[10:39:01] [Async Chat Thread - #20/INFO]: [Not Secure] <ysydZiYouRen> zuo ge shua tie ji
+[10:39:08] [Async Chat Thread - #19/INFO]: [Not Secure] <touxl> haode
+[10:44:13] [Async Chat Thread - #22/INFO]: [Not Secure] <ysydZiYouRen> 你在做了吗
+[10:46:13] [Server thread/INFO]: touxl lost connection: Disconnected
+[10:46:13] [Server thread/INFO]: touxl left the game
+[10:46:53] [User Authenticator #4/INFO]: UUID of player touxl is 809b1e92-9f93-36ea-97a8-612db960112f
+[10:46:53] [Server thread/INFO]: touxl joined the game
+[10:46:53] [Server thread/INFO]: touxl[/127.0.0.1:54056] logged in with entity id 20040 at ([world]601.3000000119209, -35.0, 1044.5775858229256)
+[10:46:56] [Async Chat Thread - #24/INFO]: [Not Secure] <ysydZiYouRen> zzzzzzzzz
+[10:46:59] [Server thread/INFO]: touxl lost connection: Disconnected
+[10:46:59] [Server thread/INFO]: touxl left the game
+[10:47:06] [User Authenticator #5/INFO]: UUID of player touxl is 809b1e92-9f93-36ea-97a8-612db960112f
+[10:47:07] [Server thread/INFO]: touxl joined the game
+[10:47:07] [Server thread/INFO]: touxl[/127.0.0.1:55214] logged in with entity id 20187 at ([world]601.3000000119209, -35.0, 1044.5775858229256)
+[10:47:22] [Async Chat Thread - #23/INFO]: [Not Secure] <ysydZiYouRen> 你做个刷铁机
+[10:47:37] [Async Chat Thread - #24/INFO]: [Not Secure] <touxl> 我先挖钻石
+[10:48:30] [Server thread/INFO]: touxl has made the advancement [Diamonds!]
+[10:48:35] [Async Chat Thread - #23/INFO]: [Not Secure] <ysydZiYouRen> nb
+[10:54:13] [Server thread/INFO]: ysydZiYouRen has made the advancement [Oh Shiny]
+[10:55:18] [Server thread/INFO]: touxl tried to swim in lava
+[10:56:04] [Async Chat Thread - #25/INFO]: [Not Secure] <touxl> 你人能
+[10:56:04] [Server thread/INFO]: ysydZiYouRen tried to swim in lava
+[10:56:07] [Async Chat Thread - #25/INFO]: [Not Secure] <ysydZiYouRen> ?
+[10:56:19] [Async Chat Thread - #25/INFO]: [Not Secure] <ysydZiYouRen> 死亡不掉落没了
+[10:56:24] [Async Chat Thread - #26/INFO]: [Not Secure] <touxl> 有啊
+[10:56:27] [Async Chat Thread - #25/INFO]: [Not Secure] <touxl> 我刚死
+[10:56:36] [Async Chat Thread - #26/INFO]: [Not Secure] <ysydZiYouRen> 我全没了
+[10:56:41] [Async Chat Thread - #25/INFO]: [Not Secure] <touxl> wtf
+[10:56:59] [Async Chat Thread - #26/INFO]: [Not Secure] <ysydZiYouRen> wdf
+[10:57:07] [Async Chat Thread - #26/INFO]: [Not Secure] <ysydZiYouRen> 我还有十多颗钻石在身上
+[10:57:15] [Async Chat Thread - #25/INFO]: [Not Secure] <ysydZiYouRen> 三十多个金锭
+[10:57:29] [Async Chat Thread - #26/INFO]: [Not Secure] <ysydZiYouRen> 一组多铁
+[10:57:44] [Async Chat Thread - #25/INFO]: [Not Secure] <touxl> 我在死一次
+[10:57:47] [Async Chat Thread - #26/INFO]: [Not Secure] <ysydZiYouRen> ok
+[10:57:52] [Async Chat Thread - #25/INFO]: [Not Secure] <touxl> 你有岩浆们
+[10:57:57] [Async Chat Thread - #25/INFO]: [Not Secure] <ysydZiYouRen> 没有
+[10:58:00] [Async Chat Thread - #26/INFO]: [Not Secure] <ysydZiYouRen> 我杀你
+[10:58:23] [Server thread/INFO]: touxl has made the advancement [We Need to Go Deeper]
+[10:59:06] [Server thread/INFO]: touxl has made the advancement [Hot Stuff]
+[10:59:29] [Server thread/INFO]: touxl burned to death
+[10:59:34] [Async Chat Thread - #28/INFO]: [Not Secure] <touxl> 有啊
+[10:59:35] [Async Chat Thread - #27/INFO]: [Not Secure] <ysydZiYouRen> ?
+[10:59:39] [Async Chat Thread - #28/INFO]: [Not Secure] <ysydZiYouRen> 我没有啊
+[10:59:52] [Server thread/INFO]: touxl burned to death
+[10:59:57] [Async Chat Thread - #28/INFO]: [Not Secure] <ysydZiYouRen> 你烧我
+[10:59:57] [Async Chat Thread - #28/INFO]: [Not Secure] <touxl> 有啊
+[11:00:00] [Server thread/INFO]: ysydZiYouRen tried to swim in lava
+[11:00:05] [Async Chat Thread - #27/INFO]: [Not Secure] <ysydZiYouRen> ?
+[11:00:10] [Async Chat Thread - #27/INFO]: [Not Secure] <ysydZiYouRen> 那我怎么没了
+[11:00:15] [Async Chat Thread - #27/INFO]: [Not Secure] <touxl> 我不知道
+[11:00:19] [Server thread/INFO]: ysydZiYouRen tried to swim in lava
+[11:00:24] [Async Chat Thread - #27/INFO]: [Not Secure] <touxl> 放错了
+[11:00:26] [Async Chat Thread - #27/INFO]: [Not Secure] <ysydZiYouRen> 第一死一下
+[11:00:38] [Async Chat Thread - #28/INFO]: [Not Secure] <ysydZiYouRen> 地狱死一下
+[11:00:53] [Server thread/INFO]: ysydZiYouRen tried to swim in lava
+[11:00:58] [Async Chat Thread - #27/INFO]: [Not Secure] <ysydZiYouRen> wdf
+[11:00:59] [Async Chat Thread - #28/INFO]: [Not Secure] <touxl> 掉落了
+[11:01:03] [Async Chat Thread - #28/INFO]: [Not Secure] <ysydZiYouRen> 地狱没有死亡不掉落
+[11:01:08] [Async Chat Thread - #27/INFO]: [Not Secure] <touxl> 这什么鬼
+[11:01:20] [Async Chat Thread - #28/INFO]: [Not Secure] <ysydZiYouRen> 我上一次也是地狱掉的
+[11:01:20] [Async Chat Thread - #28/INFO]: [Not Secure] <touxl> 那还有这个设定？
+[11:01:33] [Async Chat Thread - #27/INFO]: [Not Secure] <touxl> 我试试
+[11:01:36] [Async Chat Thread - #27/INFO]: [Not Secure] <ysydZiYouRen> 牛逼
+[11:01:53] [Server thread/INFO]: touxl tried to swim in lava
+[11:01:58] [Async Chat Thread - #28/INFO]: [Not Secure] <touxl> wc
+[11:02:03] [Async Chat Thread - #27/INFO]: [Not Secure] <touxl> 没出来
+[11:02:11] [Async Chat Thread - #28/INFO]: [Not Secure] <ysydZiYouRen> 你东西没被烧
+[11:02:25] [Async Chat Thread - #27/INFO]: [Not Secure] <touxl> 就剩一把剑了
+[11:02:27] [Server thread/WARN]: Horse (vehicle of ysydZiYouRen) moved wrongly! 0.28777714050738723
+[11:02:27] [Server thread/WARN]: Horse (vehicle of ysydZiYouRen) moved wrongly! 0.7420056712783207
+[11:02:33] [Server thread/WARN]: Horse (vehicle of ysydZiYouRen) moved wrongly! 0.27049795560412804
+[11:02:40] [Async Chat Thread - #28/INFO]: [Not Secure] <touxl> wc福服了
+[11:02:43] [Async Chat Thread - #28/INFO]: [Not Secure] <ysydZiYouRen> nb
+[11:03:10] [Async Chat Thread - #27/INFO]: [Not Secure] <touxl> 我这也没有地域死亡的设置啊
+[11:03:21] [Async Chat Thread - #27/INFO]: [Not Secure] <ysydZiYouRen> 那怎么回事
+[11:03:28] [Async Chat Thread - #27/INFO]: [Not Secure] <touxl> 不知道
+[11:05:48] [Server thread/INFO]: ysydZiYouRen has made the advancement [What a Deal!]
+[11:06:03] [Server thread/INFO]: Gamerule keepInventory is currently set to: true
+[11:06:15] [Server thread/INFO]: touxl lost connection: Disconnected
+[11:06:15] [Server thread/INFO]: touxl left the game
+[11:07:13] [User Authenticator #6/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[11:07:14] [Server thread/INFO]: test joined the game
+[11:07:14] [Server thread/INFO]: test[/127.0.0.1:59232] logged in with entity id 25962 at ([world]41.5, 68.0, 35.5)
+[11:07:28] [Server thread/INFO]: Made test a server operator
+[11:07:57] [Server thread/INFO]: test issued server command: /tp test ysydZiYouRen
+[11:07:57] [Server thread/INFO]: [test: Teleported test to ysydZiYouRen]
+[11:08:14] [Server thread/INFO]: test has made the advancement [We Need to Go Deeper]
+[11:08:29] [Server thread/INFO]: test issued server command: /gamerule keepInventory true
+[11:08:29] [Server thread/INFO]: [test: Gamerule keepInventory is now set to: true]
+[11:08:33] [Async Chat Thread - #30/INFO]: [Not Secure] <test> 好了
+[11:08:36] [Async Chat Thread - #29/INFO]: [Not Secure] <test> 你试试
+[11:08:48] [Async Chat Thread - #30/INFO]: [Not Secure] <test> 好像每个维度都要重新设置
+[11:08:58] [Server thread/INFO]: ysydZiYouRen tried to swim in lava
+[11:09:02] [Async Chat Thread - #30/INFO]: [Not Secure] <ysydZiYouRen> ok
+[11:09:16] [Async Chat Thread - #30/INFO]: [Not Secure] <ysydZiYouRen> zzzzzzzzzzzzzzzz
+[11:09:17] [Async Chat Thread - #29/INFO]: [Not Secure] <test> 到末地也得设置
+[11:09:17] [Async Chat Thread - #29/INFO]: [Not Secure] <ysydZiYouRen> zzzzzzzzzz
+[11:09:19] [Async Chat Thread - #30/INFO]: [Not Secure] <ysydZiYouRen> zzzzzz
+[11:09:19] [Server thread/INFO]: test has made the advancement [Sweet Dreams]
+[11:09:20] [Async Chat Thread - #30/INFO]: [Not Secure] <ysydZiYouRen> zzzzzzzzzzz
+[11:09:21] [Async Chat Thread - #30/INFO]: [Not Secure] <ysydZiYouRen> zzzzzzzzz
+[11:09:30] [Async Chat Thread - #30/INFO]: [Not Secure] <test> deop test
+[11:09:37] [Server thread/INFO]: test issued server command: /deop test
+[11:09:37] [Server thread/INFO]: [test: Made test no longer a server operator]
+[11:09:40] [Server thread/INFO]: test lost connection: Disconnected
+[11:09:40] [Server thread/INFO]: test left the game
+[11:25:27] [User Authenticator #7/INFO]: UUID of player touxl is 809b1e92-9f93-36ea-97a8-612db960112f
+[11:25:27] [Server thread/INFO]: touxl joined the game
+[11:25:27] [Server thread/INFO]: touxl[/127.0.0.1:52220] logged in with entity id 32267 at ([world]713.1204747100396, 68.0, 1140.616641364875)
+[11:25:40] [Async Chat Thread - #32/INFO]: [Not Secure] <touxl> 我要去挖矿了
+[11:25:44] [Async Chat Thread - #31/INFO]: [Not Secure] <touxl> 啥都没有
+[11:25:47] [Async Chat Thread - #32/INFO]: [Not Secure] <ysydZiYouRen> ok
+[11:25:49] [Async Chat Thread - #31/INFO]: [Not Secure] <ysydZiYouRen> 我也是
+[11:31:43] [Async Chat Thread - #34/INFO]: [Not Secure] <ysydZiYouRen> zzzzzzzzzz
+[11:31:46] [Server thread/INFO]: touxl lost connection: Disconnected
+[11:31:46] [Server thread/INFO]: touxl left the game
+[11:31:52] [User Authenticator #8/INFO]: UUID of player touxl is 809b1e92-9f93-36ea-97a8-612db960112f
+[11:31:52] [Server thread/INFO]: touxl joined the game
+[11:31:52] [Server thread/INFO]: touxl[/127.0.0.1:52250] logged in with entity id 36831 at ([world]630.415347191854, -20.0, 1049.300000011921)
+[11:35:27] [Async Chat Thread - #36/INFO]: [Not Secure] <touxl> wc还有虫蚀方块
+[11:35:33] [Async Chat Thread - #35/INFO]: [Not Secure] <ysydZiYouRen> shide
+[11:38:41] [Async Chat Thread - #38/INFO]: [Not Secure] <ysydZiYouRen> wc原价20卖我51
+[11:38:50] [Async Chat Thread - #37/INFO]: [Not Secure] <ysydZiYouRen> 这是人
+[11:38:54] [Async Chat Thread - #37/INFO]: [Not Secure] <touxl> 什么东西
+[11:38:59] [Async Chat Thread - #38/INFO]: [Not Secure] <ysydZiYouRen> 村民
+[11:39:04] [Async Chat Thread - #37/INFO]: [Not Secure] <touxl> 你买啥
+[11:39:09] [Async Chat Thread - #37/INFO]: [Not Secure] <ysydZiYouRen> 绿宝石
+[11:39:12] [Async Chat Thread - #38/INFO]: [Not Secure] <touxl> nb
+[11:39:21] [Async Chat Thread - #38/INFO]: [Not Secure] <ysydZiYouRen> wdf现在59了
+[11:39:39] [Async Chat Thread - #37/INFO]: [Not Secure] <touxl> 你是不是打了他
+[11:39:45] [Async Chat Thread - #38/INFO]: [Not Secure] <ysydZiYouRen> 没有
+[11:39:52] [Async Chat Thread - #37/INFO]: [Not Secure] <ysydZiYouRen> 换的多了
+[11:39:53] [Async Chat Thread - #37/INFO]: [Not Secure] <touxl> nb
+[11:39:58] [Async Chat Thread - #38/INFO]: [Not Secure] <ysydZiYouRen> 别的都降价
+[11:39:59] [Async Chat Thread - #37/INFO]: [Not Secure] <touxl> 这能忍
+[11:40:03] [Async Chat Thread - #38/INFO]: [Not Secure] <ysydZiYouRen> 就他涨价
+[11:40:13] [Async Chat Thread - #37/INFO]: [Not Secure] <touxl> 笑死
+[11:42:37] [Async Chat Thread - #39/INFO]: [Not Secure] <ysydZiYouRen> zzzzzzzzz
+[11:42:42] [Server thread/INFO]: touxl lost connection: Disconnected
+[11:42:42] [Server thread/INFO]: touxl left the game
+[11:42:47] [User Authenticator #9/INFO]: UUID of player touxl is 809b1e92-9f93-36ea-97a8-612db960112f
+[11:42:48] [Server thread/INFO]: touxl joined the game
+[11:42:48] [Server thread/INFO]: touxl[/127.0.0.1:59082] logged in with entity id 42729 at ([world]646.6999999880791, -58.0, 1010.3000000119209)
+[11:51:34] [Server thread/INFO]: touxl tried to swim in lava
+[11:52:54] [Async Chat Thread - #41/INFO]: [Not Secure] <touxl> 刷线机关了
+[11:53:14] [Async Chat Thread - #41/INFO]: [Not Secure] <touxl> zzzz
+[11:54:12] [Async Chat Thread - #41/INFO]: [Not Secure] <touxl> 有附魔台吗
+[11:54:15] [Async Chat Thread - #42/INFO]: [Not Secure] <ysydZiYouRen> mei
+[11:56:11] [Async Chat Thread - #44/INFO]: [Not Secure] <ysydZiYouRen> you chi de ma
+[11:56:28] [Async Chat Thread - #44/INFO]: [Not Secure] <touxl> mei
+[11:57:34] [Server thread/INFO]: touxl tried to swim in lava to escape Piglin
+[11:57:40] [Server thread/INFO]: ysydZiYouRen tried to swim in lava
+[11:57:44] [Async Chat Thread - #46/INFO]: [Not Secure] <touxl> 吃饭
+[11:57:46] [Server thread/INFO]: touxl lost connection: Disconnected
+[11:57:46] [Server thread/INFO]: touxl left the game
+[12:09:48] [Server thread/INFO]: ysydZiYouRen has made the advancement [Fishy Business]
+[12:14:35] [Async Chat Thread - #48/INFO]: [Not Secure] <ysydZiYouRen> zzzzzzzzzzz
+[12:20:23] [Server thread/INFO]: ysydZiYouRen lost connection: Disconnected
+[12:20:23] [Server thread/INFO]: ysydZiYouRen left the game
+[12:24:41] [User Authenticator #10/INFO]: UUID of player touxl is 809b1e92-9f93-36ea-97a8-612db960112f
+[12:24:41] [Server thread/INFO]: touxl joined the game
+[12:24:41] [Server thread/INFO]: touxl[/127.0.0.1:49794] logged in with entity id 62167 at ([world]724.904456299558, 68.0, 1142.3411112348247)
+[12:27:38] [Server thread/INFO]: touxl was slain by Piglin
+[12:28:41] [Server thread/INFO]: touxl tried to swim in lava
+[12:35:10] [Server thread/INFO]: touxl has made the advancement [Enchanter]
+[12:46:59] [Server thread/INFO]: touxl has made the advancement [Cover Me with Diamonds]
+[12:50:22] [Server thread/INFO]: touxl lost connection: Disconnected
+[12:50:22] [Server thread/INFO]: touxl left the game
+[12:51:13] [User Authenticator #11/INFO]: UUID of player touxl is 809b1e92-9f93-36ea-97a8-612db960112f
+[12:51:14] [Server thread/INFO]: touxl joined the game
+[12:51:14] [Server thread/INFO]: touxl[/127.0.0.1:60984] logged in with entity id 68934 at ([world]691.1581068515441, 68.0, 1122.6970216542945)
+[12:51:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3427ms or 68 ticks behind
+[12:54:43] [Server thread/INFO]: touxl was slain by Iron Golem
+[13:00:51] [Server thread/INFO]: touxl lost connection: Disconnected
+[13:00:51] [Server thread/INFO]: touxl left the game
+[13:05:00] [User Authenticator #12/INFO]: UUID of player touxl is 809b1e92-9f93-36ea-97a8-612db960112f
+[13:05:00] [Server thread/INFO]: touxl joined the game
+[13:05:00] [Server thread/INFO]: touxl[/127.0.0.1:44870] logged in with entity id 71039 at ([world]698.9823890550349, 68.0, 1132.5582583782616)
+[13:16:36] [Server thread/INFO]: touxl lost connection: Disconnected
+[13:16:36] [Server thread/INFO]: touxl left the game
+[13:22:30] [User Authenticator #13/INFO]: UUID of player touxl is 809b1e92-9f93-36ea-97a8-612db960112f
+[13:22:30] [Server thread/INFO]: touxl joined the game
+[13:22:30] [Server thread/INFO]: touxl[/127.0.0.1:41918] logged in with entity id 74026 at ([world]684.0161638352854, 75.0, 1059.9555663612095)
+[13:22:34] [Server thread/INFO]: touxl lost connection: Disconnected
+[13:22:34] [Server thread/INFO]: touxl left the game
+[13:22:37] [User Authenticator #14/INFO]: UUID of player touxl is 809b1e92-9f93-36ea-97a8-612db960112f
+[13:22:38] [Server thread/INFO]: touxl joined the game
+[13:22:38] [Server thread/INFO]: touxl[/127.0.0.1:50336] logged in with entity id 74283 at ([world]684.0161638352854, 75.0, 1059.9555663612095)
+[13:35:56] [Server thread/INFO]: touxl has made the advancement [Voluntary Exile]
+[13:37:35] [Server thread/INFO]: An entity is required to run this command here
+[13:37:57] [Server thread/INFO]: Incorrect argument for command
+[13:37:57] [Server thread/INFO]: effect touxl clear<--[HERE]
+[13:38:04] [Server thread/INFO]: Removed every effect from touxl
+[13:54:34] [User Authenticator #15/INFO]: UUID of player ysydZiYouRen is cbb5bd76-2bc6-391d-9b29-857501acaa1d
+[13:54:34] [Server thread/INFO]: ysydZiYouRen joined the game
+[13:54:34] [Server thread/INFO]: ysydZiYouRen[/127.0.0.1:40156] logged in with entity id 79112 at ([world]729.1675350716741, 67.0, 1142.5787737081234)
+[13:55:02] [Server thread/INFO]: ysydZiYouRen has made the advancement [Enchanter]
+[13:55:26] [Async Chat Thread - #50/INFO]: [Not Secure] <ysydZiYouRen> 你袭击打哪了
+[13:55:38] [Async Chat Thread - #50/INFO]: [Not Secure] <touxl> 没打
+[13:55:44] [Async Chat Thread - #50/INFO]: [Not Secure] <touxl> 我在建房子
+[14:02:02] [Async Chat Thread - #52/INFO]: [Not Secure] <ysydZiYouRen> zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+[14:02:03] [Async Chat Thread - #52/INFO]: [Not Secure] <ysydZiYouRen> zzzzzz
+[14:02:07] [Async Chat Thread - #51/INFO]: [Not Secure] <ysydZiYouRen> zzzzzzzz
+[14:09:46] [Async Chat Thread - #54/INFO]: [Not Secure] <ysydZiYouRen> 你玩rlcraft吗 pytzyh他们在玩
+[14:09:51] [Async Chat Thread - #54/INFO]: [Not Secure] <touxl> bu
+[14:10:45] [Server thread/INFO]: ysydZiYouRen lost connection: Disconnected
+[14:10:45] [Server thread/INFO]: ysydZiYouRen left the game
+[14:22:18] [Server thread/INFO]: touxl lost connection: Disconnected
+[14:22:18] [Server thread/INFO]: touxl left the game
+[14:32:40] [User Authenticator #16/INFO]: UUID of player zzysnb is 56d18680-b9f7-3247-8ddc-77ffb4d65ed2
+[14:32:40] [Server thread/INFO]: zzysnb joined the game
+[14:32:40] [Server thread/INFO]: zzysnb[/127.0.0.1:46746] logged in with entity id 85301 at ([world]53.5, 66.0, 37.5)
+[14:38:06] [Server thread/INFO]: zzysnb has made the advancement [Stone Age]
+[14:38:33] [Server thread/INFO]: zzysnb has made the advancement [Getting an Upgrade]
+[14:45:26] [Server thread/INFO]: zzysnb has made the advancement [Sweet Dreams]
+[14:47:40] [Server thread/INFO]: zzysnb lost connection: Disconnected
+[14:47:40] [Server thread/INFO]: zzysnb left the game
+[14:50:00] [Server thread/INFO]: There are 0 of a max of 114514 players online: 
+[14:50:20] [User Authenticator #17/INFO]: UUID of player zzysnb is 56d18680-b9f7-3247-8ddc-77ffb4d65ed2
+[14:50:20] [Server thread/INFO]: zzysnb joined the game
+[14:50:20] [Server thread/INFO]: zzysnb[/127.0.0.1:52156] logged in with entity id 88069 at ([world]139.68233413006072, 60.0, 470.1837312785039)
+[14:51:34] [User Authenticator #18/INFO]: UUID of player ysydZiYouRen is cbb5bd76-2bc6-391d-9b29-857501acaa1d
+[14:51:35] [Server thread/INFO]: ysydZiYouRen joined the game
+[14:51:35] [Server thread/INFO]: ysydZiYouRen[/127.0.0.1:36172] logged in with entity id 88489 at ([world]699.0749999880791, 68.0, 1126.6297470268237)
+[14:52:17] [Async Chat Thread - #56/INFO]: [Not Secure] <ysydZiYouRen> 你在哪
+[14:52:42] [Async Chat Thread - #55/INFO]: [Not Secure] <zzysnb> 先不去你们那里了
+[14:52:50] [Async Chat Thread - #55/INFO]: [Not Secure] <ysydZiYouRen> 你去哪
+[14:53:12] [Async Chat Thread - #56/INFO]: [Not Secure] <ysydZiYouRen> 我们这的装备够你过前期了
+[14:53:18] [Async Chat Thread - #55/INFO]: [Not Secure] <zzysnb> 远方~
+[14:53:30] [Async Chat Thread - #56/INFO]: [Not Secure] <ysydZiYouRen> 出生点最近的矿洞里有个地狱门
+[14:53:46] [Async Chat Thread - #55/INFO]: [Not Secure] <zzysnb> 晚了
+[14:53:56] [Async Chat Thread - #55/INFO]: [Not Secure] <zzysnb> 我已经走了
+[14:54:05] [Async Chat Thread - #55/INFO]: [Not Secure] <ysydZiYouRen> 你现在坐标是什么
+[14:55:05] [Async Chat Thread - #58/INFO]: [Not Secure] <zzysnb> 322 64 449
+[14:55:14] [Async Chat Thread - #57/INFO]: [Not Secure] <ysydZiYouRen> ok
+[14:55:41] [Server thread/WARN]: Horse (vehicle of ysydZiYouRen) moved wrongly! 0.255745437348196
+[14:56:08] [Server thread/INFO]: ysydZiYouRen lost connection: Disconnected
+[14:56:08] [Server thread/INFO]: ysydZiYouRen left the game
+[14:56:14] [User Authenticator #19/INFO]: UUID of player ysydZiYouRen is cbb5bd76-2bc6-391d-9b29-857501acaa1d
+[14:56:14] [Server thread/INFO]: ysydZiYouRen joined the game
+[14:56:14] [Server thread/INFO]: ysydZiYouRen[/127.0.0.1:37884] logged in with entity id 91047 at ([world]655.3608324217493, 63.84375, 847.4820951603734)
+[14:58:09] [Async Chat Thread - #60/INFO]: [Not Secure] <ysydZiYouRen> 现在呢
+[14:58:43] [Async Chat Thread - #59/INFO]: [Not Secure] <zzysnb> 324 64 452
+[14:59:28] [Async Chat Thread - #60/INFO]: [Not Secure] <ysydZiYouRen> 那是离得挺远的
+[15:00:29] [Async Chat Thread - #62/INFO]: [Not Secure] <zzysnb> 人呢
+[15:00:59] [Async Chat Thread - #62/INFO]: [Not Secure] <ysydZiYouRen> 找回去的路了
+[15:01:47] [Async Chat Thread - #63/INFO]: [Not Secure] <ysydZiYouRen> 其实挺近的
+[15:01:54] [Async Chat Thread - #62/INFO]: [Not Secure] <ysydZiYouRen> 663 79 1046
+[15:02:07] [Async Chat Thread - #62/INFO]: [Not Secure] <ysydZiYouRen> 你再往前走一段路就到了
+[15:04:33] [Server thread/INFO]: There are 2 of a max of 114514 players online: zzysnb, ysydZiYouRen
+[15:05:39] [Async Chat Thread - #65/INFO]: [Not Secure] <zzysnb> l
+[15:06:44] [Async Chat Thread - #67/INFO]: [Not Secure] <ysydZiYouRen> zzzzzzzzzzzz
+[15:06:56] [Server thread/INFO]: zzysnb lost connection: Disconnected
+[15:06:56] [Server thread/INFO]: zzysnb left the game
+[15:07:35] [User Authenticator #20/INFO]: UUID of player zzysnb is 56d18680-b9f7-3247-8ddc-77ffb4d65ed2
+[15:07:35] [Server thread/INFO]: zzysnb joined the game
+[15:07:35] [Server thread/INFO]: zzysnb[/127.0.0.1:60542] logged in with entity id 96894 at ([world]700.1418730384765, 62.11076428890229, 919.3125)
+[15:08:18] [Async Chat Thread - #69/INFO]: [Not Secure] <ysydZiYouRen> 你来了吗
+[15:09:06] [Async Chat Thread - #68/INFO]: [Not Secure] <zzysnb> 到了
+[15:09:45] [Server thread/INFO]: [Not Secure] [Server] 你们建房子别建在我房子旁边的樱花山上，那块我要用
+[15:09:52] [Server thread/WARN]: Horse (vehicle of ysydZiYouRen) moved wrongly! 0.3079960058175857
+[15:09:56] [Async Chat Thread - #68/INFO]: [Not Secure] <zzysnb> OK了
+[15:10:03] [Async Chat Thread - #69/INFO]: [Not Secure] <ysydZiYouRen> 我给这山炸了
+[15:10:21] [Async Chat Thread - #68/INFO]: [Not Secure] <zzysnb> 我先定居
+[15:11:48] [Async Chat Thread - #71/INFO]: [Not Secure] <ysydZiYouRen> 不玩了我要收拾出发了
+[15:11:50] [Server thread/INFO]: ysydZiYouRen lost connection: Disconnected
+[15:11:50] [Server thread/INFO]: ysydZiYouRen left the game
+[15:12:02] [Server thread/INFO]: [Not Secure] [Server] tshnmsl
+[15:12:08] [Server thread/INFO]: [Not Secure] [Server] tsh怎么下了
+[15:12:14] [Server thread/INFO]: [Not Secure] [Server] 他要去哪
+[15:12:15] [Async Chat Thread - #70/INFO]: [Not Secure] <zzysnb> 要走了
+[15:12:16] [Server thread/INFO]: There are 1 of a max of 114514 players online: zzysnb
+[15:12:51] [Async Chat Thread - #71/INFO]: [Not Secure] <zzysnb> 你玩吗
+[15:14:48] [Server thread/INFO]: [Not Secure] [Server] 等一会
+[15:14:54] [Server thread/INFO]: [Not Secure] [Server] 你还有时间吗
+[15:15:04] [Async Chat Thread - #73/INFO]: [Not Secure] <zzysnb> 有
+[15:15:07] [Server thread/INFO]: [Not Secure] [Server] 在过30分钟我上
+[15:15:13] [Async Chat Thread - #72/INFO]: [Not Secure] <zzysnb> 可以
+[15:19:08] [Server thread/INFO]: zzysnb has made the advancement [Monster Hunter]
+[15:29:04] [Server thread/INFO]: There are 1 of a max of 114514 players online: zzysnb
+[15:37:30] [Server thread/INFO]: zzysnb has made the advancement [A Seedy Place]
+[15:38:33] [Server thread/INFO]: zzysnb lost connection: Timed out
+[15:38:33] [Server thread/INFO]: zzysnb left the game
+[15:49:47] [Server thread/INFO]: Stopping the server
+[15:49:47] [Server thread/INFO]: Stopping server
+[15:49:47] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
+[15:49:47] [Server thread/INFO]: Saving players
+[15:49:47] [Server thread/INFO]: Saving worlds
+[15:49:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:49:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:49:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:49:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:49:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:49:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:49:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
