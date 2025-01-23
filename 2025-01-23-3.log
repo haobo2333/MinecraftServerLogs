@@ -1,0 +1,222 @@
+[17:18:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:18:51] [ServerMain/INFO]: Loaded 7 recipes
+[17:18:52] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[17:18:52] [Server thread/INFO]: Loading properties
+[17:18:52] [Server thread/INFO]: This server is running CraftBukkit version 4074-Spigot-e9ec548-51bbab2 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT)
+[17:18:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:18:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:18:53] [Server thread/INFO]: Debug logging is disabled
+[17:18:53] [Server thread/INFO]: Default game type: SURVIVAL
+[17:18:53] [Server thread/INFO]: Generating keypair
+[17:18:53] [Server thread/INFO]: Starting Minecraft server on *:25566
+[17:18:53] [Server thread/INFO]: Using epoll channel type
+[17:18:53] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[17:18:54] [Server thread/INFO]: [floodgate] 启动 Floodgate，耗时980ms
+[17:18:54] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.5.1
+[17:18:54] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.6.0-SNAPSHOT
+[17:18:55] [Server thread/INFO]: [Geyser-Spigot] 正在加载扩展...
+[17:18:55] [Server thread/INFO]: [Geyser-Spigot] 已加载 0 个扩展
+[17:18:55] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
+[17:18:56] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[17:18:56] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.20.4[32;1m.[0;39m[m
+[17:18:56] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFloodgate skin listener registered[0;39m[m
+[17:18:57] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mPlease update your Java runtime to at least Java 21 (your version is 17).[0;39m
+[17:18:57] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mAt some point in the future, SkinsRestorer will no longer be compatible with this version of Java.[0;39m
+[17:18:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:18:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:18:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:18:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:18:57] [Server thread/INFO]: Preparing level "world"
+[17:18:57] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:18:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:18:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:18:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:18:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:18:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:18:57] [Server thread/INFO]: Mob Spawn Range: 6
+[17:18:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Max TNT Explosions: 100
+[17:18:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:18:57] [Server thread/INFO]: View Distance: 10
+[17:18:57] [Server thread/INFO]: Simulation Distance: 10
+[17:18:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:18:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:18:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:18:57] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:18:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:18:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:18:57] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:18:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:18:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:18:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:18:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:18:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:18:57] [Server thread/INFO]: Mob Spawn Range: 6
+[17:18:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:18:57] [Server thread/INFO]: Max TNT Explosions: 100
+[17:18:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:18:57] [Server thread/INFO]: View Distance: 10
+[17:18:57] [Server thread/INFO]: Simulation Distance: 10
+[17:18:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:18:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:18:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:18:57] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:18:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:18:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:19:00] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:19:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:19:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:19:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:19:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:19:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:19:00] [Server thread/INFO]: Mob Spawn Range: 6
+[17:19:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:19:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:19:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:19:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:19:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:19:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:19:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:19:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:19:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:19:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:19:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:19:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:19:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:19:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:19:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:19:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:19:00] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:19:00] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:19:00] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:19:00] [Server thread/INFO]: Max TNT Explosions: 100
+[17:19:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:19:00] [Server thread/INFO]: View Distance: 10
+[17:19:00] [Server thread/INFO]: Simulation Distance: 10
+[17:19:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:19:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:19:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:19:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:19:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:19:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:19:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:19:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:19:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:19:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:19:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:19:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:19:05] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:19:05] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:19:05] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:19:05] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:19:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:19:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:19:06] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:19:06] [Worker-Main-1/INFO]: Preparing spawn area: 6%
+[17:19:07] [Worker-Main-3/INFO]: Preparing spawn area: 31%
+[17:19:07] [Worker-Main-2/INFO]: Preparing spawn area: 34%
+[17:19:08] [Server thread/INFO]: Time elapsed: 7575 ms
+[17:19:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:19:11] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:19:11] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:19:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:19:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:19:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:19:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:19:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:19:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:19:12] [Worker-Main-2/INFO]: Preparing spawn area: 12%
+[17:19:12] [Worker-Main-1/INFO]: Preparing spawn area: 61%
+[17:19:13] [Server thread/INFO]: Time elapsed: 4914 ms
+[17:19:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:19:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:19:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:19:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:19:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:19:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:19:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:19:16] [Worker-Main-3/INFO]: Preparing spawn area: 36%
+[17:19:16] [Server thread/INFO]: Time elapsed: 3395 ms
+[17:19:16] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[17:19:17] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
+[17:19:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:19:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:19:17] [Server thread/INFO]: [Geyser-Spigot] 
+[17:19:17] [Server thread/INFO]: [Geyser-Spigot] 正在加载 Geyser 版本 2.6.0-b751 (git-master-5836dab)
+[17:19:17] [Server thread/INFO]: [Geyser-Spigot] 
+[17:19:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:19:24] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] 已在 UDP 端口 19132 上启动 Geyser
+[17:19:24] [Server thread/INFO]: [Geyser-Spigot] 完成 (7.494秒)！ 运行 /geyser help 以获取帮助！
+[17:19:24] [Server thread/WARN]: [Geyser-Spigot] 您的服务器软件不支持 Geyser 需要的 Java 版本 (1.21.4)。请安装 ViaVersion (https://ci.viaversion.com/job/ViaVersion/) 或更新您的服务器软件！
+[17:19:25] [Server thread/INFO]: Done (27.922s)! For help, type "help"
+[17:19:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[17:19:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[17:19:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
+[17:19:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
+[17:19:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
+[17:19:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[17:19:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[17:19:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.5.1[0;39m[m
+[17:19:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1md5d8613[0;39m[m
+[17:19:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
+[17:19:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[17:19:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m[m
+[17:19:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m[m
+[17:19:26] [ForkJoinPool.commonPool-worker-3/INFO]: [Geyser-Spigot] 正在下载 Minecraft JAR 以提取所需文件，请稍候...（这可能需要一些时间，具体取决于您的互联网连接速度）
+[17:19:33] [ForkJoinPool.commonPool-worker-3/INFO]: [Geyser-Spigot] Minecraft JAR 已成功下载并加载！
+[17:21:37] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] 玩家已连接，用户名为touxl1916
+[17:21:37] [localSession-7-2/INFO]: [Geyser-Spigot] touxl1916（以 touxl1916 登录）已连接到 Java 服务器
+[17:21:37] [localSession-7-2/INFO]: [Geyser-Spigot] touxl1916 已因 Outdated server! I'm still on 1.20.4 与 Java 服务器断开了连接
+[17:28:44] [Server thread/INFO]: Stopping the server
+[17:28:44] [Server thread/INFO]: Stopping server
+[17:28:44] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.0-SNAPSHOT
+[17:28:44] [Server thread/INFO]: [Geyser-Spigot] 正在关闭 Geyser。
+[17:28:44] [Server thread/INFO]: [Geyser-Spigot] Geyser 关闭成功。
+[17:28:44] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
+[17:28:44] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[17:28:44] [Server thread/INFO]: Saving players
+[17:28:44] [Server thread/INFO]: Saving worlds
+[17:28:44] [WebSocketConnectReadThread-58/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[17:28:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:28:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:28:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:28:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:28:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:28:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:28:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
