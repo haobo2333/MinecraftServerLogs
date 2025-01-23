@@ -1,0 +1,485 @@
+[17:53:13] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:53:16] [ServerMain/INFO]: Loaded 7 recipes
+[17:53:16] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[17:53:16] [Server thread/INFO]: Loading properties
+[17:53:17] [Server thread/INFO]: This server is running CraftBukkit version 4074-Spigot-e9ec548-51bbab2 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT)
+[17:53:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:53:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:53:17] [Server thread/INFO]: Debug logging is disabled
+[17:53:17] [Server thread/INFO]: Default game type: SURVIVAL
+[17:53:17] [Server thread/INFO]: Generating keypair
+[17:53:18] [Server thread/INFO]: Starting Minecraft server on *:25566
+[17:53:18] [Server thread/INFO]: Using epoll channel type
+[17:53:18] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.2.1
+[17:53:18] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[17:53:19] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[17:53:19] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[17:53:19] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[17:53:19] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[17:53:20] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[17:53:20] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[17:53:21] [Server thread/INFO]: [floodgate] 启动 Floodgate，耗时753ms
+[17:53:21] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.2.1
+[17:53:21] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.0.5
+[17:53:21] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.5.1
+[17:53:21] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.6.0-SNAPSHOT
+[17:53:22] [Server thread/INFO]: [Geyser-Spigot] 正在加载扩展...
+[17:53:22] [Server thread/INFO]: [Geyser-Spigot] 已加载 0 个扩展
+[17:53:22] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.5
+[17:53:22] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
+[17:53:22] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[17:53:22] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.20.4[32;1m.[0;39m[m
+[17:53:22] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFloodgate skin listener registered[0;39m[m
+[17:53:23] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mPlease update your Java runtime to at least Java 21 (your version is 17).[0;39m
+[17:53:23] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mAt some point in the future, SkinsRestorer will no longer be compatible with this version of Java.[0;39m
+[17:53:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:53:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:53:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:53:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:53:23] [Server thread/INFO]: Preparing level "world"
+[17:53:23] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:53:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:53:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:53:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:53:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:53:23] [Server thread/INFO]: Max TNT Explosions: 100
+[17:53:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:53:23] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:53:23] [Server thread/INFO]: Mob Spawn Range: 6
+[17:53:23] [Server thread/INFO]: View Distance: 10
+[17:53:23] [Server thread/INFO]: Simulation Distance: 10
+[17:53:23] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:53:23] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:53:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:53:23] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:53:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:53:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:53:23] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:53:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:53:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:53:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:53:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:53:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:53:23] [Server thread/INFO]: Max TNT Explosions: 100
+[17:53:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:53:23] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:53:23] [Server thread/INFO]: Mob Spawn Range: 6
+[17:53:23] [Server thread/INFO]: View Distance: 10
+[17:53:23] [Server thread/INFO]: Simulation Distance: 10
+[17:53:23] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:53:23] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:53:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:53:23] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:53:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:53:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:53:27] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:53:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:53:27] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:53:27] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:53:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:53:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:53:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:53:27] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:53:27] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:53:27] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:53:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:53:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:53:27] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:53:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:53:27] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:53:27] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:53:27] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:53:27] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:53:27] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:53:27] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:53:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:53:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:53:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:53:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:53:27] [Server thread/INFO]: Max TNT Explosions: 100
+[17:53:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:53:27] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:53:27] [Server thread/INFO]: Mob Spawn Range: 6
+[17:53:27] [Server thread/INFO]: View Distance: 10
+[17:53:27] [Server thread/INFO]: Simulation Distance: 10
+[17:53:27] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:53:27] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:53:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:53:27] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:53:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:53:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:53:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:53:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:53:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:53:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:53:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:53:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:53:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:53:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:53:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:53:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:53:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:53:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:53:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:53:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:53:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:53:34] [Worker-Main-2/INFO]: Preparing spawn area: 16%
+[17:53:34] [Worker-Main-2/INFO]: Preparing spawn area: 36%
+[17:53:35] [Worker-Main-3/INFO]: Preparing spawn area: 98%
+[17:53:35] [Server thread/INFO]: Time elapsed: 8030 ms
+[17:53:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:53:39] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:53:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:53:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:53:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:53:39] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:53:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:53:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:53:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:53:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:53:39] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:53:40] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:53:40] [Worker-Main-1/INFO]: Preparing spawn area: 22%
+[17:53:41] [Worker-Main-2/INFO]: Preparing spawn area: 72%
+[17:53:41] [Server thread/INFO]: Time elapsed: 6435 ms
+[17:53:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:53:44] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:53:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:53:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:53:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:53:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:53:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:53:44] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:53:45] [Worker-Main-3/INFO]: Preparing spawn area: 27%
+[17:53:45] [Worker-Main-1/INFO]: Preparing spawn area: 83%
+[17:53:45] [Server thread/INFO]: Time elapsed: 4207 ms
+[17:53:45] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[17:53:45] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3-1.20.4 (765)
+[17:53:45] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.13).
+[17:53:45] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[17:53:46] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[17:53:46] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[17:53:46] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
+[17:53:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:53:47] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:53:47] [Server thread/INFO]: [Geyser-Spigot] 
+[17:53:47] [Server thread/INFO]: [Geyser-Spigot] 正在加载 Geyser 版本 2.6.0-b751 (git-master-5836dab)
+[17:53:47] [Server thread/INFO]: [Geyser-Spigot] 
+[17:53:47] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:53:51] [pool-10-thread-1/WARN]: [floodgate] 
+**********************************
+* You specified an empty prefix in your Floodgate config for Bedrock players!
+* Should a Java player join and a Bedrock player join with the same username, unwanted results and conflicts will happen!
+* We strongly recommend using . as the prefix, but other alternatives that will not conflict include: +, - and *
+**********************************
+[17:53:59] [Server thread/INFO]: [Geyser-Spigot] 已在 UDP 端口 19132 上启动 Geyser
+[17:53:59] [Server thread/INFO]: [Geyser-Spigot] 完成 (12.402秒)！ 运行 /geyser help 以获取帮助！
+[17:53:59] [Server thread/INFO]: Done (36.744s)! For help, type "help"
+[17:54:00] [Craft Scheduler Thread - 0/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[17:54:00] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[17:54:00] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[17:54:00] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
+[17:54:00] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
+[17:54:00] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
+[17:54:00] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[17:54:00] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[17:54:00] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.5.1[0;39m[m
+[17:54:00] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1md5d8613[0;39m[m
+[17:54:00] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
+[17:54:00] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[17:54:00] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m[m
+[17:54:00] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m[m
+[17:54:24] [User Authenticator #1/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[17:54:24] [Server thread/INFO]: touxl1916 joined the game
+[17:54:24] [Server thread/INFO]: touxl1916[/127.0.0.1:48086] logged in with entity id 108 at ([world]46.5, 69.0, 42.5)
+[17:54:32] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[17:54:32] [Server thread/INFO]: touxl1916 left the game
+[17:55:12] [User Authenticator #2/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[17:55:12] [Server thread/INFO]: touxl1916 (formerly known as touxl) joined the game
+[17:55:12] [Server thread/INFO]: touxl1916 has made the advancement [Cover Me with Diamonds]
+[17:55:12] [Server thread/INFO]: touxl1916 has made the advancement [Diamonds!]
+[17:55:12] [Server thread/INFO]: touxl1916 has made the advancement [Stone Age]
+[17:55:12] [Server thread/INFO]: touxl1916 has made the advancement [Acquire Hardware]
+[17:55:12] [Server thread/INFO]: touxl1916[/127.0.0.1:40306] logged in with entity id 246 at ([world]677.3655406741996, 79.0, 1050.6142088437591)
+[17:55:29] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[17:55:29] [Server thread/INFO]: touxl1916 left the game
+[17:57:00] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] 玩家已连接，用户名为touxl1916
+[17:57:00] [localSession-7-2/INFO]: [Geyser-Spigot] touxl1916（以 touxl1916 登录）已连接到 Java 服务器
+[17:57:01] [Server thread/INFO]: [floodgate] Floodgate 玩家 touxl1916 加入了 (UUID: 00000000-0000-0000-0009-01f6278f59e2)
+[17:57:02] [Server thread/WARN]: Using offline mode UUID file for player touxl1916 as it is the only copy we can find.
+[17:57:02] [Server thread/INFO]: touxl1916 joined the game
+[17:57:02] [Server thread/INFO]: touxl1916[/192.168.10.17:0] logged in with entity id 505 at ([world]677.3044915837672, 83.0, 1045.9304788769707)
+[17:57:10] [localSession-7-2/INFO]: [Geyser-Spigot] touxl1916 已因 基岩版客户端已断开连接 与 Java 服务器断开了连接
+[17:57:10] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate 玩家 touxl1916 已断开连接
+[17:57:10] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[17:57:10] [Server thread/INFO]: touxl1916 left the game
+[17:58:12] [User Authenticator #3/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[17:58:12] [Server thread/INFO]: touxl1916 joined the game
+[17:58:12] [Server thread/INFO]: touxl1916[/127.0.0.1:58330] logged in with entity id 725 at ([world]49.5, 67.0, 37.5)
+[17:58:22] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[17:58:22] [Server thread/INFO]: touxl1916 left the game
+[17:58:50] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] 玩家已连接，用户名为touxl1916
+[17:58:50] [localSession-7-3/INFO]: [Geyser-Spigot] touxl1916（以 touxl1916 登录）已连接到 Java 服务器
+[17:58:51] [Server thread/INFO]: [floodgate] Floodgate 玩家 touxl1916 加入了 (UUID: 00000000-0000-0000-0009-01f6278f59e2)
+[17:58:51] [Server thread/INFO]: touxl1916 joined the game
+[17:58:51] [Server thread/INFO]: touxl1916[/192.168.10.17:0] logged in with entity id 895 at ([world]677.312, 83.0, 1051.4525)
+[17:58:55] [User Authenticator #4/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[17:58:56] [Server thread/INFO]: touxl1916 joined the game
+[17:58:56] [Server thread/INFO]: touxl1916[/127.0.0.1:39882] logged in with entity id 1114 at ([world]45.50118657965596, 72.0, 61.80583660309261)
+[17:59:03] [localSession-7-3/INFO]: [Geyser-Spigot] touxl1916 已因 基岩版客户端已断开连接 与 Java 服务器断开了连接
+[17:59:03] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate 玩家 touxl1916 已断开连接
+[17:59:03] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[17:59:03] [Server thread/INFO]: touxl1916 left the game
+[17:59:24] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[17:59:24] [Server thread/INFO]: touxl1916 left the game
+[17:59:46] [Server thread/INFO]: [0;31;1mInvalid command syntax. Correct command syntax is: floodgate firewall|version.[m
+[18:02:05] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] 玩家已连接，用户名为touxl1916
+[18:02:05] [localSession-7-4/INFO]: [Geyser-Spigot] touxl1916（以 touxl1916 登录）已连接到 Java 服务器
+[18:02:06] [Server thread/INFO]: [floodgate] Floodgate 玩家 touxl1916 加入了 (UUID: 00000000-0000-0000-0009-01f6278f59e2)
+[18:02:06] [Server thread/INFO]: touxl1916 joined the game
+[18:02:06] [Server thread/INFO]: touxl1916[/192.168.10.17:0] logged in with entity id 1248 at ([world]677.312, 83.0, 1051.4525)
+[18:02:18] [Server thread/INFO]: touxl1916 issued server command: /linkaccount
+[18:02:50] [Server thread/INFO]: touxl1916 issued server command: /linkaccount touxl1916
+[18:05:11] [User Authenticator #5/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:05:11] [Server thread/INFO]: touxl1916 joined the game
+[18:05:11] [Server thread/INFO]: touxl1916[/127.0.0.1:37396] logged in with entity id 1698 at ([world]45.50118657965596, 72.0, 61.80583660309261)
+[18:05:16] [Server thread/INFO]: touxl1916 issued server command: /linkaccount
+[18:05:20] [Server thread/INFO]: touxl1916 issued server command: /linkaccount touxl1916
+[18:06:20] [Server thread/INFO]: touxl1916 issued server command: /linkaccount
+[18:06:36] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:06:36] [Server thread/INFO]: touxl1916 left the game
+[18:06:45] [Server thread/INFO]: touxl1916 has made the advancement [Sweet Dreams]
+[18:07:31] [localSession-7-4/INFO]: [Geyser-Spigot] touxl1916 已因 基岩版客户端已断开连接 与 Java 服务器断开了连接
+[18:07:31] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate 玩家 touxl1916 已断开连接
+[18:07:31] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:07:31] [Server thread/INFO]: touxl1916 left the game
+[18:11:21] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] 玩家已连接，用户名为touxl1916
+[18:11:21] [localSession-7-1/INFO]: [Geyser-Spigot] touxl1916（以 touxl1916 登录）已连接到 Java 服务器
+[18:11:22] [Server thread/INFO]: [floodgate] Floodgate 玩家 touxl1916 加入了 (UUID: 573ccf2e-f5c4-4889-888e-85475b05b4c5)
+[18:11:22] [Server thread/WARN]: Using offline mode UUID file for player touxl1916 as it is the only copy we can find.
+[18:11:22] [Server thread/INFO]: touxl1916 joined the game
+[18:11:22] [Server thread/INFO]: touxl1916[/192.168.10.17:0] logged in with entity id 2226 at ([world]70.04300730840171, 64.0, 44.55019470320516)
+[18:11:29] [User Authenticator #6/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:11:29] [Server thread/INFO]: touxl1916 joined the game
+[18:11:29] [Server thread/INFO]: touxl1916[/127.0.0.1:45308] logged in with entity id 2339 at ([world]43.5, 66.0, 26.5)
+[18:11:39] [localSession-7-1/INFO]: [Geyser-Spigot] touxl1916 已因 基岩版客户端已断开连接 与 Java 服务器断开了连接
+[18:11:39] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate 玩家 touxl1916 已断开连接
+[18:11:39] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:11:39] [Server thread/INFO]: touxl1916 left the game
+[18:11:47] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:11:47] [Server thread/INFO]: touxl1916 left the game
+[18:11:52] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] 玩家已连接，用户名为touxl1916
+[18:11:52] [localSession-7-2/INFO]: [Geyser-Spigot] touxl1916（以 touxl1916 登录）已连接到 Java 服务器
+[18:11:53] [Server thread/INFO]: [floodgate] Floodgate 玩家 touxl1916 加入了 (UUID: 573ccf2e-f5c4-4889-888e-85475b05b4c5)
+[18:11:53] [Server thread/INFO]: touxl1916 joined the game
+[18:11:53] [Server thread/INFO]: touxl1916[/192.168.10.17:0] logged in with entity id 2431 at ([world]70.04301, 64.0, 44.550194)
+[18:12:07] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate 玩家 touxl1916 已断开连接
+[18:12:07] [localSession-7-2/INFO]: [Geyser-Spigot] touxl1916 已因 基岩版客户端已断开连接 与 Java 服务器断开了连接
+[18:12:07] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:12:07] [Server thread/INFO]: touxl1916 left the game
+[18:12:16] [User Authenticator #7/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:12:16] [Server thread/INFO]: touxl1916 joined the game
+[18:12:16] [Server thread/INFO]: touxl1916[/127.0.0.1:37836] logged in with entity id 2471 at ([world]83.22133893557208, 60.55422119697904, 42.22042027451549)
+[18:12:35] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] 玩家已连接，用户名为touxl1916
+[18:12:35] [localSession-7-3/INFO]: [Geyser-Spigot] touxl1916（以 touxl1916 登录）已连接到 Java 服务器
+[18:12:36] [Server thread/INFO]: [floodgate] Floodgate 玩家 touxl1916 加入了 (UUID: 573ccf2e-f5c4-4889-888e-85475b05b4c5)
+[18:12:36] [Server thread/INFO]: touxl1916 joined the game
+[18:12:36] [Server thread/INFO]: touxl1916[/192.168.10.17:0] logged in with entity id 2533 at ([world]73.1109, 64.0, 47.875187)
+[18:12:54] [Server thread/INFO]: touxl1916 issued server command: /linkaccount
+[18:13:01] [Server thread/INFO]: touxl1916 issued server command: /unlinkaccount
+[18:13:13] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:13:13] [Server thread/INFO]: touxl1916 left the game
+[18:13:17] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate 玩家 touxl1916 已断开连接
+[18:13:17] [localSession-7-3/INFO]: [Geyser-Spigot] touxl1916 已因 基岩版客户端已断开连接 与 Java 服务器断开了连接
+[18:13:17] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:13:17] [Server thread/INFO]: touxl1916 left the game
+[18:13:28] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] 玩家已连接，用户名为touxl1916
+[18:13:28] [localSession-7-4/INFO]: [Geyser-Spigot] touxl1916（以 touxl1916 登录）已连接到 Java 服务器
+[18:13:29] [Server thread/INFO]: [floodgate] Floodgate 玩家 touxl1916 加入了 (UUID: 573ccf2e-f5c4-4889-888e-85475b05b4c5)
+[18:13:29] [Server thread/INFO]: touxl1916 joined the game
+[18:13:29] [Server thread/INFO]: touxl1916[/192.168.10.17:0] logged in with entity id 2637 at ([world]69.215675, 64.0, 48.17317)
+[18:13:31] [User Authenticator #8/INFO]: UUID of player pb is 38a257e1-2913-37d3-8dc7-ffe7cf5e33dd
+[18:13:32] [Server thread/INFO]: pb joined the game
+[18:13:32] [Server thread/INFO]: pb[/127.0.0.1:39264] logged in with entity id 2655 at ([world]657.7457465785768, 57.0, 1121.7234396399492)
+[18:13:45] [Server thread/INFO]: touxl1916 issued server command: /link 4795
+[18:13:52] [localSession-7-4/INFO]: [Geyser-Spigot] touxl1916 已因 基岩版客户端已断开连接 与 Java 服务器断开了连接
+[18:13:52] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate 玩家 touxl1916 已断开连接
+[18:13:52] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:13:52] [Server thread/INFO]: touxl1916 left the game
+[18:14:25] [User Authenticator #9/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:14:25] [Server thread/INFO]: touxl1916 joined the game
+[18:14:25] [Server thread/INFO]: touxl1916[/127.0.0.1:38552] logged in with entity id 3074 at ([world]73.29364292559303, 64.0, 48.767770905851044)
+[18:15:45] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:15:45] [Server thread/INFO]: touxl1916 left the game
+[18:16:06] [User Authenticator #10/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:16:06] [Server thread/INFO]: touxl1916 joined the game
+[18:16:06] [Server thread/INFO]: touxl1916[/127.0.0.1:40058] logged in with entity id 3600 at ([world]73.29364292559303, 64.0, 48.767770905851044)
+[18:16:24] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:16:24] [Server thread/INFO]: touxl1916 left the game
+[18:16:28] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] 玩家已连接，用户名为touxl1916
+[18:16:28] [localSession-7-1/INFO]: [Geyser-Spigot] touxl1916（以 touxl1916 登录）已连接到 Java 服务器
+[18:16:29] [Server thread/INFO]: [floodgate] Floodgate 玩家 touxl1916 加入了 (UUID: 573ccf2e-f5c4-4889-888e-85475b05b4c5)
+[18:16:29] [Server thread/WARN]: Using offline mode UUID file for player touxl1916 as it is the only copy we can find.
+[18:16:29] [Server thread/INFO]: touxl1916 joined the game
+[18:16:29] [Server thread/INFO]: touxl1916[/192.168.10.17:0] logged in with entity id 3813 at ([world]80.47136851515255, 68.0, 28.55717699950256)
+[18:16:38] [User Authenticator #11/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:16:39] [Server thread/INFO]: touxl1916 joined the game
+[18:16:39] [Server thread/INFO]: touxl1916[/127.0.0.1:60602] logged in with entity id 3938 at ([world]55.5, 66.0, 41.5)
+[18:16:46] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:16:46] [Server thread/INFO]: touxl1916 left the game
+[18:17:09] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate 玩家 touxl1916 已断开连接
+[18:17:09] [localSession-7-1/INFO]: [Geyser-Spigot] touxl1916 已因 基岩版客户端已断开连接 与 Java 服务器断开了连接
+[18:17:09] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:17:09] [Server thread/INFO]: touxl1916 left the game
+[18:18:00] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] 玩家已连接，用户名为touxl1916
+[18:18:00] [localSession-7-2/INFO]: [Geyser-Spigot] touxl1916（以 touxl1916 登录）已连接到 Java 服务器
+[18:18:01] [Server thread/INFO]: [floodgate] Floodgate 玩家 touxl1916 加入了 (UUID: 573ccf2e-f5c4-4889-888e-85475b05b4c5)
+[18:18:01] [Server thread/INFO]: touxl1916 joined the game
+[18:18:01] [Server thread/INFO]: touxl1916[/192.168.10.17:0] logged in with entity id 4255 at ([world]45.5, 68.0, 35.5)
+[18:18:18] [localSession-7-2/INFO]: [Geyser-Spigot] touxl1916 已因 基岩版客户端已断开连接 与 Java 服务器断开了连接
+[18:18:18] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate 玩家 touxl1916 已断开连接
+[18:18:18] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:18:18] [Server thread/INFO]: touxl1916 left the game
+[18:18:21] [User Authenticator #12/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:18:21] [Server thread/INFO]: touxl1916 joined the game
+[18:18:21] [Server thread/INFO]: touxl1916[/127.0.0.1:47456] logged in with entity id 4494 at ([world]46.5, 66.0, 22.5)
+[18:18:35] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:18:35] [Server thread/INFO]: touxl1916 left the game
+[18:18:40] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] 玩家已连接，用户名为touxl1916
+[18:18:40] [localSession-7-3/INFO]: [Geyser-Spigot] touxl1916（以 touxl1916 登录）已连接到 Java 服务器
+[18:18:41] [Server thread/INFO]: [floodgate] Floodgate 玩家 touxl1916 加入了 (UUID: 573ccf2e-f5c4-4889-888e-85475b05b4c5)
+[18:18:41] [Server thread/INFO]: touxl1916 joined the game
+[18:18:41] [Server thread/INFO]: touxl1916[/192.168.10.17:0] logged in with entity id 4752 at ([world]79.69999, 65.0, 28.365654)
+[18:18:55] [localSession-7-3/INFO]: [Geyser-Spigot] touxl1916 已因 基岩版客户端已断开连接 与 Java 服务器断开了连接
+[18:18:55] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate 玩家 touxl1916 已断开连接
+[18:18:55] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:18:55] [Server thread/INFO]: touxl1916 left the game
+[18:18:59] [User Authenticator #13/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:19:00] [Server thread/INFO]: touxl1916 joined the game
+[18:19:00] [Server thread/INFO]: touxl1916[/127.0.0.1:39214] logged in with entity id 4897 at ([world]80.99194219343775, 66.0, 28.381800165706526)
+[18:19:07] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:19:07] [Server thread/INFO]: touxl1916 left the game
+[18:19:11] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] 玩家已连接，用户名为touxl1916
+[18:19:11] [localSession-7-4/INFO]: [Geyser-Spigot] touxl1916（以 touxl1916 登录）已连接到 Java 服务器
+[18:19:12] [Server thread/INFO]: [floodgate] Floodgate 玩家 touxl1916 加入了 (UUID: 573ccf2e-f5c4-4889-888e-85475b05b4c5)
+[18:19:12] [Server thread/INFO]: touxl1916 joined the game
+[18:19:12] [Server thread/INFO]: touxl1916[/192.168.10.17:0] logged in with entity id 5024 at ([world]79.74962, 66.0, 27.072699)
+[18:19:23] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate 玩家 touxl1916 已断开连接
+[18:19:23] [localSession-7-4/INFO]: [Geyser-Spigot] touxl1916 已因 基岩版客户端已断开连接 与 Java 服务器断开了连接
+[18:19:23] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:19:23] [Server thread/INFO]: touxl1916 left the game
+[18:21:32] [User Authenticator #14/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:21:32] [Server thread/INFO]: touxl1916 joined the game
+[18:21:32] [Server thread/INFO]: touxl1916[/127.0.0.1:43884] logged in with entity id 5463 at ([world]80.59888669290773, 68.0, 25.864204033123592)
+[18:21:40] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:21:40] [Server thread/INFO]: touxl1916 left the game
+[18:21:45] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] 玩家已连接，用户名为touxl1916
+[18:21:45] [localSession-7-1/INFO]: [Geyser-Spigot] touxl1916（以 touxl1916 登录）已连接到 Java 服务器
+[18:21:46] [Server thread/INFO]: [floodgate] Floodgate 玩家 touxl1916 加入了 (UUID: 573ccf2e-f5c4-4889-888e-85475b05b4c5)
+[18:21:46] [Server thread/INFO]: touxl1916 joined the game
+[18:21:46] [Server thread/INFO]: touxl1916[/192.168.10.17:0] logged in with entity id 5614 at ([world]76.23604, 64.0, 25.89362)
+[18:21:57] [localSession-7-1/INFO]: [Geyser-Spigot] touxl1916 已因 基岩版客户端已断开连接 与 Java 服务器断开了连接
+[18:21:57] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate 玩家 touxl1916 已断开连接
+[18:21:57] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:21:57] [Server thread/INFO]: touxl1916 left the game
+[18:22:37] [User Authenticator #15/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:22:37] [Server thread/INFO]: touxl1916 joined the game
+[18:22:37] [Server thread/INFO]: touxl1916[/127.0.0.1:39794] logged in with entity id 5828 at ([world]48.5, 69.0, 32.5)
+[18:23:03] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:23:03] [Server thread/INFO]: touxl1916 left the game
+[18:23:11] [User Authenticator #16/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:23:12] [Server thread/INFO]: touxl1916 joined the game
+[18:23:12] [Server thread/INFO]: touxl1916[/127.0.0.1:35644] logged in with entity id 6104 at ([world]47.262876081942025, 68.0, 29.83867025109547)
+[18:23:17] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:23:17] [Server thread/INFO]: touxl1916 left the game
+[18:23:24] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] 玩家已连接，用户名为touxl1916
+[18:23:24] [localSession-7-2/INFO]: [Geyser-Spigot] touxl1916（以 touxl1916 登录）已连接到 Java 服务器
+[18:23:25] [Server thread/INFO]: [floodgate] Floodgate 玩家 touxl1916 加入了 (UUID: 573ccf2e-f5c4-4889-888e-85475b05b4c5)
+[18:23:25] [Server thread/WARN]: Using offline mode UUID file for player touxl1916 as it is the only copy we can find.
+[18:23:25] [Server thread/INFO]: touxl1916 joined the game
+[18:23:25] [Server thread/INFO]: touxl1916[/192.168.10.17:0] logged in with entity id 6257 at ([world]47.39778677003855, 68.0, 30.242420908409702)
+[18:23:42] [Server thread/INFO]: Villager EntityVillager['Librarian'/2676, l='ServerLevel[world]', x=711.20, y=68.56, z=1118.58] died, message: 'Librarian was slain by Zombie'
+[18:23:46] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate 玩家 touxl1916 已断开连接
+[18:23:46] [localSession-7-2/INFO]: [Geyser-Spigot] touxl1916 已因 基岩版客户端已断开连接 与 Java 服务器断开了连接
+[18:23:46] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:23:46] [Server thread/INFO]: touxl1916 left the game
+[18:23:49] [User Authenticator #17/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:23:50] [Server thread/INFO]: touxl1916 joined the game
+[18:23:50] [Server thread/INFO]: touxl1916[/127.0.0.1:54458] logged in with entity id 6478 at ([world]56.5, 65.0, 29.5)
+[18:23:52] [Server thread/INFO]: Villager EntityVillager['Librarian'/2680, l='ServerLevel[world]', x=706.70, y=68.66, z=1121.89] died, message: 'Librarian was slain by Zombie'
+[18:23:57] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] 玩家已连接，用户名为touxl1916
+[18:23:57] [localSession-7-3/INFO]: [Geyser-Spigot] touxl1916（以 touxl1916 登录）已连接到 Java 服务器
+[18:23:59] [Server thread/INFO]: [floodgate] Floodgate 玩家 touxl1916 加入了 (UUID: 573ccf2e-f5c4-4889-888e-85475b05b4c5)
+[18:23:59] [Server thread/INFO]: touxl1916 joined the game
+[18:23:59] [Server thread/INFO]: touxl1916[/192.168.10.17:0] logged in with entity id 6653 at ([world]85.0626, 58.9214719203408, 41.397644)
+[18:24:27] [localSession-7-3/INFO]: [Geyser-Spigot] touxl1916 已因 基岩版客户端已断开连接 与 Java 服务器断开了连接
+[18:24:27] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate 玩家 touxl1916 已断开连接
+[18:24:27] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:24:27] [Server thread/INFO]: touxl1916 left the game
+[18:24:29] [Server thread/INFO]: Villager EntityVillager['Villager'/2677, l='ServerLevel[world]', x=710.12, y=68.56, z=1122.18] died, message: 'Villager was slain by Zombie'
+[18:24:40] [Server thread/INFO]: Villager EntityVillager['Librarian'/2675, l='ServerLevel[world]', x=710.98, y=68.56, z=1118.38] died, message: 'Librarian was slain by Zombie'
+[18:24:41] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:24:41] [Server thread/INFO]: touxl1916 left the game
+[18:30:07] [Server thread/INFO]: [Not Secure] [Server] pyt我重启一下
+[18:30:15] [Server thread/INFO]: Stopping the server
+[18:30:15] [Server thread/INFO]: Stopping server
+[18:30:15] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.0-SNAPSHOT
+[18:30:15] [Server thread/INFO]: [Geyser-Spigot] 正在关闭 Geyser。
+[18:30:15] [Server thread/INFO]: [Geyser-Spigot] Geyser 关闭成功。
+[18:30:15] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
+[18:30:15] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.5
+[18:30:15] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[18:30:15] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[18:30:15] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[18:30:15] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[18:30:15] [Server thread/INFO]: [ViaVersion] Empty pipeline, nothing to uninject
+[18:30:15] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[18:30:15] [Server thread/INFO]: Saving players
+[18:30:15] [Server thread/INFO]: pb lost connection: Server closed
+[18:30:15] [Server thread/INFO]: pb left the game.
+[18:30:15] [Server thread/INFO]: Saving worlds
+[18:30:15] [WebSocketConnectReadThread-73/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[18:30:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:30:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:30:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:30:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:30:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:30:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:30:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
