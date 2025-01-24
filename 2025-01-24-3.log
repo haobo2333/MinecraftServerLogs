@@ -1,0 +1,676 @@
+[17:53:51] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:53:53] [ServerMain/INFO]: Loaded 7 recipes
+[17:53:54] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[17:53:54] [Server thread/INFO]: Loading properties
+[17:53:54] [Server thread/INFO]: This server is running CraftBukkit version 4074-Spigot-e9ec548-51bbab2 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT)
+[17:53:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:53:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:53:55] [Server thread/INFO]: Debug logging is disabled
+[17:53:55] [Server thread/INFO]: Default game type: SURVIVAL
+[17:53:55] [Server thread/INFO]: Generating keypair
+[17:53:55] [Server thread/INFO]: Starting Minecraft server on *:25566
+[17:53:55] [Server thread/INFO]: Using epoll channel type
+[17:53:56] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v22.4
+[17:53:56] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.2.1
+[17:53:56] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[17:53:57] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[17:53:57] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[17:53:57] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[17:53:57] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[17:53:58] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[17:53:58] [Server thread/INFO]: [TabTPS] Loading TabTPS v1.3.22
+[17:53:58] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.2.1
+[17:53:58] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.0.5
+[17:53:58] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.5.2
+[17:53:58] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.5
+[17:53:58] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.2
+[17:53:59] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[17:53:59] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.20.4[32;1m.[0;39m[m
+[17:54:00] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mPlease update your Java runtime to at least Java 21 (your version is 17).[0;39m
+[17:54:00] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mAt some point in the future, SkinsRestorer will no longer be compatible with this version of Java.[0;39m
+[17:54:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:54:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:54:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:54:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:54:00] [Server thread/INFO]: Preparing level "world"
+[17:54:00] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:54:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:54:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:54:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:54:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:54:00] [Server thread/INFO]: Mob Spawn Range: 6
+[17:54:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:54:00] [Server thread/INFO]: Max TNT Explosions: 100
+[17:54:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:54:00] [Server thread/INFO]: View Distance: 10
+[17:54:00] [Server thread/INFO]: Simulation Distance: 10
+[17:54:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:54:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:54:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:54:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:54:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:54:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:54:00] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:54:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:54:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:54:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:54:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:54:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:54:00] [Server thread/INFO]: Mob Spawn Range: 6
+[17:54:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:54:00] [Server thread/INFO]: Max TNT Explosions: 100
+[17:54:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:54:00] [Server thread/INFO]: View Distance: 10
+[17:54:00] [Server thread/INFO]: Simulation Distance: 10
+[17:54:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:54:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:54:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:54:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:54:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:54:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:54:03] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:54:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:54:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:54:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:54:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:54:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:54:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:54:03] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:54:03] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:54:03] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:54:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:54:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:54:03] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:54:03] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:54:03] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:54:03] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:54:03] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:54:03] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:54:03] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:54:03] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:54:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:54:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:54:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:54:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:54:04] [Server thread/INFO]: Mob Spawn Range: 6
+[17:54:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:54:04] [Server thread/INFO]: Max TNT Explosions: 100
+[17:54:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:54:04] [Server thread/INFO]: View Distance: 10
+[17:54:04] [Server thread/INFO]: Simulation Distance: 10
+[17:54:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:54:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:54:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:54:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:54:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:54:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:54:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:54:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:54:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:54:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:54:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:54:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:54:10] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:54:10] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:54:10] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:54:10] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:54:10] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:54:10] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:54:10] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:54:10] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:54:10] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:54:11] [Worker-Main-2/INFO]: Preparing spawn area: 26%
+[17:54:11] [Worker-Main-3/INFO]: Preparing spawn area: 42%
+[17:54:11] [Server thread/INFO]: Time elapsed: 7912 ms
+[17:54:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:54:16] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:54:16] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:54:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:54:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:54:16] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:54:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:54:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:54:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:54:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:54:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:54:17] [Worker-Main-1/INFO]: Preparing spawn area: 25%
+[17:54:17] [Worker-Main-3/INFO]: Preparing spawn area: 83%
+[17:54:17] [Server thread/INFO]: Time elapsed: 5769 ms
+[17:54:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:54:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:54:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:54:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:54:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:54:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:54:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:54:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:54:21] [Worker-Main-2/INFO]: Preparing spawn area: 15%
+[17:54:21] [Worker-Main-1/INFO]: Preparing spawn area: 50%
+[17:54:22] [Worker-Main-2/INFO]: Preparing spawn area: 93%
+[17:54:22] [Server thread/INFO]: Time elapsed: 4549 ms
+[17:54:22] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v22.4
+[17:54:23] [Server thread/INFO]: [0;37;1m[0;37;1m[m[CoreProtect] CoreProtect has been successfully enabled![0;37;1m[0;37;1m [m
+[17:54:23] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[17:54:23] [Server thread/INFO]: --------------------
+[17:54:23] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[17:54:23] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[17:54:23] [Server thread/INFO]: --------------------
+[17:54:23] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[17:54:23] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3-1.20.4 (765)
+[17:54:23] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.13).
+[17:54:23] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[17:54:23] [Server thread/INFO]: [TabTPS] Enabling TabTPS v1.3.22
+[17:54:23] [Server thread/WARN]: [TabTPS] ====================================================
+[17:54:23] [Server thread/WARN]: [TabTPS]  TabTPS works better if you use Paper 
+[17:54:23] [Server thread/WARN]: [TabTPS]  as your server software. 
+[17:54:23] [Server thread/WARN]: [TabTPS]   
+[17:54:23] [Server thread/WARN]: [TabTPS]  Paper offers significant performance improvements,
+[17:54:23] [Server thread/WARN]: [TabTPS]  bug fixes, security enhancements and optional
+[17:54:23] [Server thread/WARN]: [TabTPS]  features for server owners to enhance their server.
+[17:54:23] [Server thread/WARN]: [TabTPS]   
+[17:54:23] [Server thread/WARN]: [TabTPS]  Paper includes Timings v2, which is significantly
+[17:54:23] [Server thread/WARN]: [TabTPS]  better at diagnosing lag problems over v1.
+[17:54:23] [Server thread/WARN]: [TabTPS]   
+[17:54:23] [Server thread/WARN]: [TabTPS]  All of your plugins should still work, and the
+[17:54:23] [Server thread/WARN]: [TabTPS]  Paper community will gladly help you fix any issues.
+[17:54:23] [Server thread/WARN]: [TabTPS]   
+[17:54:23] [Server thread/WARN]: [TabTPS]  Join the Paper Community @ https://papermc.io
+[17:54:23] [Server thread/WARN]: [TabTPS] ====================================================
+[17:54:24] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[17:54:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:54:24] [Server thread/INFO]: Done (24.825s)! For help, type "help"
+[17:54:24] [Craft Scheduler Thread - 3/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[17:54:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[17:54:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[17:54:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
+[17:54:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
+[17:54:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
+[17:54:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[17:54:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[17:54:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.5.2[0;39m[m
+[17:54:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mae257f6[0;39m[m
+[17:54:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
+[17:54:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[17:54:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m[m
+[17:54:25] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m[m
+[17:54:26] [Craft Scheduler Thread - 4/INFO]: There is an update available for TabTPS!
+[17:54:26] [Craft Scheduler Thread - 4/INFO]: This server is running version v1.3.22, which is 4 versions outdated.
+[17:54:26] [Craft Scheduler Thread - 4/INFO]: Download the latest version, v1.3.26 from GitHub at the link below:
+[17:54:26] [Craft Scheduler Thread - 4/INFO]: https://github.com/jpenilla/TabTPS/releases/tag/v1.3.26
+[17:54:55] [User Authenticator #1/INFO]: UUID of player pb is 38a257e1-2913-37d3-8dc7-ffe7cf5e33dd
+[17:54:55] [Server thread/INFO]: pb joined the game
+[17:54:55] [Server thread/INFO]: pb[/127.0.0.1:44726] logged in with entity id 159 at ([world]703.7494582497418, 69.0, 1149.7494787630997)
+[17:56:03] [Server thread/INFO]: There are 1 of a max of 114514 players online: pb
+[17:57:02] [User Authenticator #2/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[17:57:03] [Server thread/INFO]: touxl1916 joined the game
+[17:57:03] [Server thread/INFO]: touxl1916[/127.0.0.1:55514] logged in with entity id 1644 at ([world]677.0524357492616, 79.0, 1050.3050052578917)
+[17:57:09] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[17:57:09] [Server thread/INFO]: touxl1916 left the game
+[18:01:16] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[18:01:20] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[18:01:29] [Server thread/INFO]: [0;37;1m[[0;34;1mT[38;2;85;119;255ma[38;2;85;153;255mb[38;2;85;187;255mT[38;2;85;221;255mP[0;36;1mS[0;37;1m][0;32;1m[3m [38;2;80;250;80m[3mR[38;2;75;245;75m[3me[38;2;70;240;70m[3ml[38;2;65;235;65m[3mo[38;2;60;230;60m[3ma[38;2;55;225;55m[3md[38;2;50;220;50m[3m [38;2;45;215;45m[3mc[38;2;40;210;40m[3mo[38;2;35;205;35m[3mm[38;2;30;200;30m[3mp[38;2;25;195;25m[3ml[38;2;20;190;20m[3me[38;2;15;185;15m[3mt[38;2;10;180;10m[3me[38;2;5;175;5m[3m.[m
+[18:01:33] [User Authenticator #3/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:01:33] [Server thread/INFO]: touxl1916 joined the game
+[18:01:33] [Server thread/INFO]: touxl1916[/127.0.0.1:39744] logged in with entity id 3164 at ([world]677.0524357492616, 79.0, 1050.3050052578917)
+[18:02:01] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:02:01] [Server thread/INFO]: touxl1916 left the game
+[18:03:07] [User Authenticator #4/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:03:07] [Server thread/INFO]: touxl1916 joined the game
+[18:03:07] [Server thread/INFO]: touxl1916[/127.0.0.1:48044] logged in with entity id 3608 at ([world]676.5, 79.0, 1052.5)
+[18:04:26] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:04:26] [Server thread/INFO]: touxl1916 left the game
+[18:10:19] [Server thread/INFO]: [0;37;1m[[0;34;1mT[38;2;85;119;255ma[38;2;85;153;255mb[38;2;85;187;255mT[38;2;85;221;255mP[0;36;1mS[0;37;1m][0;32;1m[3m [38;2;80;250;80m[3mR[38;2;75;245;75m[3me[38;2;70;240;70m[3ml[38;2;65;235;65m[3mo[38;2;60;230;60m[3ma[38;2;55;225;55m[3md[38;2;50;220;50m[3m [38;2;45;215;45m[3mc[38;2;40;210;40m[3mo[38;2;35;205;35m[3mm[38;2;30;200;30m[3mp[38;2;25;195;25m[3ml[38;2;20;190;20m[3me[38;2;15;185;15m[3mt[38;2;10;180;10m[3me[38;2;5;175;5m[3m.[m
+[18:10:25] [User Authenticator #5/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:10:25] [Server thread/INFO]: touxl1916 joined the game
+[18:10:25] [Server thread/INFO]: touxl1916[/127.0.0.1:55854] logged in with entity id 5253 at ([world]675.6540452165033, 79.0, 1048.8019607359026)
+[18:10:53] [Server thread/INFO]: [0;37;1m[[0;34;1mT[38;2;85;119;255ma[38;2;85;153;255mb[38;2;85;187;255mT[38;2;85;221;255mP[0;36;1mS[0;37;1m][0;32;1m[3m [38;2;80;250;80m[3mR[38;2;75;245;75m[3me[38;2;70;240;70m[3ml[38;2;65;235;65m[3mo[38;2;60;230;60m[3ma[38;2;55;225;55m[3md[38;2;50;220;50m[3m [38;2;45;215;45m[3mc[38;2;40;210;40m[3mo[38;2;35;205;35m[3mm[38;2;30;200;30m[3mp[38;2;25;195;25m[3ml[38;2;20;190;20m[3me[38;2;15;185;15m[3mt[38;2;10;180;10m[3me[38;2;5;175;5m[3m.[m
+[18:11:50] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:11:50] [Server thread/INFO]: touxl1916 left the game
+[18:12:32] [Server thread/INFO]: [0;37;1m[[0;34;1mT[38;2;85;119;255ma[38;2;85;153;255mb[38;2;85;187;255mT[38;2;85;221;255mP[0;36;1mS[0;37;1m][0;32;1m[3m [38;2;80;250;80m[3mR[38;2;75;245;75m[3me[38;2;70;240;70m[3ml[38;2;65;235;65m[3mo[38;2;60;230;60m[3ma[38;2;55;225;55m[3md[38;2;50;220;50m[3m [38;2;45;215;45m[3mc[38;2;40;210;40m[3mo[38;2;35;205;35m[3mm[38;2;30;200;30m[3mp[38;2;25;195;25m[3ml[38;2;20;190;20m[3me[38;2;15;185;15m[3mt[38;2;10;180;10m[3me[38;2;5;175;5m[3m.[m
+[18:12:35] [User Authenticator #6/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:12:35] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to TabTPS v1.3.22
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.a(PlayerList.java:295) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.a(ServerConfigurationPacketListenerImpl.java:129) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.a(SourceFile:20) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.a(SourceFile:7) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:33) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:156) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1191) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.util.thread.IAsyncTaskHandler.x(SourceFile:130) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.server.MinecraftServer.bl(MinecraftServer.java:1170) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1163) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:139) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.server.MinecraftServer.w_(MinecraftServer.java:1147) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1060) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4074-Spigot-e9ec548-51bbab2]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Unknown or invalid module type: player
+	at xyz.jpenilla.tabtps.common.module.ModuleType.fromName(ModuleType.java:55) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at xyz.jpenilla.tabtps.common.module.ModuleRenderer$Builder.modules(ModuleRenderer.java:159) ~[?:?]
+	at xyz.jpenilla.tabtps.common.display.task.TabDisplayTask.<init>(TabDisplayTask.java:48) ~[?:?]
+	at xyz.jpenilla.tabtps.common.AbstractUser$StateImpl.lambda$new$0(AbstractUser.java:80) ~[?:?]
+	at xyz.jpenilla.tabtps.common.display.DisplayHandler.lambda$startDisplay$0(DisplayHandler.java:66) ~[?:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at xyz.jpenilla.tabtps.common.display.DisplayHandler.startDisplay(DisplayHandler.java:65) ~[?:?]
+	at xyz.jpenilla.tabtps.common.service.UserService.lambda$startEnabledDisplays$3(UserService.java:204) ~[?:?]
+	at java.util.Arrays$ArrayList.forEach(Arrays.java:4204) ~[?:?]
+	at java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1092) ~[?:?]
+	at xyz.jpenilla.tabtps.common.service.UserService.startEnabledDisplays(UserService.java:202) ~[?:?]
+	at xyz.jpenilla.tabtps.common.service.UserService.lambda$handleJoin$2(UserService.java:189) ~[?:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at xyz.jpenilla.tabtps.common.service.UserService.handleJoin(UserService.java:179) ~[?:?]
+	at xyz.jpenilla.tabtps.spigot.JoinQuitListener.onJoin(JoinQuitListener.java:41) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	... 21 more
+[18:12:35] [Server thread/INFO]: touxl1916 joined the game
+[18:12:35] [Server thread/INFO]: touxl1916[/127.0.0.1:60794] logged in with entity id 5838 at ([world]674.290789170457, 79.0, 1047.964261703619)
+[18:13:04] [Server thread/INFO]: [0;37;1m[[0;34;1mT[38;2;85;119;255ma[38;2;85;153;255mb[38;2;85;187;255mT[38;2;85;221;255mP[0;36;1mS[0;37;1m][0;32;1m[3m [38;2;80;250;80m[3mR[38;2;75;245;75m[3me[38;2;70;240;70m[3ml[38;2;65;235;65m[3mo[38;2;60;230;60m[3ma[38;2;55;225;55m[3md[38;2;50;220;50m[3m [38;2;45;215;45m[3mc[38;2;40;210;40m[3mo[38;2;35;205;35m[3mm[38;2;30;200;30m[3mp[38;2;25;195;25m[3ml[38;2;20;190;20m[3me[38;2;15;185;15m[3mt[38;2;10;180;10m[3me[38;2;5;175;5m[3m.[m
+[18:13:08] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:13:08] [Server thread/INFO]: touxl1916 left the game
+[18:38:30] [Server thread/INFO]: [0;37;1m[[0;34;1mT[38;2;85;119;255ma[38;2;85;153;255mb[38;2;85;187;255mT[38;2;85;221;255mP[0;36;1mS[0;37;1m][0;32;1m[3m [38;2;80;250;80m[3mR[38;2;75;245;75m[3me[38;2;70;240;70m[3ml[38;2;65;235;65m[3mo[38;2;60;230;60m[3ma[38;2;55;225;55m[3md[38;2;50;220;50m[3m [38;2;45;215;45m[3mc[38;2;40;210;40m[3mo[38;2;35;205;35m[3mm[38;2;30;200;30m[3mp[38;2;25;195;25m[3ml[38;2;20;190;20m[3me[38;2;15;185;15m[3mt[38;2;10;180;10m[3me[38;2;5;175;5m[3m.[m
+[18:39:05] [User Authenticator #7/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:39:06] [Server thread/INFO]: touxl1916 joined the game
+[18:39:06] [Server thread/INFO]: touxl1916[/127.0.0.1:56448] logged in with entity id 9493 at ([world]674.290789170457, 79.0, 1047.964261703619)
+[18:40:02] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:40:02] [Server thread/INFO]: touxl1916 left the game
+[18:41:08] [Server thread/INFO]: pb has made the advancement [A Terrible Fortress]
+[18:41:27] [Server thread/INFO]: [0;37;1m[[0;34;1mT[38;2;85;119;255ma[38;2;85;153;255mb[38;2;85;187;255mT[38;2;85;221;255mP[0;36;1mS[0;37;1m][0;32;1m[3m [38;2;80;250;80m[3mR[38;2;75;245;75m[3me[38;2;70;240;70m[3ml[38;2;65;235;65m[3mo[38;2;60;230;60m[3ma[38;2;55;225;55m[3md[38;2;50;220;50m[3m [38;2;45;215;45m[3mc[38;2;40;210;40m[3mo[38;2;35;205;35m[3mm[38;2;30;200;30m[3mp[38;2;25;195;25m[3ml[38;2;20;190;20m[3me[38;2;15;185;15m[3mt[38;2;10;180;10m[3me[38;2;5;175;5m[3m.[m
+[18:41:30] [User Authenticator #8/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:41:30] [Server thread/INFO]: touxl1916 joined the game
+[18:41:30] [Server thread/INFO]: touxl1916[/127.0.0.1:39892] logged in with entity id 10101 at ([world]677.5626609587487, 79.0, 1051.4422360414992)
+[18:41:38] [Server thread/INFO]: Villager EntityVillager['Toolsmith'/10227, l='ServerLevel[world]', x=695.79, y=68.00, z=1121.81] died, message: 'Toolsmith was slain by Zombie'
+[18:42:03] [Server thread/INFO]: pb lost connection: Disconnected
+[18:42:03] [Server thread/INFO]: pb left the game
+[18:42:31] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:42:31] [Server thread/INFO]: touxl1916 left the game
+[18:43:04] [Server thread/INFO]: [0;37;1m[[0;34;1mT[38;2;85;119;255ma[38;2;85;153;255mb[38;2;85;187;255mT[38;2;85;221;255mP[0;36;1mS[0;37;1m][0;32;1m[3m [38;2;80;250;80m[3mR[38;2;75;245;75m[3me[38;2;70;240;70m[3ml[38;2;65;235;65m[3mo[38;2;60;230;60m[3ma[38;2;55;225;55m[3md[38;2;50;220;50m[3m [38;2;45;215;45m[3mc[38;2;40;210;40m[3mo[38;2;35;205;35m[3mm[38;2;30;200;30m[3mp[38;2;25;195;25m[3ml[38;2;20;190;20m[3me[38;2;15;185;15m[3mt[38;2;10;180;10m[3me[38;2;5;175;5m[3m.[m
+[18:43:07] [User Authenticator #9/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:43:07] [Server thread/INFO]: touxl1916 joined the game
+[18:43:07] [Server thread/INFO]: touxl1916[/127.0.0.1:44214] logged in with entity id 10573 at ([world]670.794458115961, 76.5, 1059.1403855622834)
+[18:43:44] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:43:44] [Server thread/INFO]: touxl1916 left the game
+[18:44:38] [User Authenticator #10/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:44:38] [Server thread/INFO]: touxl1916 joined the game
+[18:44:38] [Server thread/INFO]: touxl1916[/127.0.0.1:52352] logged in with entity id 10866 at ([world]678.5191537655428, 69.0, 1100.0497052500934)
+[18:48:26] [User Authenticator #11/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:48:26] [Server thread/INFO]: touxl1916 lost connection: You logged in from another location
+[18:48:26] [Server thread/INFO]: touxl1916 left the game.
+[18:48:27] [Server thread/INFO]: touxl1916 joined the game
+[18:48:27] [Server thread/INFO]: touxl1916[/127.0.0.1:41822] logged in with entity id 11968 at ([world]676.9227737149397, 79.0, 1050.6397834468155)
+[18:48:38] [Server thread/INFO]: [0;37;1m[[0;34;1mT[38;2;85;119;255ma[38;2;85;153;255mb[38;2;85;187;255mT[38;2;85;221;255mP[0;36;1mS[0;37;1m][0;32;1m[3m [38;2;80;250;80m[3mR[38;2;75;245;75m[3me[38;2;70;240;70m[3ml[38;2;65;235;65m[3mo[38;2;60;230;60m[3ma[38;2;55;225;55m[3md[38;2;50;220;50m[3m [38;2;45;215;45m[3mc[38;2;40;210;40m[3mo[38;2;35;205;35m[3mm[38;2;30;200;30m[3mp[38;2;25;195;25m[3ml[38;2;20;190;20m[3me[38;2;15;185;15m[3mt[38;2;10;180;10m[3me[38;2;5;175;5m[3m.[m
+[18:48:46] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:48:46] [Server thread/INFO]: touxl1916 left the game
+[18:48:47] [User Authenticator #12/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:48:47] [Server thread/INFO]: touxl1916 joined the game
+[18:48:47] [Server thread/INFO]: touxl1916[/127.0.0.1:35546] logged in with entity id 12192 at ([world]675.8703539886579, 79.0, 1048.3136355320755)
+[18:49:43] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:49:43] [Server thread/INFO]: touxl1916 left the game
+[18:49:44] [User Authenticator #13/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:49:45] [Server thread/INFO]: touxl1916 joined the game
+[18:49:45] [Server thread/INFO]: touxl1916[/127.0.0.1:55140] logged in with entity id 12459 at ([world]671.0763133890767, 79.0, 1054.5039349311912)
+[18:51:20] [Server thread/INFO]: [0;37;1m[[0;34;1mT[38;2;85;119;255ma[38;2;85;153;255mb[38;2;85;187;255mT[38;2;85;221;255mP[0;36;1mS[0;37;1m][0;32;1m[3m [38;2;80;250;80m[3mR[38;2;75;245;75m[3me[38;2;70;240;70m[3ml[38;2;65;235;65m[3mo[38;2;60;230;60m[3ma[38;2;55;225;55m[3md[38;2;50;220;50m[3m [38;2;45;215;45m[3mc[38;2;40;210;40m[3mo[38;2;35;205;35m[3mm[38;2;30;200;30m[3mp[38;2;25;195;25m[3ml[38;2;20;190;20m[3me[38;2;15;185;15m[3mt[38;2;10;180;10m[3me[38;2;5;175;5m[3m.[m
+[18:51:23] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:51:23] [Server thread/INFO]: touxl1916 left the game
+[18:51:24] [User Authenticator #14/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:51:24] [Server thread/INFO]: touxl1916 joined the game
+[18:51:24] [Server thread/INFO]: touxl1916[/127.0.0.1:58118] logged in with entity id 12824 at ([world]676.4480892733305, 79.0, 1048.2204371108082)
+[18:52:11] [Server thread/INFO]: [0;37;1m[[0;34;1mT[38;2;85;119;255ma[38;2;85;153;255mb[38;2;85;187;255mT[38;2;85;221;255mP[0;36;1mS[0;37;1m][0;32;1m[3m [38;2;80;250;80m[3mR[38;2;75;245;75m[3me[38;2;70;240;70m[3ml[38;2;65;235;65m[3mo[38;2;60;230;60m[3ma[38;2;55;225;55m[3md[38;2;50;220;50m[3m [38;2;45;215;45m[3mc[38;2;40;210;40m[3mo[38;2;35;205;35m[3mm[38;2;30;200;30m[3mp[38;2;25;195;25m[3ml[38;2;20;190;20m[3me[38;2;15;185;15m[3mt[38;2;10;180;10m[3me[38;2;5;175;5m[3m.[m
+[18:52:13] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:52:13] [Server thread/INFO]: touxl1916 left the game
+[18:52:14] [User Authenticator #15/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:52:14] [Server thread/INFO]: touxl1916 joined the game
+[18:52:14] [Server thread/INFO]: touxl1916[/127.0.0.1:54640] logged in with entity id 13085 at ([world]676.7973399334275, 79.0, 1049.5017687855668)
+[18:52:57] [User Authenticator #16/INFO]: UUID of player pb is 38a257e1-2913-37d3-8dc7-ffe7cf5e33dd
+[18:52:57] [Server thread/INFO]: pb joined the game
+[18:52:57] [Server thread/INFO]: pb[/127.0.0.1:44676] logged in with entity id 13477 at ([world_nether]-114.41434921405302, 67.0, 492.54097080832173)
+[18:54:36] [Server thread/INFO]: pb has made the advancement [Into Fire]
+[18:55:02] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:55:02] [Server thread/INFO]: touxl1916 left the game
+[18:55:03] [User Authenticator #17/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:55:03] [Server thread/INFO]: touxl1916 joined the game
+[18:55:03] [Server thread/INFO]: touxl1916[/127.0.0.1:54608] logged in with entity id 14487 at ([world]684.39002026919, 68.0, 1137.7756288039263)
+[18:59:39] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:59:39] [Server thread/INFO]: touxl1916 left the game
+[18:59:39] [User Authenticator #18/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:59:39] [Server thread/INFO]: touxl1916 joined the game
+[18:59:39] [Server thread/INFO]: touxl1916[/127.0.0.1:43096] logged in with entity id 16274 at ([world_nether]63.4259370465022, 54.18713090479472, 122.61395815272331)
+[18:59:45] [Server thread/INFO]: touxl1916 tried to swim in lava
+[19:01:08] [User Authenticator #19/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[19:01:08] [Server thread/INFO]: touxl1916 lost connection: You logged in from another location
+[19:01:08] [Server thread/INFO]: touxl1916 left the game.
+[19:01:08] [Server thread/INFO]: touxl1916 joined the game
+[19:01:08] [Server thread/INFO]: touxl1916[/127.0.0.1:46588] logged in with entity id 17057 at ([world_nether]50.71428642595274, 50.16203067626417, 116.8932965823417)
+[19:01:15] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[19:01:15] [Server thread/INFO]: touxl1916 left the game
+[19:01:39] [User Authenticator #20/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[19:01:40] [Server thread/INFO]: touxl1916 joined the game
+[19:01:40] [Server thread/INFO]: touxl1916[/127.0.0.1:56960] logged in with entity id 17196 at ([world_nether]50.33211135540963, 48.0, 112.41986943897253)
+[19:02:30] [Server thread/INFO]: touxl1916 tried to swim in lava
+[19:05:24] [Server thread/INFO]: touxl1916 tried to swim in lava
+[19:07:23] [Server thread/INFO]: pb has made the advancement [Spooky Scary Skeleton]
+[19:07:39] [Server thread/INFO]: pb was doomed to fall
+[19:08:42] [Async Chat Thread - #0/INFO]: [Not Secure] <pb> 烈焰棒够了
+[19:08:56] [Async Chat Thread - #1/INFO]: [Not Secure] <touxl1916> 找传送门？
+[19:12:44] [Server thread/INFO]: touxl1916 tried to swim in lava
+[19:13:35] [Server thread/INFO]: touxl1916 tried to swim in lava
+[19:14:20] [Async Chat Thread - #3/INFO]: [Not Secure] <pb> 却珍珠
+[19:14:33] [Async Chat Thread - #2/INFO]: [Not Secure] <pb> 我只有9个
+[19:14:45] [Async Chat Thread - #3/INFO]: [Not Secure] <pb> 至少要再来5个
+[19:14:46] [Async Chat Thread - #3/INFO]: [Not Secure] <touxl1916> 我去看看小黑
+[19:15:14] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[19:15:14] [Server thread/INFO]: touxl1916 left the game
+[19:17:10] [User Authenticator #21/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[19:17:10] [Server thread/INFO]: touxl1916 joined the game
+[19:17:10] [Server thread/INFO]: touxl1916[/127.0.0.1:50246] logged in with entity id 21478 at ([world_nether]38.07303969733239, 42.0, 148.99898153944656)
+[19:18:20] [Server thread/INFO]: touxl1916 tried to swim in lava
+[19:24:00] [Async Chat Thread - #5/INFO]: [Not Secure] <touxl1916> 你要几颗？
+[19:24:02] [Async Chat Thread - #5/INFO]: [Not Secure] <pb> 5
+[19:24:08] [Async Chat Thread - #4/INFO]: [Not Secure] <touxl1916> 好的
+[19:24:08] [Async Chat Thread - #5/INFO]: [Not Secure] <pb> 越多越好
+[19:24:41] [Async Chat Thread - #4/INFO]: [Not Secure] <pb> 要么多点吧
+[19:24:50] [Async Chat Thread - #5/INFO]: [Not Secure] <touxl1916> 爆率太低了
+[19:24:53] [Async Chat Thread - #4/INFO]: [Not Secure] <touxl1916> 等一下
+[19:24:53] [Async Chat Thread - #5/INFO]: [Not Secure] <pb> SHIDE
+[19:26:16] [Server thread/INFO]: touxl1916 was slain by Enderman
+[19:31:50] [Async Chat Thread - #7/INFO]: [Not Secure] <touxl1916> 没有末影人可杀了
+[19:32:14] [Async Chat Thread - #7/INFO]: [Not Secure] <pb> 你走远点会继续刷的
+[19:32:33] [Async Chat Thread - #6/INFO]: [Not Secure] <touxl1916> ok
+[19:34:06] [Server thread/INFO]: touxl1916 tried to swim in lava
+[19:35:14] [Server thread/INFO]: pb tried to swim in lava
+[19:35:40] [Server thread/INFO]: touxl1916 tried to swim in lava
+[19:37:49] [Async Chat Thread - #9/INFO]: [Not Secure] <touxl1916> 6个
+[19:38:01] [Async Chat Thread - #8/INFO]: [Not Secure] <pb> 你先刷着
+[19:38:09] [Async Chat Thread - #9/INFO]: [Not Secure] <pb> 我在找要塞
+[19:41:19] [Server thread/INFO]: pb lost connection: Timed out
+[19:41:19] [Server thread/INFO]: pb left the game
+[19:41:55] [User Authenticator #22/INFO]: UUID of player pb is 38a257e1-2913-37d3-8dc7-ffe7cf5e33dd
+[19:41:56] [Server thread/INFO]: pb joined the game
+[19:41:56] [Server thread/INFO]: pb[/127.0.0.1:56608] logged in with entity id 32206 at ([world]57.64228630684947, 77.0, 1764.5571758030865)
+[19:44:43] [Async Chat Thread - #11/INFO]: [Not Secure] <touxl1916> 7个
+[19:44:46] [Async Chat Thread - #10/INFO]: [Not Secure] <touxl1916> 你在哪
+[19:44:57] [Async Chat Thread - #11/INFO]: [Not Secure] <pb> 找要塞
+[19:45:42] [Async Chat Thread - #11/INFO]: [Not Secure] <touxl1916> 我给你送过去？
+[19:46:01] [Async Chat Thread - #12/INFO]: [Not Secure] <pb> 不用
+[19:46:04] [Async Chat Thread - #11/INFO]: [Not Secure] <pb> 我先找
+[19:46:13] [Async Chat Thread - #12/INFO]: [Not Secure] <touxl1916> 我等会下了
+[19:46:21] [Async Chat Thread - #11/INFO]: [Not Secure] <pb> 你放你箱子里吧
+[19:46:26] [Async Chat Thread - #12/INFO]: [Not Secure] <touxl1916> ok
+[19:46:52] [User Authenticator #23/INFO]: UUID of player ysydZiYouRen is cbb5bd76-2bc6-391d-9b29-857501acaa1d
+[19:46:52] [Server thread/INFO]: ysydZiYouRen joined the game
+[19:46:52] [Server thread/INFO]: ysydZiYouRen[/127.0.0.1:60684] logged in with entity id 34869 at ([world]701.696383940186, 68.0, 1141.6257348032202)
+[19:47:07] [Server thread/INFO]: touxl1916 tried to swim in lava
+[19:47:18] [Server thread/INFO]: Villager EntityVillager['Fisherman'/34875, l='ServerLevel[world]', x=690.30, y=68.00, z=1133.49] died, message: 'Fisherman was slain by Zombie'
+[19:47:25] [Server thread/INFO]: Villager EntityVillager['Fisherman'/34876, l='ServerLevel[world]', x=690.30, y=68.00, z=1131.70] died, message: 'Fisherman was slain by Zombie'
+[19:47:25] [Async Chat Thread - #11/INFO]: [Not Secure] <ysydZiYouRen> zzzzzz
+[19:47:30] [Server thread/INFO]: pb lost connection: Disconnected
+[19:47:30] [Server thread/INFO]: pb left the game
+[19:47:32] [User Authenticator #24/INFO]: UUID of player pb is 38a257e1-2913-37d3-8dc7-ffe7cf5e33dd
+[19:47:32] [Server thread/INFO]: pb joined the game
+[19:47:33] [Server thread/INFO]: pb[/127.0.0.1:40290] logged in with entity id 35381 at ([world]-181.10979749682656, 62.11076428890228, 1954.838112994205)
+[19:47:46] [Async Chat Thread - #12/INFO]: [Not Secure] <touxl1916> pyt我放木桶里了
+[19:47:54] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[19:47:54] [Server thread/INFO]: touxl1916 left the game
+[19:47:58] [Async Chat Thread - #11/INFO]: [Not Secure] <ysydZiYouRen> zzzzz
+[19:48:03] [Server thread/INFO]: pb lost connection: Disconnected
+[19:48:03] [Server thread/INFO]: pb left the game
+[19:48:06] [User Authenticator #25/INFO]: UUID of player pb is 38a257e1-2913-37d3-8dc7-ffe7cf5e33dd
+[19:48:06] [Server thread/INFO]: pb joined the game
+[19:48:06] [Server thread/INFO]: pb[/127.0.0.1:36808] logged in with entity id 35706 at ([world]-181.34552700087687, 61.98731026547052, 1966.7239872426899)
+[19:51:45] [Server thread/INFO]: pb lost connection: Disconnected
+[19:51:45] [Server thread/INFO]: pb left the game
+[19:54:03] [User Authenticator #26/INFO]: UUID of player pb is 38a257e1-2913-37d3-8dc7-ffe7cf5e33dd
+[19:54:03] [Server thread/INFO]: pb joined the game
+[19:54:03] [Server thread/INFO]: pb[/127.0.0.1:37268] logged in with entity id 37948 at ([world]-216.7419265496348, 9.0, 1953.3465871479252)
+[19:54:18] [Server thread/INFO]: pb lost connection: Disconnected
+[19:54:18] [Server thread/INFO]: pb left the game
+[19:54:36] [User Authenticator #27/INFO]: UUID of player pb is 38a257e1-2913-37d3-8dc7-ffe7cf5e33dd
+[19:54:36] [Server thread/INFO]: pb joined the game
+[19:54:36] [Server thread/INFO]: pb[/127.0.0.1:40808] logged in with entity id 38270 at ([world]-216.7419265496348, 9.0, 1953.3465871479252)
+[19:58:50] [Server thread/INFO]: Seed: [-5996224446439112157]
+[19:58:57] [Server thread/INFO]: pb lost connection: Disconnected
+[19:58:57] [Server thread/INFO]: pb left the game
+[20:09:06] [Server thread/INFO]: ysydZiYouRen has made the advancement [A Terrible Fortress]
+[20:11:04] [Server thread/INFO]: ysydZiYouRen has made the advancement [Into Fire]
+[20:12:14] [User Authenticator #28/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[20:12:14] [Server thread/INFO]: touxl1916 joined the game
+[20:12:14] [Server thread/INFO]: touxl1916[/127.0.0.1:49796] logged in with entity id 42536 at ([world]677.6835051946427, 79.0, 1050.6508318850101)
+[20:15:03] [Async Chat Thread - #14/INFO]: [Not Secure] <ysydZiYouRen> 高浩博你去了吗
+[20:15:07] [Async Chat Thread - #14/INFO]: [Not Secure] <touxl1916> 使得
+[20:15:18] [Async Chat Thread - #13/INFO]: [Not Secure] <ysydZiYouRen> 走那么快
+[20:15:23] [Server thread/INFO]: ysydZiYouRen tried to swim in lava
+[20:15:26] [Async Chat Thread - #13/INFO]: [Not Secure] <touxl1916> 没到
+[20:15:31] [Async Chat Thread - #13/INFO]: [Not Secure] <touxl1916> 去第一个
+[20:15:50] [Async Chat Thread - #14/INFO]: [Not Secure] <ysydZiYouRen> ok
+[20:20:47] [Async Chat Thread - #16/INFO]: [Not Secure] <ysydZiYouRen> 怎么是海上
+[20:20:53] [Async Chat Thread - #15/INFO]: [Not Secure] <touxl1916> 服了
+[20:21:00] [Async Chat Thread - #16/INFO]: [Not Secure] <touxl1916> 你到群里说一下
+[20:21:23] [Server thread/WARN]: Horse (vehicle of ysydZiYouRen) moved wrongly! 0.27748850859528773
+[20:22:07] [Async Chat Thread - #18/INFO]: [Not Secure] <touxl1916> 做个们
+[20:22:19] [Async Chat Thread - #17/INFO]: [Not Secure] <ysydZiYouRen> 没有黑曜石
+[20:22:28] [Server thread/INFO]: touxl1916 issued server command: /tell tou木头们
+[20:22:34] [Async Chat Thread - #18/INFO]: [Not Secure] <touxl1916> 木头门
+[20:24:21] [Async Chat Thread - #20/INFO]: [Not Secure] <ysydZiYouRen> 你这地不对啊
+[20:24:31] [Async Chat Thread - #19/INFO]: [Not Secure] <touxl1916> 确实写着要塞啊
+[20:24:32] [User Authenticator #29/INFO]: UUID of player pb is 38a257e1-2913-37d3-8dc7-ffe7cf5e33dd
+[20:24:32] [Server thread/INFO]: pb joined the game
+[20:24:32] [Server thread/INFO]: pb[/127.0.0.1:46642] logged in with entity id 48551 at ([world]-46.35170064747476, 63.0, 1806.7476419451878)
+[20:25:02] [Async Chat Thread - #20/INFO]: [Not Secure] <touxl1916> y坐标是什么
+[20:25:04] [User Authenticator #30/INFO]: UUID of player zxzaizxy is b6abe65a-78ff-3474-894d-f1e0bc539b6d
+[20:25:05] [Server thread/INFO]: zxzaizxy joined the game
+[20:25:05] [Server thread/INFO]: zxzaizxy[/127.0.0.1:46046] logged in with entity id 48908 at ([world]642.3000000119209, 66.0, 1197.4914399987013)
+[20:25:05] [Async Chat Thread - #19/INFO]: [Not Secure] <ysydZiYouRen> 这是翻毛洞穴啊
+[20:25:12] [Server thread/INFO]: ysydZiYouRen has made the advancement [Eye Spy]
+[20:25:15] [Server thread/INFO]: touxl1916 has made the advancement [Eye Spy]
+[20:25:18] [Async Chat Thread - #20/INFO]: [Not Secure] <touxl1916> sz
+[20:26:30] [Async Chat Thread - #22/INFO]: [Not Secure] <ysydZiYouRen> 到了
+[20:26:32] [Server thread/INFO]: pb has made the advancement [Eye Spy]
+[20:26:41] [Async Chat Thread - #21/INFO]: [Not Secure] <ysydZiYouRen> -189 196
+[20:26:50] [Async Chat Thread - #21/INFO]: [Not Secure] <touxl1916> 9
+[20:26:56] [Async Chat Thread - #22/INFO]: [Not Secure] <ysydZiYouRen> 1960
+[20:27:09] [Async Chat Thread - #21/INFO]: [Not Secure] <ysydZiYouRen> zzzzz
+[20:27:12] [Server thread/INFO]: pb lost connection: Disconnected
+[20:27:12] [Server thread/INFO]: pb left the game
+[20:27:13] [User Authenticator #31/INFO]: UUID of player pb is 38a257e1-2913-37d3-8dc7-ffe7cf5e33dd
+[20:27:13] [Server thread/INFO]: pb joined the game
+[20:27:13] [Server thread/INFO]: pb[/127.0.0.1:38734] logged in with entity id 49911 at ([world]-186.50520608007295, -40.0, 1959.2526356957028)
+[20:27:14] [Async Chat Thread - #22/INFO]: [Not Secure] <touxl1916> 你水泥马
+[20:27:19] [Async Chat Thread - #21/INFO]: [Not Secure] <ysydZiYouRen> zzzz
+[20:27:30] [Async Chat Thread - #22/INFO]: [Not Secure] <zxzaizxy> HHHHHHHHHHHHHHHHHHH
+[20:27:31] [Async Chat Thread - #21/INFO]: [Not Secure] <ysydZiYouRen> zzzzz
+[20:27:35] [Async Chat Thread - #22/INFO]: [Not Secure] <zxzaizxy> ZZZZZZZZZZZ
+[20:27:41] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[20:27:41] [Server thread/INFO]: touxl1916 left the game
+[20:27:47] [Async Chat Thread - #21/INFO]: [Not Secure] <pb> 珍珠狗吗
+[20:27:49] [User Authenticator #32/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[20:27:49] [Server thread/INFO]: touxl1916 joined the game
+[20:27:49] [Server thread/INFO]: touxl1916[/127.0.0.1:34778] logged in with entity id 50049 at ([world]-187.90097017186474, -38.0, 1958.5185017448186)
+[20:27:50] [Async Chat Thread - #22/INFO]: [Not Secure] <ysydZiYouRen> 设重生点
+[20:27:54] [Async Chat Thread - #21/INFO]: [Not Secure] <ysydZiYouRen> 我没有
+[20:28:04] [Async Chat Thread - #22/INFO]: [Not Secure] <touxl1916> 睡
+[20:28:12] [Async Chat Thread - #22/INFO]: [Not Secure] <ysydZiYouRen> zzzz
+[20:28:13] [Async Chat Thread - #21/INFO]: [Not Secure] <touxl1916> 一个床可以有两个点
+[20:28:15] [Async Chat Thread - #22/INFO]: [Not Secure] <zxzaizxy> ZZZ
+[20:28:20] [Async Chat Thread - #21/INFO]: [Not Secure] <ysydZiYouRen> zzzz
+[20:28:27] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[20:28:27] [Server thread/INFO]: touxl1916 left the game
+[20:28:31] [User Authenticator #33/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[20:28:31] [Server thread/INFO]: touxl1916 joined the game
+[20:28:31] [Server thread/INFO]: touxl1916[/127.0.0.1:33274] logged in with entity id 50202 at ([world]-186.08608623987826, -39.0, 1957.7635794484668)
+[20:28:34] [Server thread/WARN]: touxl1916 moved wrongly!
+[20:28:43] [Async Chat Thread - #22/INFO]: [Not Secure] <ysydZiYouRen> 搭个门
+[20:28:43] [Async Chat Thread - #21/INFO]: [Not Secure] <touxl1916> 我有7各蒸煮
+[20:29:04] [Async Chat Thread - #22/INFO]: [Not Secure] <pb> haichaliangge
+[20:29:15] [Async Chat Thread - #22/INFO]: [Not Secure] <touxl1916> pyt
+[20:29:16] [Async Chat Thread - #21/INFO]: [Not Secure] <ysydZiYouRen> 我只有棒
+[20:29:26] [Async Chat Thread - #22/INFO]: [Not Secure] <touxl1916> 给我
+[20:29:27] [Async Chat Thread - #21/INFO]: [Not Secure] <ysydZiYouRen> 去地狱找猪灵换
+[20:29:33] [Async Chat Thread - #22/INFO]: [Not Secure] <touxl1916> 我有7
+[20:29:39] [Server thread/INFO]: touxl1916 has made the advancement [Into Fire]
+[20:29:48] [Async Chat Thread - #21/INFO]: [Not Secure] <touxl1916> 珍珠给你了
+[20:30:04] [Async Chat Thread - #22/INFO]: [Not Secure] <ysydZiYouRen> 做门
+[20:30:17] [Async Chat Thread - #21/INFO]: [Not Secure] <touxl1916> 还差两个
+[20:30:34] [Async Chat Thread - #22/INFO]: [Not Secure] <ysydZiYouRen> 眼睛还是粉
+[20:30:38] [Async Chat Thread - #21/INFO]: [Not Secure] <touxl1916> 眼睛
+[20:30:51] [Async Chat Thread - #22/INFO]: [Not Secure] <ysydZiYouRen> 去地狱找猪灵换
+[20:30:52] [Async Chat Thread - #21/INFO]: [Not Secure] <touxl1916> 你这什么鬼
+[20:31:21] [Async Chat Thread - #22/INFO]: [Not Secure] <ysydZiYouRen> 你们谁有打火石
+[20:31:32] [Async Chat Thread - #21/INFO]: [Not Secure] <touxl1916> 没有
+[20:31:39] [Async Chat Thread - #22/INFO]: [Not Secure] <ysydZiYouRen> 去找个沙粒
+[20:31:44] [Async Chat Thread - #21/INFO]: [Not Secure] <zxzaizxy> WO JIA LI YOU SUI SHI
+[20:31:59] [Async Chat Thread - #22/INFO]: [Not Secure] <ysydZiYouRen> 我们在末地要塞
+[20:32:32] [Async Chat Thread - #21/INFO]: [Not Secure] <pb> haole
+[20:32:36] [Async Chat Thread - #22/INFO]: [Not Secure] <pb> 回来
+[20:33:07] [Async Chat Thread - #21/INFO]: [Not Secure] <touxl1916> 好了
+[20:33:29] [Async Chat Thread - #22/INFO]: [Not Secure] <ysydZiYouRen> zxz你走地狱过来吧
+[20:33:44] [Async Chat Thread - #22/INFO]: [Not Secure] <ysydZiYouRen> -18 34 242
+[20:33:51] [Async Chat Thread - #21/INFO]: [Not Secure] <zxzaizxy> GAN MA
+[20:33:55] [Async Chat Thread - #22/INFO]: [Not Secure] <ysydZiYouRen> 打龙
+[20:33:58] [Server thread/INFO]: touxl1916 tried to swim in lava
+[20:34:03] [Async Chat Thread - #21/INFO]: [Not Secure] <zxzaizxy> 666
+[20:34:09] [Server thread/INFO]: ysydZiYouRen tried to swim in lava
+[20:34:24] [Async Chat Thread - #22/INFO]: [Not Secure] <zxzaizxy> NI RANG WO YONG SHI JIAN DA LONG
+[20:34:41] [Async Chat Thread - #21/INFO]: [Not Secure] <touxl1916> 你换到了吗
+[20:34:47] [Async Chat Thread - #22/INFO]: [Not Secure] <ysydZiYouRen> 你去箱子里拿铁剑
+[20:35:30] [Async Chat Thread - #21/INFO]: [Not Secure] <ysydZiYouRen> 上面有末影人
+[20:35:32] [Async Chat Thread - #22/INFO]: [Not Secure] <touxl1916> 就是这啊
+[20:35:39] [Async Chat Thread - #21/INFO]: [Not Secure] <touxl1916> 这我搭的路
+[20:36:09] [Async Chat Thread - #22/INFO]: [Not Secure] <touxl1916> 过来打磨硬人
+[20:36:36] [Server thread/INFO]: ysydZiYouRen tried to swim in lava
+[20:36:47] [Async Chat Thread - #21/INFO]: [Not Secure] <ysydZiYouRen> 卧槽这俩门离得那么近
+[20:37:00] [Async Chat Thread - #22/INFO]: [Not Secure] <pb> HAICHAYIGE
+[20:38:06] [Async Chat Thread - #24/INFO]: [Not Secure] <ysydZiYouRen> 用抢夺打
+[20:38:39] [Async Chat Thread - #23/INFO]: [Not Secure] <ysydZiYouRen> 你们有箭吗
+[20:39:05] [Async Chat Thread - #24/INFO]: [Not Secure] <pb> 够了
+[20:39:15] [Async Chat Thread - #23/INFO]: [Not Secure] <ysydZiYouRen> ok
+[20:39:17] [Server thread/INFO]: pb tried to swim in lava
+[20:39:19] [Server thread/INFO]: touxl1916 tried to swim in lava
+[20:39:38] [Async Chat Thread - #24/INFO]: [Not Secure] <zxzaizxy> NI MENG NENG SHU JIAO MA, YAO BU RANG WO XIAN XIA
+[20:39:51] [Async Chat Thread - #23/INFO]: [Not Secure] <ysydZiYouRen> 啥
+[20:40:01] [Async Chat Thread - #24/INFO]: [Not Secure] <ysydZiYouRen> 你用中问打
+[20:40:01] [Async Chat Thread - #24/INFO]: [Not Secure] <touxl1916> 你放眼睛啊
+[20:40:02] [Server thread/INFO]: ysydZiYouRen has made the advancement [The End?]
+[20:40:02] [Server thread/INFO]: pb has made the advancement [The End?]
+[20:40:02] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[20:40:02] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[20:40:04] [Server thread/INFO]: touxl1916 has made the advancement [The End?]
+[20:40:21] [Async Chat Thread - #24/INFO]: [Not Secure] <zxzaizxy> WO LAN
+[20:40:54] [Async Chat Thread - #23/INFO]: [Not Secure] <touxl1916> 没有见
+[20:41:58] [Async Chat Thread - #26/INFO]: [Not Secure] <ysydZiYouRen> 末影水晶怎么搞
+[20:42:04] [Async Chat Thread - #25/INFO]: [Not Secure] <touxl1916> 打上去
+[20:42:46] [Async Chat Thread - #26/INFO]: [Not Secure] <ysydZiYouRen> 用水桶啊
+[20:42:51] [Async Chat Thread - #25/INFO]: [Not Secure] <touxl1916> 没有
+[20:43:28] [Server thread/INFO]: touxl1916 was doomed to fall by touxl1916
+[20:44:29] [Server thread/INFO]: Made touxl1916 a server operator
+[20:44:59] [Async Chat Thread - #28/INFO]: [Not Secure] <touxl1916> 没开死亡不掉落
+[20:45:10] [Async Chat Thread - #27/INFO]: [Not Secure] <ysydZiYouRen> 卧槽
+[20:45:14] [Server thread/INFO]: touxl1916 issued server command: /gamerule keepInventory true
+[20:45:14] [Server thread/INFO]: [touxl1916: Gamerule keepInventory is now set to: true]
+[20:45:16] [Async Chat Thread - #28/INFO]: [Not Secure] <touxl1916> 开了
+[20:45:21] [Async Chat Thread - #27/INFO]: [Not Secure] <touxl1916> deop touxl1916
+[20:45:29] [Server thread/INFO]: touxl1916 issued server command: /deop touxl1916
+[20:45:29] [Server thread/INFO]: [touxl1916: Made touxl1916 no longer a server operator]
+[20:46:24] [Async Chat Thread - #30/INFO]: [Not Secure] <ysydZiYouRen> 在回血
+[20:46:35] [Async Chat Thread - #29/INFO]: [Not Secure] <touxl1916> 有没有玻璃瓶
+[20:46:40] [Async Chat Thread - #30/INFO]: [Not Secure] <ysydZiYouRen> 没有
+[20:47:03] [Async Chat Thread - #30/INFO]: [Not Secure] <ysydZiYouRen> 离远点别背拍飞
+[20:47:20] [Server thread/INFO]: pb has made the advancement [Take Aim]
+[20:48:34] [Server thread/INFO]: touxl1916 has made the advancement [Free the End]
+[20:48:40] [Async Chat Thread - #32/INFO]: [Not Secure] <touxl1916> hhh
+[20:49:03] [Server thread/INFO]: ysydZiYouRen has reached the goal [The Next Generation]
+[20:49:15] [Async Chat Thread - #32/INFO]: [Not Secure] <touxl1916> 先回去
+[20:49:15] [Async Chat Thread - #31/INFO]: [Not Secure] <ysydZiYouRen> rnm我一个经验也没有
+[20:49:46] [Async Chat Thread - #32/INFO]: [Not Secure] <touxl1916> nmd我死了一次啥都没了
+[20:49:47] [Server thread/INFO]: pb has made the advancement [Remote Getaway]
+[20:50:00] [Server thread/INFO]: ysydZiYouRen has made the advancement [Remote Getaway]
+[20:51:14] [Server thread/INFO]: pb has made the advancement [The City at the End of the Game]
+[20:52:12] [Async Chat Thread - #33/INFO]: [Not Secure] <zxzaizxy> ZE ME MEI YOU TIE CHAN LE
+[20:54:32] [Async Chat Thread - #35/INFO]: [Not Secure] <touxl1916> 下了
+[20:54:33] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[20:54:33] [Server thread/INFO]: touxl1916 left the game
+[20:54:42] [Async Chat Thread - #34/INFO]: [Not Secure] <ysydZiYouRen> zxz你去做
+[20:54:54] [Async Chat Thread - #35/INFO]: [Not Secure] <zxzaizxy> MEI YOU TIE
+[20:55:12] [Async Chat Thread - #34/INFO]: [Not Secure] <ysydZiYouRen> 你倒是下矿啊
+[20:56:23] [Async Chat Thread - #37/INFO]: [Not Secure] <zxzaizxy> KUANG ZAI NA
+[20:56:34] [Async Chat Thread - #36/INFO]: [Not Secure] <ysydZiYouRen> 矿洞
+[20:56:41] [Async Chat Thread - #37/INFO]: [Not Secure] <zxzaizxy> ZAI NA
+[20:57:09] [Async Chat Thread - #36/INFO]: [Not Secure] <ysydZiYouRen> 家附近有
+[20:57:52] [Server thread/INFO]: zxzaizxy lost connection: Disconnected
+[20:57:52] [Server thread/INFO]: zxzaizxy left the game
+[21:00:25] [Server thread/WARN]: ysydZiYouRen moved too quickly! 13.898789186591785,1.252203340253729,-9.654111445210958
+[21:00:31] [User Authenticator #34/INFO]: UUID of player ysydZiYouRen is cbb5bd76-2bc6-391d-9b29-857501acaa1d
+[21:00:31] [Server thread/INFO]: ysydZiYouRen lost connection: You logged in from another location
+[21:00:31] [Server thread/INFO]: ysydZiYouRen left the game.
+[21:00:31] [Server thread/INFO]: ysydZiYouRen joined the game
+[21:00:31] [Server thread/INFO]: ysydZiYouRen[/127.0.0.1:46558] logged in with entity id 63797 at ([world_the_end]2254.8430657489375, 57.0, -460.67656876432306)
+[21:01:28] [Server thread/INFO]: ysydZiYouRen fell out of the world
+[21:02:12] [Server thread/INFO]: pb lost connection: Disconnected
+[21:02:12] [Server thread/INFO]: pb left the game
+[21:02:14] [Server thread/INFO]: ysydZiYouRen lost connection: Disconnected
+[21:02:14] [Server thread/INFO]: ysydZiYouRen left the game
+[21:03:19] [User Authenticator #35/INFO]: UUID of player pb is 38a257e1-2913-37d3-8dc7-ffe7cf5e33dd
+[21:03:19] [Server thread/INFO]: pb joined the game
+[21:03:19] [Server thread/INFO]: pb[/127.0.0.1:39208] logged in with entity id 64441 at ([world_the_end]2767.3098672383003, 59.0, -657.3120757512153)
+[21:10:46] [Server thread/INFO]: pb has made the advancement [Local Brewery]
+[21:10:57] [Server thread/INFO]: pb has reached the goal [Sky's the Limit]
+[21:12:23] [Server thread/INFO]: pb fell from a high place
+[21:15:50] [Server thread/INFO]: pb tried to swim in lava
+[21:16:37] [Server thread/INFO]: pb tried to swim in lava
+[21:34:58] [Server thread/INFO]: pb lost connection: Disconnected
+[21:34:58] [Server thread/INFO]: pb left the game
