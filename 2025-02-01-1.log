@@ -1,0 +1,21 @@
+[00:00:00] [Server thread/INFO]: Stopping the server
+[00:00:00] [Server thread/INFO]: Stopping server
+[00:00:00] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.2
+[00:00:00] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.5
+[00:00:00] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[00:00:00] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.3.22
+[00:00:00] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[00:00:00] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[00:00:00] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[00:00:00] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v22.4
+[00:00:00] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[00:00:00] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v22.4
+[00:00:00] [Server thread/INFO]: Saving players
+[00:00:00] [Server thread/INFO]: Saving worlds
+[00:00:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[00:00:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[00:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
