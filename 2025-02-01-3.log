@@ -1,0 +1,612 @@
+[16:50:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:50:07] [ServerMain/INFO]: Loaded 7 recipes
+[16:50:08] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[16:50:08] [Server thread/INFO]: Loading properties
+[16:50:08] [Server thread/INFO]: This server is running CraftBukkit version 4074-Spigot-e9ec548-51bbab2 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT)
+[16:50:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:50:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:50:09] [Server thread/INFO]: Debug logging is disabled
+[16:50:09] [Server thread/INFO]: Default game type: SURVIVAL
+[16:50:09] [Server thread/INFO]: Generating keypair
+[16:50:09] [Server thread/INFO]: Starting Minecraft server on *:25566
+[16:50:09] [Server thread/INFO]: Using epoll channel type
+[16:50:10] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v22.4
+[16:50:10] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.2.1
+[16:50:10] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[16:50:10] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:50:11] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[16:50:11] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[16:50:11] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[16:50:12] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[16:50:12] [Server thread/INFO]: [TabTPS] Loading TabTPS v1.3.22
+[16:50:12] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.2.1
+[16:50:12] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.0.5
+[16:50:12] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.5.2
+[16:50:12] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.5
+[16:50:12] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.2
+[16:50:12] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[16:50:13] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.20.4[32;1m.[0;39m[m
+[16:50:13] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mPlease update your Java runtime to at least Java 21 (your version is 17).[0;39m
+[16:50:13] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mAt some point in the future, SkinsRestorer will no longer be compatible with this version of Java.[0;39m
+[16:50:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:50:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:50:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:50:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:50:13] [Server thread/INFO]: Preparing level "world"
+[16:50:13] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:50:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:50:13] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:50:13] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:50:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:50:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:50:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:50:13] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:50:13] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:50:13] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:50:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:50:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:50:13] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:50:13] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:50:13] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:50:13] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:50:13] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:50:13] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[16:50:13] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[16:50:13] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[16:50:13] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[16:50:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[16:50:13] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[16:50:13] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:50:13] [Server thread/INFO]: Mob Spawn Range: 6
+[16:50:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:50:13] [Server thread/INFO]: Max TNT Explosions: 100
+[16:50:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:50:13] [Server thread/INFO]: View Distance: 10
+[16:50:13] [Server thread/INFO]: Simulation Distance: 10
+[16:50:13] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:50:13] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:50:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:50:13] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:50:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:50:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:50:14] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:50:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:50:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:50:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:50:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:50:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:50:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:50:14] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:50:14] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:50:14] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:50:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:50:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:50:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:50:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:50:14] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:50:14] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:50:14] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:50:14] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[16:50:14] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[16:50:14] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[16:50:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[16:50:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[16:50:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[16:50:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:50:14] [Server thread/INFO]: Mob Spawn Range: 6
+[16:50:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:50:14] [Server thread/INFO]: Max TNT Explosions: 100
+[16:50:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:50:14] [Server thread/INFO]: View Distance: 10
+[16:50:14] [Server thread/INFO]: Simulation Distance: 10
+[16:50:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:50:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:50:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:50:14] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:50:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:50:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:50:17] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:50:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:50:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:50:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:50:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:50:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:50:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:50:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:50:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:50:17] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:50:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:50:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:50:17] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:50:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:50:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:50:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:50:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:50:17] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[16:50:17] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[16:50:17] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[16:50:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[16:50:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[16:50:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[16:50:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:50:17] [Server thread/INFO]: Mob Spawn Range: 6
+[16:50:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:50:17] [Server thread/INFO]: Max TNT Explosions: 100
+[16:50:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:50:17] [Server thread/INFO]: View Distance: 10
+[16:50:17] [Server thread/INFO]: Simulation Distance: 10
+[16:50:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:50:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:50:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:50:17] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:50:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:50:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:50:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:50:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:50:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:50:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:50:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:50:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:50:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:50:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:50:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:50:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:50:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:50:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:50:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:50:23] [Worker-Main-2/INFO]: Preparing spawn area: 5%
+[16:50:23] [Worker-Main-3/INFO]: Preparing spawn area: 59%
+[16:50:24] [Worker-Main-2/INFO]: Preparing spawn area: 99%
+[16:50:24] [Server thread/INFO]: Time elapsed: 7056 ms
+[16:50:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:50:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:50:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:50:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:50:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:50:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:50:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:50:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:50:28] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:50:28] [Worker-Main-3/INFO]: Preparing spawn area: 43%
+[16:50:29] [Server thread/INFO]: Time elapsed: 4597 ms
+[16:50:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:50:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:50:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:50:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:50:31] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:50:31] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:50:31] [Worker-Main-1/INFO]: Preparing spawn area: 42%
+[16:50:32] [Server thread/INFO]: Time elapsed: 2842 ms
+[16:50:32] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v22.4
+[16:50:32] [Server thread/INFO]: [0;37;1m[0;37;1m[m[CoreProtect] CoreProtect has been successfully enabled![0;37;1m[0;37;1m [m
+[16:50:32] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[16:50:32] [Server thread/INFO]: --------------------
+[16:50:32] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[16:50:32] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[16:50:32] [Server thread/INFO]: --------------------
+[16:50:32] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[16:50:32] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3-1.20.4 (765)
+[16:50:32] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.13).
+[16:50:32] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[16:50:32] [Server thread/INFO]: [TabTPS] Enabling TabTPS v1.3.22
+[16:50:32] [Server thread/WARN]: [TabTPS] ====================================================
+[16:50:32] [Server thread/WARN]: [TabTPS]  TabTPS works better if you use Paper 
+[16:50:32] [Server thread/WARN]: [TabTPS]  as your server software. 
+[16:50:32] [Server thread/WARN]: [TabTPS]   
+[16:50:32] [Server thread/WARN]: [TabTPS]  Paper offers significant performance improvements,
+[16:50:32] [Server thread/WARN]: [TabTPS]  bug fixes, security enhancements and optional
+[16:50:32] [Server thread/WARN]: [TabTPS]  features for server owners to enhance their server.
+[16:50:32] [Server thread/WARN]: [TabTPS]   
+[16:50:32] [Server thread/WARN]: [TabTPS]  Paper includes Timings v2, which is significantly
+[16:50:32] [Server thread/WARN]: [TabTPS]  better at diagnosing lag problems over v1.
+[16:50:32] [Server thread/WARN]: [TabTPS]   
+[16:50:32] [Server thread/WARN]: [TabTPS]  All of your plugins should still work, and the
+[16:50:32] [Server thread/WARN]: [TabTPS]  Paper community will gladly help you fix any issues.
+[16:50:32] [Server thread/WARN]: [TabTPS]   
+[16:50:32] [Server thread/WARN]: [TabTPS]  Join the Paper Community @ https://papermc.io
+[16:50:32] [Server thread/WARN]: [TabTPS] ====================================================
+[16:50:33] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[16:50:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:50:33] [Server thread/INFO]: Done (19.952s)! For help, type "help"
+[16:50:33] [Craft Scheduler Thread - 3/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[16:50:34] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[16:50:34] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[16:50:34] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
+[16:50:34] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
+[16:50:34] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
+[16:50:34] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[16:50:34] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[16:50:34] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.5.2[0;39m[m
+[16:50:34] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mae257f6[0;39m[m
+[16:50:34] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
+[16:50:34] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[16:50:34] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m[m
+[16:50:34] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m[m
+[16:50:34] [Craft Scheduler Thread - 4/INFO]: There is an update available for TabTPS!
+[16:50:34] [Craft Scheduler Thread - 4/INFO]: This server is running version v1.3.22, which is 4 versions outdated.
+[16:50:34] [Craft Scheduler Thread - 4/INFO]: Download the latest version, v1.3.26 from GitHub at the link below:
+[16:50:34] [Craft Scheduler Thread - 4/INFO]: https://github.com/jpenilla/TabTPS/releases/tag/v1.3.26
+[16:50:41] [User Authenticator #1/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[16:50:42] [Server thread/INFO]: test joined the game
+[16:50:42] [Server thread/INFO]: test[/127.0.0.1:43000] logged in with entity id 275 at ([world]49.17638934630417, 63.0, -23.60121004383797)
+[16:52:07] [Server thread/INFO]: test lost connection: Disconnected
+[16:52:07] [Server thread/INFO]: test left the game
+[16:52:08] [User Authenticator #2/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[16:52:09] [Server thread/INFO]: test joined the game
+[16:52:09] [Server thread/INFO]: test[/127.0.0.1:54106] logged in with entity id 409 at ([world]49.59640225640475, 63.0, -23.305385448106623)
+[16:52:20] [Server thread/INFO]: test lost connection: Disconnected
+[16:52:20] [Server thread/INFO]: test left the game
+[16:52:22] [User Authenticator #3/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[16:52:22] [Server thread/INFO]: test joined the game
+[16:52:22] [Server thread/INFO]: test[/127.0.0.1:35098] logged in with entity id 443 at ([world]49.5143917316847, 63.0, -23.625730595445315)
+[16:52:27] [Server thread/INFO]: test lost connection: Disconnected
+[16:52:27] [Server thread/INFO]: test left the game
+[16:52:29] [User Authenticator #4/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[16:52:29] [Server thread/INFO]: test joined the game
+[16:52:29] [Server thread/INFO]: test[/127.0.0.1:35116] logged in with entity id 463 at ([world]50.12035231652567, 63.46205116649998, -24.698240049853016)
+[16:52:50] [Server thread/INFO]: test lost connection: Disconnected
+[16:52:50] [Server thread/INFO]: test left the game
+[16:52:51] [User Authenticator #5/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[16:52:51] [Server thread/INFO]: test joined the game
+[16:52:51] [Server thread/INFO]: test[/127.0.0.1:46464] logged in with entity id 523 at ([world]50.27397313805368, 63.0, -23.51010382165886)
+[16:52:59] [Server thread/INFO]: test lost connection: Disconnected
+[16:52:59] [Server thread/INFO]: test left the game
+[16:53:00] [User Authenticator #6/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[16:53:00] [Server thread/INFO]: test joined the game
+[16:53:00] [Server thread/INFO]: test[/127.0.0.1:46478] logged in with entity id 542 at ([world]50.27397313805368, 63.0, -23.51010382165886)
+[16:53:28] [Server thread/INFO]: test lost connection: Disconnected
+[16:53:28] [Server thread/INFO]: test left the game
+[16:53:29] [User Authenticator #7/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[16:53:29] [Server thread/INFO]: test joined the game
+[16:53:29] [Server thread/INFO]: test[/127.0.0.1:56732] logged in with entity id 604 at ([world]49.8848733717748, 64.0, -25.68961519399811)
+[16:53:37] [Server thread/INFO]: test lost connection: Disconnected
+[16:53:37] [Server thread/INFO]: test left the game
+[16:53:38] [User Authenticator #8/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[16:53:39] [Server thread/INFO]: test joined the game
+[16:53:39] [Server thread/INFO]: test[/127.0.0.1:36622] logged in with entity id 637 at ([world]49.8848733717748, 64.0, -25.68961519399811)
+[16:53:58] [Server thread/INFO]: test lost connection: Disconnected
+[16:53:58] [Server thread/INFO]: test left the game
+[16:54:00] [User Authenticator #9/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[16:54:00] [Server thread/INFO]: test joined the game
+[16:54:00] [Server thread/INFO]: test[/127.0.0.1:52774] logged in with entity id 702 at ([world]49.8848733717748, 64.0, -25.68961519399811)
+[16:56:59] [Server thread/INFO]: test issued server command: /scoreboard objectives add CountLeaveGame minecraft.custom:minecraft.leave_game
+[16:56:59] [Server thread/INFO]: [test: Created new objective [CountLeaveGame]]
+[16:57:48] [Server thread/INFO]: test issued server command: /scoreboard objectives add CountPlayedTime minecraft.custom:minecraft.play_time
+[16:57:48] [Server thread/INFO]: [test: Created new objective [CountPlayedTime]]
+[16:59:48] [Server thread/INFO]: test lost connection: Disconnected
+[16:59:48] [Server thread/INFO]: test left the game
+[16:59:48] [User Authenticator #10/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[16:59:49] [Server thread/INFO]: test joined the game
+[16:59:49] [Server thread/INFO]: test[/127.0.0.1:49572] logged in with entity id 1272 at ([world]49.837174323805485, 63.0, -23.841915112194883)
+[16:59:49] [Server thread/INFO]: [test: Set [CountLeaveGame] for test to 0]
+[16:59:55] [Server thread/INFO]: test lost connection: Disconnected
+[16:59:55] [Server thread/INFO]: test left the game
+[16:59:56] [User Authenticator #11/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[16:59:57] [Server thread/INFO]: test joined the game
+[16:59:57] [Server thread/INFO]: test[/127.0.0.1:54584] logged in with entity id 1302 at ([world]50.54297766973723, 63.0, -18.46393454481725)
+[16:59:57] [Server thread/INFO]: [test: Set [CountLeaveGame] for test to 0]
+[17:03:25] [Server thread/INFO]: test lost connection: Disconnected
+[17:03:25] [Server thread/INFO]: test left the game
+[17:04:24] [User Authenticator #12/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[17:04:25] [Server thread/INFO]: test joined the game
+[17:04:25] [Server thread/INFO]: test[/127.0.0.1:50640] logged in with entity id 1705 at ([world]49.55163313548665, 64.0, -25.896744718616297)
+[17:04:25] [Server thread/INFO]: [test: Set [CountLeaveGame] for test to 0]
+[17:07:14] [Server thread/INFO]: test lost connection: Disconnected
+[17:07:14] [Server thread/INFO]: test left the game
+[17:09:11] [User Authenticator #13/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[17:09:11] [Server thread/INFO]: test joined the game
+[17:09:11] [Server thread/INFO]: test[/127.0.0.1:56548] logged in with entity id 2053 at ([world]51.57811538881449, 64.0, -25.012922166342356)
+[17:09:11] [Server thread/INFO]: [test: Set [CountLeaveGame] for test to 0]
+[17:09:30] [Server thread/INFO]: test lost connection: Disconnected
+[17:09:30] [Server thread/INFO]: test left the game
+[17:09:31] [User Authenticator #14/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[17:09:31] [Server thread/INFO]: test joined the game
+[17:09:31] [Server thread/INFO]: test[/127.0.0.1:41894] logged in with entity id 2119 at ([world]51.65140082089698, 64.0, -25.69780018465736)
+[17:09:43] [Server thread/INFO]: [test: Set [CountLeaveGame] for test to 0]
+[17:09:45] [Server thread/INFO]: test lost connection: Disconnected
+[17:09:45] [Server thread/INFO]: test left the game
+[17:09:46] [User Authenticator #15/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[17:09:46] [Server thread/INFO]: test joined the game
+[17:09:46] [Server thread/INFO]: test[/127.0.0.1:48810] logged in with entity id 2156 at ([world]51.641477863419176, 64.0, -25.456567211428258)
+[17:09:46] [Server thread/INFO]: [test: Set [CountLeaveGame] for test to 0]
+[17:09:59] [Server thread/INFO]: test lost connection: Disconnected
+[17:09:59] [Server thread/INFO]: test left the game
+[17:10:00] [User Authenticator #16/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[17:10:00] [Server thread/INFO]: test joined the game
+[17:10:00] [Server thread/INFO]: test[/127.0.0.1:42054] logged in with entity id 2222 at ([world]52.660055734722796, 63.0, -26.567480448897243)
+[17:10:00] [Server thread/INFO]: [test: Set [CountLeaveGame] for test to 0]
+[17:12:26] [Server thread/INFO]: test lost connection: Disconnected
+[17:12:26] [Server thread/INFO]: test left the game
+[17:12:29] [User Authenticator #17/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[17:12:29] [Server thread/INFO]: test joined the game
+[17:12:29] [Server thread/INFO]: test[/127.0.0.1:59144] logged in with entity id 2489 at ([world]51.400317798073004, 64.0, -25.21584008312458)
+[17:12:29] [Server thread/INFO]: [test: Set [CountLeaveGame] for test to 0]
+[17:12:39] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:39] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:39] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:39] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:39] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:39] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:40] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:40] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:40] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:40] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:40] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:40] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:40] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:40] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:40] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:40] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:40] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:40] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:40] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:40] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:40] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:40] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:40] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:40] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:40] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:40] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:41] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:41] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:41] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:41] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:41] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:41] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:41] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:41] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:41] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:41] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:41] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:41] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:41] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:41] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:41] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:41] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:41] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:41] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:41] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:41] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:42] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:42] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:42] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:42] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:42] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:42] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:42] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:42] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:42] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:42] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:42] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:42] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:42] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:42] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:42] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:42] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:42] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:42] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:42] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:42] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:43] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:43] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:43] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:43] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:43] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:43] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:43] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:43] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:43] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:43] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:43] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:43] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:43] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:43] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:43] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:43] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:43] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:43] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:43] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:43] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:44] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:44] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:44] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:44] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:44] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:44] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:44] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:44] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:44] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:44] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:44] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:44] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:44] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:44] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:44] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:44] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:44] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:44] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:44] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:44] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:46] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:46] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:46] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:46] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:46] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:46] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:46] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:46] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:46] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:46] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:46] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:46] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:46] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:46] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:46] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:46] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:46] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:46] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:46] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:47] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:47] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:47] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:47] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:47] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:47] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:47] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:47] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:47] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:47] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:47] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:47] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:47] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:47] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:47] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:47] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:47] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:47] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:47] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:47] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:48] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:48] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:48] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:48] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:48] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:48] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:48] [Server thread/INFO]: [test: Showing new title for test]
+[17:12:55] [Server thread/INFO]: test lost connection: Disconnected
+[17:12:55] [Server thread/INFO]: test left the game
+[17:26:35] [User Authenticator #18/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[17:26:35] [Server thread/INFO]: test joined the game
+[17:26:35] [Server thread/INFO]: test[/127.0.0.1:40380] logged in with entity id 2550 at ([world]51.175565120495264, 64.0, -24.61700310225041)
+[17:26:35] [Server thread/INFO]: [test: Set [CountLeaveGame] for test to 0]
+[17:26:35] [Server thread/INFO]: [test: Showing new title for test]
+[17:26:54] [Server thread/INFO]: test lost connection: Disconnected
+[17:26:54] [Server thread/INFO]: test left the game
+[17:26:55] [User Authenticator #19/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[17:26:55] [Server thread/INFO]: test joined the game
+[17:26:55] [Server thread/INFO]: test[/127.0.0.1:56736] logged in with entity id 2601 at ([world]51.51926157110891, 63.0, -22.638305112566517)
+[17:26:55] [Server thread/INFO]: [test: Set [CountLeaveGame] for test to 0]
+[17:26:55] [Server thread/INFO]: [test: Showing new title for test]
+[17:27:22] [Server thread/INFO]: test lost connection: Disconnected
+[17:27:22] [Server thread/INFO]: test left the game
+[17:27:23] [User Authenticator #20/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[17:27:23] [Server thread/INFO]: test joined the game
+[17:27:23] [Server thread/INFO]: test[/127.0.0.1:40394] logged in with entity id 2668 at ([world]50.55741192461243, 63.0, -21.724490394844903)
+[17:27:23] [Server thread/INFO]: [test: Set [CountLeaveGame] for test to 0]
+[17:27:23] [Server thread/INFO]: [test: Showing new title for test]
+[17:27:23] [Server thread/INFO]: [test: Showing new subtitle for test]
+[17:27:53] [Server thread/INFO]: test lost connection: Disconnected
+[17:27:53] [Server thread/INFO]: test left the game
+[17:27:54] [User Authenticator #21/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[17:27:54] [Server thread/INFO]: test joined the game
+[17:27:54] [Server thread/INFO]: test[/127.0.0.1:42088] logged in with entity id 2752 at ([world]51.28529486539078, 63.0, -21.32603841690599)
+[17:27:54] [Server thread/INFO]: [test: Set [CountLeaveGame] for test to 0]
+[17:27:54] [Server thread/INFO]: [test: Showing new title for test]
+[17:27:54] [Server thread/INFO]: [test: Showing new subtitle for test]
+[17:30:44] [Server thread/INFO]: test lost connection: Disconnected
+[17:30:44] [Server thread/INFO]: test left the game
+[17:31:13] [User Authenticator #22/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[17:31:13] [Server thread/INFO]: test joined the game
+[17:31:13] [Server thread/INFO]: test[/127.0.0.1:52120] logged in with entity id 3051 at ([world]52.146166911658256, 64.0, -24.290532827745402)
+[17:31:13] [Server thread/INFO]: [test: Set [CountLeaveGame] for test to 0]
+[17:31:13] [Server thread/INFO]: [test: Showing new title for test]
+[17:31:13] [Server thread/INFO]: [test: Showing new subtitle for test]
+[17:31:48] [Server thread/INFO]: test lost connection: Disconnected
+[17:31:48] [Server thread/INFO]: test left the game
+[17:32:03] [User Authenticator #23/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[17:32:03] [Server thread/INFO]: test joined the game
+[17:32:03] [Server thread/INFO]: test[/127.0.0.1:58476] logged in with entity id 3136 at ([world]51.17823105393224, 64.0, -24.66806111571642)
+[17:32:04] [Server thread/INFO]: [test: Set [CountLeaveGame] for test to 0]
+[17:32:04] [Server thread/INFO]: [test: Showing new title for test]
+[17:32:04] [Server thread/INFO]: [test: Showing new subtitle for test]
+[17:32:11] [Server thread/INFO]: test lost connection: Disconnected
+[17:32:11] [Server thread/INFO]: test left the game
+[17:32:12] [User Authenticator #24/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[17:32:12] [Server thread/INFO]: test joined the game
+[17:32:12] [Server thread/INFO]: test[/127.0.0.1:51336] logged in with entity id 3179 at ([world]51.382234760218154, 63.0, -14.599942678453896)
+[17:32:12] [Server thread/INFO]: [test: Set [CountLeaveGame] for test to 0]
+[17:32:12] [Server thread/INFO]: [test: Showing new title for test]
+[17:32:12] [Server thread/INFO]: [test: Showing new subtitle for test]
+[17:32:56] [Server thread/INFO]: test lost connection: Disconnected
+[17:32:56] [Server thread/INFO]: test left the game
+[17:32:57] [User Authenticator #25/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[17:32:58] [Server thread/INFO]: test joined the game
+[17:32:58] [Server thread/INFO]: test[/127.0.0.1:58840] logged in with entity id 3269 at ([world]51.44547271262258, 64.0, -25.27154229178154)
+[17:32:58] [Server thread/INFO]: [test: Set [CountLeaveGame] for test to 0]
+[17:32:58] [Server thread/INFO]: [test: Showing new title for test]
+[17:32:58] [Server thread/INFO]: [test: Showing new subtitle for test]
+[17:33:44] [Server thread/INFO]: test lost connection: Disconnected
+[17:33:44] [Server thread/INFO]: test left the game
+[17:33:45] [User Authenticator #26/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[17:33:45] [Server thread/INFO]: test joined the game
+[17:33:45] [Server thread/INFO]: test[/127.0.0.1:33812] logged in with entity id 3376 at ([world]50.744190536175196, 64.0, -25.00454615458398)
+[17:33:45] [Server thread/INFO]: [test: Set [CountLeaveGame] for test to 0]
+[17:33:45] [Server thread/INFO]: [test: Showing new title for test]
+[17:33:45] [Server thread/INFO]: [test: Showing new subtitle for test]
+[17:33:55] [Server thread/INFO]: test lost connection: Disconnected
+[17:33:55] [Server thread/INFO]: test left the game
+[17:34:34] [User Authenticator #27/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[17:34:35] [Server thread/INFO]: touxl1916 joined the game
+[17:34:35] [Server thread/INFO]: touxl1916[/127.0.0.1:44964] logged in with entity id 3404 at ([world]676.6699533702723, 79.0, 1050.5391084325777)
+[17:34:36] [Server thread/INFO]: [touxl1916: Set [CountPlayedTime] for touxl1916 to 200]
+[17:34:42] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[17:34:42] [Server thread/INFO]: touxl1916 left the game
+[17:34:42] [User Authenticator #28/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[17:34:43] [Server thread/INFO]: touxl1916 joined the game
+[17:34:43] [Server thread/INFO]: touxl1916[/127.0.0.1:40762] logged in with entity id 3610 at ([world]670.3478460608777, 79.875, 1045.052819415809)
+[17:34:43] [Server thread/INFO]: [touxl1916: Set [CountLeaveGame] for touxl1916 to 0]
+[17:34:43] [Server thread/INFO]: [touxl1916: Showing new title for touxl1916]
+[17:34:43] [Server thread/INFO]: [touxl1916: Showing new subtitle for touxl1916]
+[17:34:48] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[17:34:48] [Server thread/INFO]: touxl1916 left the game
+[17:36:14] [User Authenticator #29/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[17:36:14] [Server thread/INFO]: touxl1916 joined the game
+[17:36:14] [Server thread/INFO]: touxl1916[/127.0.0.1:44050] logged in with entity id 3828 at ([world]676.3000000119209, 79.0, 1052.699999988079)
+[17:36:14] [Server thread/INFO]: [touxl1916: Set [CountLeaveGame] for touxl1916 to 0]
+[17:36:14] [Server thread/INFO]: [touxl1916: Showing new title for touxl1916]
+[17:36:14] [Server thread/INFO]: [touxl1916: Showing new subtitle for touxl1916]
+[17:36:57] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[17:36:57] [Server thread/INFO]: touxl1916 left the game
+[18:16:13] [User Authenticator #30/INFO]: UUID of player ysydZiYouRen is cbb5bd76-2bc6-391d-9b29-857501acaa1d
+[18:16:13] [Server thread/INFO]: ysydZiYouRen joined the game
+[18:16:13] [Server thread/INFO]: ysydZiYouRen[/127.0.0.1:43062] logged in with entity id 4205 at ([world]714.5568331365233, 68.0625, 1148.871684286844)
+[18:16:14] [Server thread/INFO]: [ysydZiYouRen: Set [CountPlayedTime] for ysydZiYouRen to 200]
+[18:16:22] [Server thread/INFO]: ysydZiYouRen lost connection: Disconnected
+[18:16:22] [Server thread/INFO]: ysydZiYouRen left the game
+[18:16:23] [User Authenticator #31/INFO]: UUID of player ysydZiYouRen is cbb5bd76-2bc6-391d-9b29-857501acaa1d
+[18:16:23] [Server thread/INFO]: ysydZiYouRen joined the game
+[18:16:23] [Server thread/INFO]: ysydZiYouRen[/127.0.0.1:49168] logged in with entity id 4464 at ([world]714.8249999880791, 68.0625, 1149.6667488433814)
+[18:16:23] [Server thread/INFO]: [ysydZiYouRen: Set [CountLeaveGame] for ysydZiYouRen to 0]
+[18:16:23] [Server thread/INFO]: [ysydZiYouRen: Showing new title for ysydZiYouRen]
+[18:16:23] [Server thread/INFO]: [ysydZiYouRen: Showing new subtitle for ysydZiYouRen]
+[18:20:19] [Server thread/INFO]: ysydZiYouRen lost connection: Disconnected
+[18:20:19] [Server thread/INFO]: ysydZiYouRen left the game
+[18:33:27] [User Authenticator #32/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:33:27] [Server thread/INFO]: touxl1916 joined the game
+[18:33:27] [Server thread/INFO]: touxl1916[/127.0.0.1:41260] logged in with entity id 5259 at ([world]677.793857702065, 80.0, 1052.8875405977017)
+[18:33:28] [Server thread/INFO]: [touxl1916: Set [CountLeaveGame] for touxl1916 to 0]
+[18:33:28] [Server thread/INFO]: [touxl1916: Showing new title for touxl1916]
+[18:33:28] [Server thread/INFO]: [touxl1916: Showing new subtitle for touxl1916]
+[18:40:01] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:40:01] [Server thread/INFO]: touxl1916 left the game
