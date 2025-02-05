@@ -1,0 +1,398 @@
+[17:59:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:59:56] [ServerMain/INFO]: Loaded 7 recipes
+[17:59:58] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[17:59:58] [Server thread/INFO]: Loading properties
+[17:59:59] [Server thread/INFO]: This server is running CraftBukkit version 4074-Spigot-e9ec548-51bbab2 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT)
+[18:00:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:00:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:00:00] [Server thread/INFO]: Debug logging is disabled
+[18:00:00] [Server thread/INFO]: Default game type: SURVIVAL
+[18:00:00] [Server thread/INFO]: Generating keypair
+[18:00:01] [Server thread/INFO]: Starting Minecraft server on *:25566
+[18:00:01] [Server thread/INFO]: Using epoll channel type
+[18:00:06] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v22.4
+[18:00:06] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.2.1
+[18:00:06] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[18:00:07] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:00:08] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[18:00:09] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:00:09] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[18:00:11] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[18:00:12] [Server thread/INFO]: [MeowPlugin] Loading MeowPlugin v0.1
+[18:00:12] [Server thread/INFO]: [TabTPS] Loading TabTPS v1.3.22
+[18:00:12] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.2.1
+[18:00:12] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.0.5
+[18:00:12] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.5.2
+[18:00:12] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.5
+[18:00:12] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.2
+[18:00:13] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[18:00:14] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.20.4[32;1m.[0;39m[m
+[18:00:16] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mPlease update your Java runtime to at least Java 21 (your version is 17).[0;39m
+[18:00:16] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mAt some point in the future, SkinsRestorer will no longer be compatible with this version of Java.[0;39m
+[18:00:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:00:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:00:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:00:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:00:16] [Server thread/INFO]: Preparing level "world"
+[18:00:16] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:00:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:00:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:00:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:00:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:00:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:00:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:00:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:00:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:00:16] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:00:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:00:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:00:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:00:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:00:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:00:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:00:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:00:16] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[18:00:16] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[18:00:16] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[18:00:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[18:00:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[18:00:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[18:00:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:00:16] [Server thread/INFO]: Mob Spawn Range: 6
+[18:00:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:00:16] [Server thread/INFO]: Max TNT Explosions: 100
+[18:00:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:00:16] [Server thread/INFO]: View Distance: 10
+[18:00:16] [Server thread/INFO]: Simulation Distance: 10
+[18:00:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:00:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:00:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:00:16] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:00:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:00:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:00:17] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:00:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[18:00:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[18:00:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[18:00:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[18:00:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:00:17] [Server thread/INFO]: Mob Spawn Range: 6
+[18:00:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:00:17] [Server thread/INFO]: Max TNT Explosions: 100
+[18:00:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:00:17] [Server thread/INFO]: View Distance: 10
+[18:00:17] [Server thread/INFO]: Simulation Distance: 10
+[18:00:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:00:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:00:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:00:17] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:00:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:00:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:00:27] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:00:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:00:27] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:00:27] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:00:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:00:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:00:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:00:27] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:00:27] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:00:27] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:00:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:00:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:00:27] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:00:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:00:27] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:00:27] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:00:27] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:00:27] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[18:00:27] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[18:00:27] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[18:00:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[18:00:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[18:00:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[18:00:27] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:00:27] [Server thread/INFO]: Mob Spawn Range: 6
+[18:00:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:00:27] [Server thread/INFO]: Max TNT Explosions: 100
+[18:00:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:00:27] [Server thread/INFO]: View Distance: 10
+[18:00:27] [Server thread/INFO]: Simulation Distance: 10
+[18:00:27] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:00:27] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:00:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:00:27] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:00:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:00:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:00:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:00:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:00:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:00:43] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:00:43] [Worker-Main-1/INFO]: Preparing spawn area: 9%
+[18:00:44] [Worker-Main-3/INFO]: Preparing spawn area: 30%
+[18:00:44] [Worker-Main-1/INFO]: Preparing spawn area: 39%
+[18:00:45] [Worker-Main-1/INFO]: Preparing spawn area: 72%
+[18:00:45] [Worker-Main-1/INFO]: Preparing spawn area: 98%
+[18:00:46] [Server thread/INFO]: Time elapsed: 18661 ms
+[18:00:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:00:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:00:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:00:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:00:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:00:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:00:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:00:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:00:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:00:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:00:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:00:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:00:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:00:56] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:00:57] [Worker-Main-1/INFO]: Preparing spawn area: 1%
+[18:00:57] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[18:00:58] [Worker-Main-3/INFO]: Preparing spawn area: 43%
+[18:00:58] [Worker-Main-3/INFO]: Preparing spawn area: 84%
+[18:00:58] [Server thread/INFO]: Time elapsed: 12765 ms
+[18:00:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:01:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:01:03] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:01:03] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:01:03] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:01:03] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:01:03] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:01:03] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:01:03] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:01:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:01:03] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:01:04] [Worker-Main-2/INFO]: Preparing spawn area: 6%
+[18:01:04] [Worker-Main-3/INFO]: Preparing spawn area: 27%
+[18:01:05] [Worker-Main-2/INFO]: Preparing spawn area: 62%
+[18:01:05] [Worker-Main-2/INFO]: Preparing spawn area: 84%
+[18:01:06] [Worker-Main-2/INFO]: Preparing spawn area: 97%
+[18:01:06] [Server thread/INFO]: Time elapsed: 7048 ms
+[18:01:06] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v22.4
+[18:01:07] [Server thread/INFO]: [0;37;1m[0;37;1m[m[CoreProtect] CoreProtect has been successfully enabled![0;37;1m[0;37;1m [m
+[18:01:07] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[18:01:07] [Server thread/INFO]: --------------------
+[18:01:07] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[18:01:07] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[18:01:07] [Server thread/INFO]: --------------------
+[18:01:07] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[18:01:07] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3-1.20.4 (765)
+[18:01:07] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.13).
+[18:01:07] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[18:01:07] [Server thread/INFO]: [MeowPlugin] Enabling MeowPlugin v0.1
+[18:01:07] [Server thread/WARN]: [MeowPlugin] Could not save config.yml to plugins/MeowPlugin/config.yml because config.yml already exists.
+[18:01:07] [Server thread/INFO]: [TabTPS] Enabling TabTPS v1.3.22
+[18:01:07] [Server thread/WARN]: [TabTPS] ====================================================
+[18:01:07] [Server thread/WARN]: [TabTPS]  TabTPS works better if you use Paper 
+[18:01:07] [Server thread/WARN]: [TabTPS]  as your server software. 
+[18:01:07] [Server thread/WARN]: [TabTPS]   
+[18:01:07] [Server thread/WARN]: [TabTPS]  Paper offers significant performance improvements,
+[18:01:07] [Server thread/WARN]: [TabTPS]  bug fixes, security enhancements and optional
+[18:01:07] [Server thread/WARN]: [TabTPS]  features for server owners to enhance their server.
+[18:01:07] [Server thread/WARN]: [TabTPS]   
+[18:01:07] [Server thread/WARN]: [TabTPS]  Paper includes Timings v2, which is significantly
+[18:01:07] [Server thread/WARN]: [TabTPS]  better at diagnosing lag problems over v1.
+[18:01:07] [Server thread/WARN]: [TabTPS]   
+[18:01:07] [Server thread/WARN]: [TabTPS]  All of your plugins should still work, and the
+[18:01:07] [Server thread/WARN]: [TabTPS]  Paper community will gladly help you fix any issues.
+[18:01:07] [Server thread/WARN]: [TabTPS]   
+[18:01:07] [Server thread/WARN]: [TabTPS]  Join the Paper Community @ https://papermc.io
+[18:01:07] [Server thread/WARN]: [TabTPS] ====================================================
+[18:01:09] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[18:01:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:01:09] [Server thread/INFO]: Done (53.041s)! For help, type "help"
+[18:01:09] [Craft Scheduler Thread - 3/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[18:01:10] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[18:01:10] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[18:01:10] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
+[18:01:10] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
+[18:01:10] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
+[18:01:10] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[18:01:10] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[18:01:10] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.5.2[0;39m[m
+[18:01:10] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mae257f6[0;39m[m
+[18:01:10] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
+[18:01:10] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[18:01:10] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m[m
+[18:01:10] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m[m
+[18:01:10] [Craft Scheduler Thread - 4/INFO]: There is an update available for TabTPS!
+[18:01:10] [Craft Scheduler Thread - 4/INFO]: This server is running version v1.3.22, which is 4 versions outdated.
+[18:01:10] [Craft Scheduler Thread - 4/INFO]: Download the latest version, v1.3.26 from GitHub at the link below:
+[18:01:10] [Craft Scheduler Thread - 4/INFO]: https://github.com/jpenilla/TabTPS/releases/tag/v1.3.26
+[18:02:49] [User Authenticator #1/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:02:49] [Server thread/INFO]: touxl1916 joined the game
+[18:02:49] [Server thread/INFO]: touxl1916[/127.0.0.1:37160] logged in with entity id 155 at ([world]674.6873140687582, 79.0, 1048.701001107281)
+[18:02:49] [Server thread/INFO]: [touxl1916: Set [CountLeaveGame] for touxl1916 to 0]
+[18:02:49] [Server thread/INFO]: [touxl1916: Showing new title for touxl1916]
+[18:02:49] [Server thread/INFO]: [touxl1916: Showing new subtitle for touxl1916]
+[18:02:57] [Server thread/INFO]: touxl1916 issued server command: /meow about
+[18:03:03] [Server thread/INFO]: touxl1916 issued server command: /meow ask .
+[18:03:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2621ms or 52 ticks behind
+[18:04:19] [Server thread/INFO]: touxl1916 issued server command: /meow ask hello
+[18:04:48] [Server thread/INFO]: touxl1916 issued server command: /meow ask 给予一个玩家一组青金石的命令是什么
+[18:05:16] [Server thread/INFO]: touxl1916 issued server command: /meow ask hello
+[18:05:26] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:05:26] [Server thread/INFO]: touxl1916 left the game
+[18:05:28] [User Authenticator #2/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:05:28] [Server thread/INFO]: touxl1916 joined the game
+[18:05:28] [Server thread/INFO]: touxl1916[/127.0.0.1:49748] logged in with entity id 986 at ([world]664.8389921636007, 68.0, 1093.519436601539)
+[18:05:28] [Server thread/INFO]: [touxl1916: Set [CountLeaveGame] for touxl1916 to 0]
+[18:05:28] [Server thread/INFO]: [touxl1916: Showing new title for touxl1916]
+[18:05:28] [Server thread/INFO]: [touxl1916: Showing new subtitle for touxl1916]
+[18:05:38] [Server thread/INFO]: touxl1916 issued server command: /meow ask hello
+[18:05:58] [Server thread/INFO]: touxl1916 issued server command: /meow ask 可以帮我解决问题吗
+[18:07:16] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:07:16] [Server thread/INFO]: touxl1916 left the game
+[18:11:30] [Server thread/INFO]: [0;33;1m[Meow] [0;31;1m[Error] [0;31;1m请输入要提问的内容[m
+[18:23:36] [User Authenticator #3/INFO]: UUID of player ysydZiYouRen is cbb5bd76-2bc6-391d-9b29-857501acaa1d
+[18:23:36] [Server thread/INFO]: ysydZiYouRen joined the game
+[18:23:36] [Server thread/INFO]: ysydZiYouRen[/127.0.0.1:37966] logged in with entity id 1615 at ([world]651.6829163822993, 195.0, 1225.4724902774362)
+[18:23:36] [Server thread/INFO]: [ysydZiYouRen: Set [CountLeaveGame] for ysydZiYouRen to 0]
+[18:23:36] [Server thread/INFO]: [ysydZiYouRen: Showing new title for ysydZiYouRen]
+[18:23:36] [Server thread/INFO]: [ysydZiYouRen: Showing new subtitle for ysydZiYouRen]
+[18:23:59] [User Authenticator #4/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:23:59] [Server thread/INFO]: touxl1916 joined the game
+[18:23:59] [Server thread/INFO]: touxl1916[/127.0.0.1:56494] logged in with entity id 2022 at ([world]677.2007309555232, 80.0, 1053.210439210793)
+[18:23:59] [Server thread/INFO]: [touxl1916: Set [CountLeaveGame] for touxl1916 to 0]
+[18:23:59] [Server thread/INFO]: [ysydZiYouRen: Showing new title for ysydZiYouRen]
+[18:23:59] [Server thread/INFO]: [touxl1916: Showing new title for touxl1916]
+[18:23:59] [Server thread/INFO]: [ysydZiYouRen: Showing new subtitle for ysydZiYouRen]
+[18:23:59] [Server thread/INFO]: [touxl1916: Showing new subtitle for touxl1916]
+[18:24:21] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:24:21] [Server thread/INFO]: touxl1916 left the game
+[18:24:23] [User Authenticator #5/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:24:23] [Server thread/INFO]: touxl1916 joined the game
+[18:24:23] [Server thread/INFO]: touxl1916[/127.0.0.1:37746] logged in with entity id 2180 at ([world]677.2007309555232, 80.0, 1053.210439210793)
+[18:24:23] [Server thread/INFO]: [touxl1916: Set [CountLeaveGame] for touxl1916 to 0]
+[18:24:23] [Server thread/INFO]: [ysydZiYouRen: Showing new title for ysydZiYouRen]
+[18:24:23] [Server thread/INFO]: [touxl1916: Showing new title for touxl1916]
+[18:24:23] [Server thread/INFO]: [ysydZiYouRen: Showing new subtitle for ysydZiYouRen]
+[18:24:23] [Server thread/INFO]: [touxl1916: Showing new subtitle for touxl1916]
+[18:24:49] [Server thread/INFO]: touxl1916 issued server command: /meow ask hello
+[18:25:01] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:25:01] [Server thread/INFO]: touxl1916 left the game
+[18:25:02] [Server thread/INFO]: ysydZiYouRen issued server command: /meow ask Nmsl
+[18:25:21] [User Authenticator #6/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:25:21] [Server thread/INFO]: touxl1916 joined the game
+[18:25:21] [Server thread/INFO]: touxl1916[/127.0.0.1:59654] logged in with entity id 2365 at ([world]677.1807767832215, 80.0, 1053.0015840608594)
+[18:25:21] [Server thread/INFO]: [touxl1916: Set [CountLeaveGame] for touxl1916 to 0]
+[18:25:21] [Server thread/INFO]: [ysydZiYouRen: Showing new title for ysydZiYouRen]
+[18:25:21] [Server thread/INFO]: [touxl1916: Showing new title for touxl1916]
+[18:25:21] [Server thread/INFO]: [ysydZiYouRen: Showing new subtitle for ysydZiYouRen]
+[18:25:21] [Server thread/INFO]: [touxl1916: Showing new subtitle for touxl1916]
+[18:25:42] [Server thread/INFO]: touxl1916 issued server command: /meow ask 你妈妈叫什么？你爸爸叫什么？你爷爷叫什么你奶奶叫什么？
+[18:26:01] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:26:01] [Server thread/INFO]: touxl1916 left the game
+[18:26:30] [User Authenticator #7/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:26:30] [Server thread/INFO]: touxl1916 joined the game
+[18:26:30] [Server thread/INFO]: touxl1916[/127.0.0.1:47100] logged in with entity id 2578 at ([world]674.0241374359708, 69.0, 1102.3591366209941)
+[18:26:30] [Server thread/INFO]: [touxl1916: Set [CountLeaveGame] for touxl1916 to 0]
+[18:26:30] [Server thread/INFO]: [ysydZiYouRen: Showing new title for ysydZiYouRen]
+[18:26:30] [Server thread/INFO]: [touxl1916: Showing new title for touxl1916]
+[18:26:30] [Server thread/INFO]: [ysydZiYouRen: Showing new subtitle for ysydZiYouRen]
+[18:26:30] [Server thread/INFO]: [touxl1916: Showing new subtitle for touxl1916]
+[18:27:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2622ms or 52 ticks behind
+[18:28:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8040ms or 160 ticks behind
+[18:28:35] [Server thread/INFO]: ysydZiYouRen lost connection: Disconnected
+[18:28:35] [Server thread/INFO]: ysydZiYouRen left the game
+[18:28:36] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:28:36] [Server thread/INFO]: touxl1916 left the game
+[18:28:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5794ms or 115 ticks behind
+[18:30:48] [User Authenticator #8/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:30:48] [Server thread/INFO]: touxl1916 joined the game
+[18:30:48] [Server thread/INFO]: touxl1916[/127.0.0.1:42636] logged in with entity id 4010 at ([world]666.0664903580195, 78.0, 1047.1926900424078)
+[18:30:48] [Server thread/INFO]: [touxl1916: Set [CountLeaveGame] for touxl1916 to 0]
+[18:30:48] [Server thread/INFO]: [touxl1916: Showing new title for touxl1916]
+[18:30:48] [Server thread/INFO]: [touxl1916: Showing new subtitle for touxl1916]
+[18:31:12] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:31:12] [Server thread/INFO]: touxl1916 left the game
+[18:32:01] [User Authenticator #9/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[18:32:01] [Server thread/INFO]: touxl1916 joined the game
+[18:32:01] [Server thread/INFO]: touxl1916[/127.0.0.1:53444] logged in with entity id 4349 at ([world]671.9833495364596, 71.0, 1073.247637857804)
+[18:32:01] [Server thread/INFO]: [touxl1916: Set [CountLeaveGame] for touxl1916 to 0]
+[18:32:01] [Server thread/INFO]: [touxl1916: Showing new title for touxl1916]
+[18:32:01] [Server thread/INFO]: [touxl1916: Showing new subtitle for touxl1916]
+[18:32:32] [Server thread/INFO]: touxl1916 issued server command: /meow ask 龚俊轩是谁
+[18:34:55] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[18:34:55] [Server thread/INFO]: touxl1916 left the game
+[18:36:21] [Server thread/INFO]: Stopping the server
+[18:36:21] [Server thread/INFO]: Stopping server
+[18:36:21] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.2
+[18:36:21] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.5
+[18:36:21] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[18:36:21] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.3.22
+[18:36:21] [Server thread/INFO]: [MeowPlugin] Disabling MeowPlugin v0.1
+[18:36:21] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[18:36:21] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[18:36:21] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[18:36:21] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v22.4
+[18:36:21] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[18:36:22] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v22.4
+[18:36:22] [Server thread/INFO]: Saving players
+[18:36:22] [Server thread/INFO]: Saving worlds
+[18:36:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:36:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:36:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:36:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:36:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:36:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:36:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
