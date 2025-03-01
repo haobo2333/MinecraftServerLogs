@@ -1,0 +1,53 @@
+[00:00:00] [Server thread/INFO]: Stopping the server
+[00:00:00] [Server thread/INFO]: Stopping server
+[00:00:00] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.1-SNAPSHOT
+[00:00:00] [Server thread/INFO]: [Geyser-Spigot] 正在关闭 Geyser。
+[00:00:00] [Server thread/INFO]: [Geyser-Spigot] Geyser 关闭成功。
+[00:00:00] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.3
+[00:00:00] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.5
+[00:00:00] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[00:00:00] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[00:00:00] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.3.22
+[00:00:00] [Server thread/INFO]: [MeowPlugin] Disabling MeowPlugin v0.1
+[00:00:00] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[00:00:00] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[00:00:00] [Server thread/INFO]: [ViaVersion] Empty pipeline, nothing to uninject
+[00:00:00] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[00:00:00] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v22.4
+[00:00:00] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[00:00:00] [Thread-13/WARN]: java.lang.IllegalStateException: CoreProtectPreLogEvent cannot be triggered asynchronously from primary server thread.
+[00:00:00] [Thread-13/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:568)
+[00:00:00] [Thread-13/WARN]: 	at net.coreprotect.database.logger.BlockBreakLogger.log(BlockBreakLogger.java:54)
+[00:00:00] [Thread-13/WARN]: 	at net.coreprotect.consumer.process.BlockBreakProcess.process(BlockBreakProcess.java:24)
+[00:00:00] [Thread-13/WARN]: 	at net.coreprotect.consumer.process.Process.processConsumer(Process.java:145)
+[00:00:00] [Thread-13/WARN]: 	at net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[00:00:00] [Thread-13/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[00:00:00] [WebSocketConnectReadThread-77/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[00:00:01] [Thread-13/WARN]: java.lang.IllegalStateException: CoreProtectPreLogEvent cannot be triggered asynchronously from primary server thread.
+[00:00:01] [Thread-13/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:568)
+[00:00:01] [Thread-13/WARN]: 	at net.coreprotect.database.logger.ItemLogger.logTransaction(ItemLogger.java:130)
+[00:00:01] [Thread-13/WARN]: 	at net.coreprotect.database.logger.ItemLogger.log(ItemLogger.java:103)
+[00:00:01] [Thread-13/WARN]: 	at net.coreprotect.consumer.process.ItemTransactionProcess.process(ItemTransactionProcess.java:27)
+[00:00:01] [Thread-13/WARN]: 	at net.coreprotect.consumer.process.Process.processConsumer(Process.java:163)
+[00:00:01] [Thread-13/WARN]: 	at net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[00:00:01] [Thread-13/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[00:00:01] [Thread-13/WARN]: java.lang.IllegalStateException: CoreProtectPreLogEvent cannot be triggered asynchronously from primary server thread.
+[00:00:01] [Thread-13/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:568)
+[00:00:01] [Thread-13/WARN]: 	at net.coreprotect.database.logger.ItemLogger.logTransaction(ItemLogger.java:130)
+[00:00:01] [Thread-13/WARN]: 	at net.coreprotect.database.logger.ItemLogger.log(ItemLogger.java:103)
+[00:00:01] [Thread-13/WARN]: 	at net.coreprotect.consumer.process.ItemTransactionProcess.process(ItemTransactionProcess.java:27)
+[00:00:01] [Thread-13/WARN]: 	at net.coreprotect.consumer.process.Process.processConsumer(Process.java:163)
+[00:00:01] [Thread-13/WARN]: 	at net.coreprotect.consumer.Consumer.run(Consumer.java:133)
+[00:00:01] [Thread-13/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[00:00:01] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v22.4
+[00:00:01] [Server thread/INFO]: Saving players
+[00:00:01] [Server thread/INFO]: touxl1916 lost connection: Server closed
+[00:00:01] [Server thread/INFO]: touxl1916 left the game.
+[00:00:01] [Server thread/INFO]: Saving worlds
+[00:00:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:00:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[00:00:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[00:00:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:00:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:00:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:00:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
