@@ -1,0 +1,25 @@
+[00:00:21] [Server thread/INFO]: [0;37;1m[[38;2;0;71;171mM[38;2;25;92;179mi[38;2;49;112;188mn[38;2;74;133;196mi[38;2;99;154;205mM[38;2;124;175;213mO[38;2;148;195;222mT[38;2;173;216;230mD[0;37;1m][m [0;32;1mDone reloading configuration.[m
+[00:01:41] [Server thread/INFO]: [0;37;1m[[38;2;0;71;171mM[38;2;25;92;179mi[38;2;49;112;188mn[38;2;74;133;196mi[38;2;99;154;205mM[38;2;124;175;213mO[38;2;148;195;222mT[38;2;173;216;230mD[0;37;1m][m [0;32;1mDone reloading configuration.[m
+[00:02:37] [Server thread/INFO]: [0;37;1m[[38;2;0;71;171mM[38;2;25;92;179mi[38;2;49;112;188mn[38;2;74;133;196mi[38;2;99;154;205mM[38;2;124;175;213mO[38;2;148;195;222mT[38;2;173;216;230mD[0;37;1m][m [0;32;1mDone reloading configuration.[m
+[00:03:11] [Server thread/INFO]: [0;37;1m[[38;2;0;71;171mM[38;2;25;92;179mi[38;2;49;112;188mn[38;2;74;133;196mi[38;2;99;154;205mM[38;2;124;175;213mO[38;2;148;195;222mT[38;2;173;216;230mD[0;37;1m][m [0;32;1mDone reloading configuration.[m
+[00:09:40] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] IP 为 /127.0.0.1 的基岩版玩家已断开连接，原因为 基岩版客户端已断开连接
+[20:26:20] [User Authenticator #1/INFO]: UUID of player pb is 38a257e1-2913-37d3-8dc7-ffe7cf5e33dd
+[20:26:20] [Server thread/INFO]: pb joined the game
+[20:26:20] [Server thread/INFO]: pb[/127.0.0.1:47462] logged in with entity id 301 at ([world]702.0970258903111, 69.0, 1089.3651065961672)
+[20:47:10] [Server thread/INFO]: pb drowned while trying to escape Guardian
+[20:47:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4674ms or 93 ticks behind
+[20:51:50] [User Authenticator #2/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[20:51:50] [Server thread/INFO]: touxl1916 joined the game
+[20:51:50] [Server thread/INFO]: touxl1916[/127.0.0.1:51216] logged in with entity id 20695 at ([world]669.6207939543392, 79.0, 1052.9107072904187)
+[20:53:07] [Server thread/INFO]: touxl1916 fell from a high place
+[20:59:56] [Server thread/WARN]: pb moved too quickly! 290.6322762070432,86.23363200604248,-1962.2202838561245
+[20:59:56] [Server thread/WARN]: pb moved too quickly! 290.6322762070432,86.23363200604248,-1962.2202838561245
+[20:59:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2513ms or 50 ticks behind
+[21:06:11] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[21:06:11] [Server thread/INFO]: touxl1916 left the game
+[21:06:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3889ms or 77 ticks behind
+[21:12:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3987ms or 79 ticks behind
+[21:12:52] [Server thread/WARN]: pb moved too quickly! -9.015791381651184,5.303920252433386,40.793840909177845
+[21:15:14] [Server thread/INFO]: pb lost connection: Disconnected
+[21:15:14] [Server thread/INFO]: pb left the game
+[21:15:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2550ms or 51 ticks behind
