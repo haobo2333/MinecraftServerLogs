@@ -1,0 +1,136 @@
+[20:36:28] [User Authenticator #3/INFO]: UUID of player pb is 38a257e1-2913-37d3-8dc7-ffe7cf5e33dd
+[20:36:28] [Server thread/INFO]: pb joined the game
+[20:36:28] [Server thread/INFO]: pb[/127.0.0.1:54708] logged in with entity id 38213 at ([world]703.3334348416442, 68.0, 1134.8677160192383)
+[21:08:30] [User Authenticator #4/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[21:08:30] [Server thread/INFO]: touxl1916 joined the game
+[21:08:30] [Server thread/INFO]: touxl1916[/127.0.0.1:33196] logged in with entity id 48584 at ([world]629.8038242488108, 63.0, 1200.5580884571762)
+[21:08:56] [Async Chat Thread - #0/INFO]: [Not Secure] <pb> 烤鸡机改良好了
+[21:09:19] [Async Chat Thread - #1/INFO]: [Not Secure] <touxl1916> 这么快？
+[21:09:31] [Async Chat Thread - #1/INFO]: [Not Secure] <pb> 就拓宽了一下范围
+[21:09:50] [Async Chat Thread - #0/INFO]: [Not Secure] <touxl1916> zzy上线了吗
+[21:09:54] [Async Chat Thread - #0/INFO]: [Not Secure] <pb> MEI
+[21:10:16] [Async Chat Thread - #0/INFO]: [Not Secure] <pb> 史莱姆收集也弄好了
+[21:10:41] [Async Chat Thread - #0/INFO]: [Not Secure] <touxl1916> 那我就在这挂一晚上
+[21:10:47] [Async Chat Thread - #1/INFO]: [Not Secure] <pb> XING
+[21:10:52] [Async Chat Thread - #0/INFO]: [Not Secure] <pb> 够了吗
+[21:10:58] [Async Chat Thread - #1/INFO]: [Not Secure] <touxl1916> 给你看看1000时间刻的效果
+[21:11:02] [Async Chat Thread - #0/INFO]: [Not Secure] <touxl1916> 够了
+[21:11:19] [Async Chat Thread - #1/INFO]: [Not Secure] <pb> 这个矿车不得炸了吗
+[21:11:30] [Server thread/INFO]: Incorrect argument for command
+[21:11:30] [Server thread/INFO]: tick speed 10000<--[HERE]
+[21:11:36] [Server thread/INFO]: Nothing changed. The player already is an operator
+[21:11:51] [Server thread/INFO]: touxl1916 issued server command: /tick rate 10000
+[21:11:51] [Server thread/INFO]: [touxl1916: Set the target tick rate to 10000.0 per second]
+[21:11:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 1526ms or 15265 ticks behind
+[21:11:56] [Async Chat Thread - #0/INFO]: [Not Secure] <touxl1916> haple
+[21:12:09] [Async Chat Thread - #0/INFO]: [Not Secure] <touxl1916> 你看这个太阳
+[21:12:26] [Server thread/INFO]: touxl1916 issued server command: /tick rate 100000
+[21:13:15] [Async Chat Thread - #3/INFO]: [Not Secure] <touxl1916> 吃东西一瞬间就完成
+[21:13:38] [Async Chat Thread - #3/INFO]: [Not Secure] <touxl1916> 那我先退，你等会看看效果
+[21:13:40] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[21:13:40] [Server thread/INFO]: touxl1916 left the game
+[21:13:46] [Async Chat Thread - #3/INFO]: [Not Secure] <pb> 这矿车疯了一样
+[21:14:58] [Server thread/INFO]: Villager EntityVillager['Toolsmith'/38300, l='ServerLevel[world]', x=698.23, y=68.00, z=1114.35] died, message: 'Toolsmith was slain by Zombie'
+[21:17:10] [Server thread/INFO]: [Not Secure] [Server] 后台说有个工具匠死了
+[21:17:17] [Server thread/INFO]: [Not Secure] [Server] 围栏里进僵尸了？
+[21:17:17] [Async Chat Thread - #5/INFO]: [Not Secure] <pb> 啊
+[21:17:24] [Server thread/INFO]: [Not Secure] [Server] 是被僵尸打死的
+[21:17:29] [Async Chat Thread - #4/INFO]: [Not Secure] <pb> 可能是外面的村名
+[21:17:41] [Async Chat Thread - #5/INFO]: [Not Secure] <pb> 之前不小心放了机制在外面
+[21:17:48] [Server thread/INFO]: [Not Secure] [Server] 那没事了
+[21:17:57] [Server thread/INFO]: [Not Secure] [Server] 粘液球速度怎么样
+[21:18:12] [Async Chat Thread - #4/INFO]: [Not Secure] <pb> 3分钟一组办了
+[21:18:20] [Server thread/INFO]: [Not Secure] [Server] woc
+[21:18:30] [Server thread/INFO]: [Not Secure] [Server] 那我晚上挂个4小时不得炸了
+[21:18:35] [Async Chat Thread - #5/INFO]: [Not Secure] <pb> 两组了
+[21:18:49] [Server thread/INFO]: [Not Secure] [Server] 就是服务器cpu负载高了一倍
+[21:18:59] [Async Chat Thread - #4/INFO]: [Not Secure] <pb> 我决定多弄几个箱子
+[21:19:45] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[21:19:52] [Server thread/INFO]: [Not Secure] [Server] ok
+[21:20:11] [Async Chat Thread - #7/INFO]: [Not Secure] <pb> 你先调回来
+[21:20:24] [Server thread/INFO]: Set the target tick rate to 20.0 per second
+[21:20:26] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[21:20:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 500315ms or 10006 ticks behind
+[21:20:29] [Server thread/INFO]: [Not Secure] [Server] 好了
+[21:25:00] [User Authenticator #5/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[21:25:00] [Server thread/INFO]: touxl1916 (/127.0.0.1:42536) lost connection: Disconnected
+[21:25:20] [User Authenticator #6/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[21:25:20] [Server thread/INFO]: touxl1916 joined the game
+[21:25:20] [Server thread/INFO]: touxl1916[/127.0.0.1:44006] logged in with entity id 54223 at ([world]672.2555031049437, 79.0, 1046.0401110307673)
+[21:25:53] [Async Chat Thread - #9/INFO]: [Not Secure] <touxl1916> 我嘞个
+[21:26:06] [Async Chat Thread - #8/INFO]: [Not Secure] <pb> 够了吧
+[21:26:09] [Async Chat Thread - #9/INFO]: [Not Secure] <touxl1916> 可以可以
+[21:27:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2525ms or 50 ticks behind
+[21:33:10] [Async Chat Thread - #11/INFO]: [Not Secure] <pb> 我搞得赤石竹子机
+[21:33:18] [Async Chat Thread - #10/INFO]: [Not Secure] <touxl1916> 豪德
+[21:33:55] [Async Chat Thread - #11/INFO]: [Not Secure] <touxl1916> 你的升级模板在哪
+[21:34:12] [Async Chat Thread - #11/INFO]: [Not Secure] <pb> 我身上
+[21:34:48] [Async Chat Thread - #10/INFO]: [Not Secure] <touxl1916> 你人在哪
+[21:34:52] [Server thread/INFO]: pb fell from a high place
+[21:34:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3829ms or 76 ticks behind
+[21:34:58] [Async Chat Thread - #10/INFO]: [Not Secure] <pb> KAOJIJI
+[21:35:20] [Async Chat Thread - #11/INFO]: [Not Secure] <touxl1916> 等会还你
+[21:42:39] [Async Chat Thread - #13/INFO]: [Not Secure] <touxl1916> 怎么天天下雨
+[21:43:46] [Async Chat Thread - #15/INFO]: [Not Secure] <pb> nizaiganma
+[21:43:59] [Async Chat Thread - #14/INFO]: [Not Secure] <touxl1916> 我在换石头
+[21:44:00] [Async Chat Thread - #15/INFO]: [Not Secure] <pb> 你干嘛呢
+[21:44:41] [Async Chat Thread - #14/INFO]: [Not Secure] <pb> 我辛苦样的机啊
+[21:45:05] [Async Chat Thread - #15/INFO]: [Not Secure] <touxl1916> 我去搞点骨粉
+[21:45:12] [Async Chat Thread - #14/INFO]: [Not Secure] <pb> 箱子里有
+[21:46:23] [Async Chat Thread - #17/INFO]: [Not Secure] <pb> 洗澡挂机
+[21:47:54] [Server thread/INFO]: touxl1916 has made the advancement [The Parrots and the Bats]
+[21:54:49] [Server thread/INFO]: touxl1916 issued server command: /tick freeze
+[21:54:49] [Server thread/INFO]: [touxl1916: The game is frozen]
+[21:57:28] [Server thread/INFO]: touxl1916 issued server command: /tick unfreeze
+[21:57:28] [Server thread/INFO]: [touxl1916: The game runs normally]
+[21:59:18] [Server thread/INFO]: touxl1916 fell from a high place
+[22:01:30] [Server thread/INFO]: touxl1916 issued server command: /meow 你在minecraft中最讨厌的生物是什么
+[22:02:30] [Server thread/INFO]: touxl1916 fell from a high place
+[22:02:59] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[22:02:59] [Server thread/INFO]: touxl1916 left the game
+[22:12:21] [User Authenticator #7/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[22:12:21] [Server thread/INFO]: touxl1916 joined the game
+[22:12:21] [Server thread/INFO]: touxl1916[/127.0.0.1:45588] logged in with entity id 70867 at ([world]672.8779668930138, 79.0, 1048.6327578113567)
+[22:12:30] [Async Chat Thread - #19/INFO]: [Not Secure] <pb> 你回来了
+[22:14:21] [Async Chat Thread - #21/INFO]: [Not Secure] <touxl1916> shide
+[22:14:48] [Async Chat Thread - #20/INFO]: [Not Secure] <pb> 给我喂鸡去
+[22:14:56] [Async Chat Thread - #21/INFO]: [Not Secure] <touxl1916> 喂了刚才
+[22:16:36] [Async Chat Thread - #23/INFO]: [Not Secure] <touxl1916> 你这个楼梯把僵尸搞进去了
+[22:16:47] [Async Chat Thread - #23/INFO]: [Not Secure] <touxl1916> 死的那个村民是围栏里的
+[22:16:51] [Async Chat Thread - #23/INFO]: [Not Secure] <pb> 哦好吧
+[22:17:40] [Async Chat Thread - #24/INFO]: [Not Secure] <touxl1916> 这鸡怎么都不想做爱
+[22:17:48] [Async Chat Thread - #23/INFO]: [Not Secure] <pb> LEILE
+[22:17:58] [Async Chat Thread - #24/INFO]: [Not Secure] <touxl1916> 不如你
+[22:18:10] [Async Chat Thread - #24/INFO]: [Not Secure] <pb> 666
+[22:18:33] [Async Chat Thread - #23/INFO]: [Not Secure] <touxl1916> 挂一会机
+[22:18:47] [Async Chat Thread - #24/INFO]: [Not Secure] <touxl1916> 我看看github的服务器主页好看不好看
+[22:19:24] [Async Chat Thread - #23/INFO]: [Not Secure] <pb> 这附近怎么没有样啊
+[22:23:27] [Async Chat Thread - #26/INFO]: [Not Secure] <touxl1916> 你要🐏干什么
+[22:23:33] [Async Chat Thread - #25/INFO]: [Not Secure] <pb> YANGMAOJI
+[22:23:39] [Async Chat Thread - #26/INFO]: [Not Secure] <touxl1916> 草羊机
+[22:23:57] [Async Chat Thread - #25/INFO]: [Not Secure] <pb> ZOULE
+[22:24:01] [Async Chat Thread - #25/INFO]: [Not Secure] <touxl1916> ok
+[22:24:04] [Async Chat Thread - #25/INFO]: [Not Secure] <pb> mingtianzaiwan
+[22:24:07] [Server thread/INFO]: pb lost connection: Disconnected
+[22:24:07] [Server thread/INFO]: pb left the game
+[22:24:09] [Async Chat Thread - #26/INFO]: [Not Secure] <touxl1916> okok
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      [22:42:49] [Server thread/INFO]: touxl1916 has made the advancement [Crafting a New Look]
+[22:57:02] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[22:57:02] [Server thread/INFO]: touxl1916 left the game
+[22:57:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3767ms or 75 ticks behind
+[22:59:53] [Server thread/INFO]: [0;37;1m[[38;2;0;71;171mM[38;2;25;92;179mi[38;2;49;112;188mn[38;2;74;133;196mi[38;2;99;154;205mM[38;2;124;175;213mO[38;2;148;195;222mT[38;2;173;216;230mD[0;37;1m][m [0;32;1mDone reloading configuration.[m
+[23:00:44] [User Authenticator #8/INFO]: UUID of player touxl1916 is dda5a998-ba1e-3605-af21-6aeffaf8c42e
+[23:00:44] [Server thread/INFO]: touxl1916 joined the game
+[23:00:44] [Server thread/INFO]: touxl1916[/127.0.0.1:35558] logged in with entity id 81883 at ([world]672.0677609265911, 79.0, 1045.5818420844446)
+[23:01:19] [Server thread/INFO]: touxl1916 lost connection: Disconnected
+[23:01:19] [Server thread/INFO]: touxl1916 left the game
+[23:01:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2523ms or 50 ticks behind
+[23:02:34] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] 玩家已连接，用户名为touxl1916
+[23:02:34] [localSession-7-2/INFO]: [Geyser-Spigot] touxl1916（以 touxl1916 登录）已连接到 Java 服务器
+[23:02:35] [Server thread/INFO]: [floodgate] Floodgate 玩家 BE_touxl1916 加入了 (UUID: 00000000-0000-0000-0009-01f6278f59e2)
+[23:02:35] [Server thread/INFO]: BE_touxl1916 joined the game
+[23:02:35] [Server thread/INFO]: BE_touxl1916[/192.168.10.16:0] logged in with entity id 83051 at ([world]39.190712, 71.0, 47.99762)
+[23:02:48] [localSession-7-2/INFO]: [Geyser-Spigot] touxl1916 已因 基岩版客户端已断开连接 与 Java 服务器断开了连接
+[23:02:48] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate 玩家 BE_touxl1916 已断开连接
+[23:02:48] [Server thread/INFO]: BE_touxl1916 lost connection: Internal Exception: java.nio.channels.ClosedChannelException
+[23:02:48] [Server thread/INFO]: BE_touxl1916 left the game
